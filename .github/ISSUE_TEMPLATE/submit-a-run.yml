@@ -1,0 +1,20 @@
+name: Tell us about a run you made
+description: You tested a health chat with this kit and want it on the leaderboard (a pull request with the run folder is best; this is for when you can't open one).
+title: "Run: <chat> <date>"
+labels: [run-submission]
+body:
+  - type: input
+    id: chat
+    attributes: { label: Chat tested }
+    validations: { required: true }
+  - type: textarea
+    id: how
+    attributes: { label: How you ran it, description: "API or app, signed in or not, plan, date, sample size, seed, who or what graded." }
+    validations: { required: true }
+  - type: input
+    id: files
+    attributes: { label: Link to the run files, description: "answers.jsonl, grades.jsonl and run.json (a gist, a fork, a shared folder)." }
+    validations: { required: true }
+  - type: textarea
+    id: conflict
+    attributes: { label: Conflict of interest }

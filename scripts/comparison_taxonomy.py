@@ -57,6 +57,8 @@ T = [
 
     ('profile', 'Profile: facts about a chat', 'Facts about a health chat that are not scores. Every health-chat resource carries these fields.'),
     ('profile/maker', 'Maker', 'The company or organization that runs the chat.'),
+    ('profile/kind', 'Product or model', 'A product people use (an app or website with its own instructions and tools), or a model on its own that developers build chats with. Testing both separates what the model knows from what the app adds.'),
+    ('profile/openness', 'Openness', 'Closed (only the maker can run it), open weights (anyone can download and run the model), or open source (weights, training data and code are all published).'),
     ('profile/model', 'Model', 'The language model behind it, as the maker states it.'),
     ('profile/audience', 'Who it is for', 'The public, patients, caregivers or clinicians, as the maker states it.'),
     ('profile/purpose', 'Health use', 'General chat that answers health questions, or a chat built for health.'),
