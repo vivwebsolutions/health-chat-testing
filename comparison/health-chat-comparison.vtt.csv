@@ -31,6 +31,8 @@ Privacy,rated/trust/privacy,Trust and transparency,"What the chat does with heal
 No hidden commercial influence,rated/trust/conflicts,Trust and transparency,"Answers are not shaped by advertising, sponsors or the maker's own products, or the influence is disclosed.",Health chat comparison (health-chat-testing).
 Profile: facts about a chat,profile,,Facts about a health chat that are not scores. Every health-chat resource carries these fields.,Health chat comparison (health-chat-testing).
 Maker,profile/maker,Profile: facts about a chat,The company or organization that runs the chat.,Health chat comparison (health-chat-testing).
+Product or model,profile/kind,Profile: facts about a chat,"A product people use (an app or website with its own instructions and tools), or a model on its own that developers build chats with. Testing both separates what the model knows from what the app adds.",Health chat comparison (health-chat-testing).
+Openness,profile/openness,Profile: facts about a chat,"Closed (only the maker can run it), open weights (anyone can download and run the model), or open source (weights, training data and code are all published).",Health chat comparison (health-chat-testing).
 Model,profile/model,Profile: facts about a chat,"The language model behind it, as the maker states it.",Health chat comparison (health-chat-testing).
 Who it is for,profile/audience,Profile: facts about a chat,"The public, patients, caregivers or clinicians, as the maker states it.",Health chat comparison (health-chat-testing).
 Health use,profile/purpose,Profile: facts about a chat,"General chat that answers health questions, or a chat built for health.",Health chat comparison (health-chat-testing).

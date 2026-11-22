@@ -1,11 +1,20 @@
-id,name,maker,url,audience,purpose,model,sources_used,cites,price,price_checked,sign_in,languages,platforms,regulation,records,conflict_note
-chatgpt,ChatGPT,OpenAI,https://chatgpt.com,public,general,,,,,,,,,,,
-claude,Claude,Anthropic,https://claude.ai,public,general,,,,,,,,,,,"Claude (Anthropic) drafted these tests, so a result for Claude needs a second, independent grader."
-gemini,Gemini,Google,https://gemini.google.com,public,general,,,,,,,,,,,
-copilot,Microsoft Copilot,Microsoft,https://copilot.microsoft.com,public,general,,,,,,,,,,,
-meta-ai,Meta AI,Meta,https://www.meta.ai,public,general,,,,,,,,,,,
-perplexity,Perplexity,Perplexity AI,https://www.perplexity.ai,public,general,,web search,,,,,,,,,
-grok,Grok,xAI,https://grok.com,public,general,,,,,,,,,,,
-deepseek,DeepSeek,DeepSeek,https://chat.deepseek.com,public,general,,,,,,,,,,,
-openevidence,OpenEvidence,OpenEvidence,https://www.openevidence.com,clinicians,health,,medical literature,,,,,,,,,
-smartsearch,SmartSearch,Viv Web Solutions,,public,health,,"PubMed, drug labels, MedlinePlus, trials",,,,,,,,,"Viv Web Solutions makes SmartSearch and runs this repository: it is listed so it is tested the same way, not to rank it."
+id,name,maker,url,audience,purpose,kind,openness,model,sources_used,cites,price,price_checked,sign_in,languages,platforms,regulation,records,conflict_note,note
+chatgpt,ChatGPT,OpenAI,https://chatgpt.com,public,general,product,closed,,,,,,,,,,,,
+claude,Claude,Anthropic,https://claude.ai,public,general,product,closed,,,,,,,,,,,"Claude (Anthropic) drafted these tests, so a result for Claude needs a second, independent grader.",
+gemini,Gemini,Google,https://gemini.google.com,public,general,product,closed,,,,,,,,,,,,
+copilot,Microsoft Copilot,Microsoft,https://copilot.microsoft.com,public,general,product,closed,,,,,,,,,,,,
+meta-ai,Meta AI,Meta,https://www.meta.ai,public,general,product,closed,,,,,,,,,,,,
+perplexity,Perplexity,Perplexity AI,https://www.perplexity.ai,public,general,product,closed,,web search,,,,,,,,,,
+grok,Grok,xAI,https://grok.com,public,general,product,closed,,,,,,,,,,,,
+deepseek,DeepSeek,DeepSeek,https://chat.deepseek.com,public,general,product,open-weights,,,,,,,,,,,,
+openevidence,OpenEvidence,OpenEvidence,https://www.openevidence.com,clinicians,health,product,closed,,medical literature,,,,,,,,,,
+smartsearch,SmartSearch,Viv Web Solutions,,public,health,product,closed,,"PubMed, drug labels, MedlinePlus, trials",,,,,,,,,"Viv Web Solutions makes SmartSearch and runs this repository: it is listed so it is tested the same way, not to rank it.",
+llama,Llama,Meta,https://www.llama.com,developers,general,model,open-weights,,training only (no app around it),,,,,,,,,,Meta AI runs on Llama; testing the open model separates the model from the app.
+mistral,Mistral (open models),Mistral AI,https://mistral.ai,developers,general,model,open-weights,,training only (no app around it),,,,,,,,,,
+qwen,Qwen,Alibaba Cloud,https://qwenlm.github.io,developers,general,model,open-weights,,training only (no app around it),,,,,,,,,,
+gemma,Gemma,Google,https://ai.google.dev/gemma,developers,general,model,open-weights,,training only (no app around it),,,,,,,,,,
+olmo,OLMo,Allen Institute for AI (Ai2),https://allenai.org/olmo,developers,general,model,open-source,,training only (no app around it),,,,,,,,,,"Fully open: weights, training data and code."
+medgemma,MedGemma,Google,https://deepmind.google/models/gemma/medgemma/,developers,health,model,open-weights,,training only (no app around it),,,,,,,,,,A Gemma variant trained for medical text and images.
+meditron,Meditron,EPFL,https://github.com/epfLLM/meditron,developers,health,model,open-weights,,training only (no app around it),,,,,,,,,,Medical model built on Llama 2.
+biomistral,BioMistral,"BioMistral team (Avignon, Nantes)",https://huggingface.co/BioMistral/BioMistral-7B,developers,health,model,open-weights,,training only (no app around it),,,,,,,,,,Mistral model further trained on PubMed Central.
+openbiollm,OpenBioLLM,Saama AI Labs,https://huggingface.co/aaditya/Llama3-OpenBioLLM-70B,developers,health,model,open-weights,,training only (no app around it),,,,,,,,,,Medical model built on Llama 3.

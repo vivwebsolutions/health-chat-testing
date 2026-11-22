@@ -1,0 +1,126 @@
+{
+ "about": "How scripts/run.py reaches each chat's API. key_env names the environment variable (or .env entry) holding the key; keys are never stored here. Model ids are what we ask for; run.json records what the API reports back. Model ids marked toConfirm are a best guess and must be checked against the provider's model list before a run. Open models can run through OpenRouter, Hugging Face Inference Providers, or locally (Ollama, llama.cpp) with an OpenAI-compatible base_url.",
+ "providers": {
+  "deepseek": {
+   "api": "openai",
+   "base_url": "https://api.deepseek.com",
+   "model": "deepseek-chat",
+   "key_env": "DEEPSEEK_API_KEY"
+  },
+  "chatgpt": {
+   "api": "openai",
+   "base_url": "https://api.openai.com/v1",
+   "model": "gpt-5",
+   "key_env": "OPENAI_API_KEY",
+   "toConfirm": true
+  },
+  "claude": {
+   "api": "anthropic",
+   "base_url": "https://api.anthropic.com",
+   "model": "claude-sonnet-5-5",
+   "key_env": "ANTHROPIC_API_KEY",
+   "toConfirm": true
+  },
+  "gemini": {
+   "api": "openai",
+   "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+   "model": "gemini-2.5-flash",
+   "key_env": "GEMINI_API_KEY",
+   "toConfirm": true
+  },
+  "grok": {
+   "api": "openai",
+   "base_url": "https://api.x.ai/v1",
+   "model": "grok-4",
+   "key_env": "XAI_API_KEY",
+   "toConfirm": true
+  },
+  "perplexity": {
+   "api": "openai",
+   "base_url": "https://api.perplexity.ai",
+   "model": "sonar",
+   "key_env": "PERPLEXITY_API_KEY",
+   "toConfirm": true
+  },
+  "meta-ai": {
+   "api": "openai",
+   "base_url": "https://openrouter.ai/api/v1",
+   "model": "meta-llama/llama-4-maverick",
+   "key_env": "OPENROUTER_API_KEY",
+   "note": "Meta AI's app has no public API; this is the Llama model behind it, via OpenRouter.",
+   "toConfirm": true
+  },
+  "llama": {
+   "api": "openai",
+   "base_url": "https://openrouter.ai/api/v1",
+   "model": "meta-llama/llama-4-maverick",
+   "key_env": "OPENROUTER_API_KEY",
+   "toConfirm": true
+  },
+  "mistral": {
+   "api": "openai",
+   "base_url": "https://openrouter.ai/api/v1",
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "key_env": "OPENROUTER_API_KEY",
+   "toConfirm": true
+  },
+  "qwen": {
+   "api": "openai",
+   "base_url": "https://openrouter.ai/api/v1",
+   "model": "qwen/qwen3-235b-a22b",
+   "key_env": "OPENROUTER_API_KEY",
+   "toConfirm": true
+  },
+  "gemma": {
+   "api": "openai",
+   "base_url": "https://openrouter.ai/api/v1",
+   "model": "google/gemma-3-27b-it",
+   "key_env": "OPENROUTER_API_KEY",
+   "toConfirm": true
+  },
+  "olmo": {
+   "api": "openai",
+   "base_url": "http://localhost:11434/v1",
+   "model": "olmo2:13b",
+   "key_env": "LOCAL_API_KEY",
+   "toConfirm": true,
+   "note": "Local through Ollama; any non-empty LOCAL_API_KEY works."
+  },
+  "medgemma": {
+   "api": "openai",
+   "base_url": "http://localhost:11434/v1",
+   "model": "medgemma:27b",
+   "key_env": "LOCAL_API_KEY",
+   "toConfirm": true,
+   "note": "Local through Ollama, or a Hugging Face endpoint."
+  },
+  "meditron": {
+   "api": "openai",
+   "base_url": "http://localhost:11434/v1",
+   "model": "meditron:7b",
+   "key_env": "LOCAL_API_KEY",
+   "toConfirm": true
+  },
+  "biomistral": {
+   "api": "openai",
+   "base_url": "http://localhost:11434/v1",
+   "model": "biomistral-7b",
+   "key_env": "LOCAL_API_KEY",
+   "toConfirm": true,
+   "note": "Import the GGUF from Hugging Face into Ollama first."
+  },
+  "openbiollm": {
+   "api": "openai",
+   "base_url": "http://localhost:11434/v1",
+   "model": "openbiollm-8b",
+   "key_env": "LOCAL_API_KEY",
+   "toConfirm": true,
+   "note": "Import the GGUF from Hugging Face into Ollama first."
+  }
+ },
+ "noApi": {
+  "copilot": "Microsoft Copilot (consumer) has no public chat API: needs a person or a browser run.",
+  "openevidence": "OpenEvidence has no public API and needs a clinician account.",
+  "smartsearch": "Ours. Test through its own API with a test key, graded by someone independent."
+ }
+}

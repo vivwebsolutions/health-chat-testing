@@ -1,0 +1,21 @@
+name: Request a rating
+description: Ask for a health chat or model to be tested and added to the leaderboard.
+title: "Rate: <chat name>"
+labels: [rating-request]
+body:
+  - type: input
+    id: chat
+    attributes: { label: Chat or model, description: "Name, maker and link." }
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes: { label: Version or plan, description: "Model version, free or paid plan, app or API, if you know." }
+  - type: dropdown
+    id: openness
+    attributes: { label: Openness, options: [closed, open weights, open source (weights, data and code), not sure] }
+  - type: textarea
+    id: why
+    attributes: { label: Why this one, description: "Who uses it for health questions?" }
+  - type: textarea
+    id: conflict
+    attributes: { label: Conflict of interest, description: "Do you make it, work for its maker, or get paid by them? Say so; it doesn't stop the request." }

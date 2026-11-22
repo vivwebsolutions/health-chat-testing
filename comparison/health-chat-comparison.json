@@ -229,6 +229,20 @@
    "definitionBy": "ai-drafted (Claude), not yet checked by a person"
   },
   {
+   "id": "profile/kind",
+   "label": "Product or model",
+   "parent": "profile",
+   "definition": "A product people use (an app or website with its own instructions and tools), or a model on its own that developers build chats with. Testing both separates what the model knows from what the app adds.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/openness",
+   "label": "Openness",
+   "parent": "profile",
+   "definition": "Closed (only the maker can run it), open weights (anyone can download and run the model), or open source (weights, training data and code are all published).",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
    "id": "profile/model",
    "label": "Model",
    "parent": "profile",
