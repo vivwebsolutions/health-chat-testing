@@ -1,0 +1,421 @@
+{
+ "id": "health-questions",
+ "version": "0.1.0",
+ "terms": [
+  {
+   "id": "ask",
+   "label": "What kind of answer",
+   "parent": null
+  },
+  {
+   "id": "ask/what-is",
+   "label": "What is it?",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/cause",
+   "label": "Causes and risk",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/symptoms",
+   "label": "Symptoms and signs",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/diagnosis",
+   "label": "Tests and diagnosis",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/treatment",
+   "label": "Treatment and cure",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/outlook",
+   "label": "Outlook and life expectancy",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/prevention",
+   "label": "Prevention",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/dose",
+   "label": "Dose and strength",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/how-to-take",
+   "label": "How and when to take it",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/side-effects",
+   "label": "Side effects",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/interactions",
+   "label": "Interactions and safety",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/stopping",
+   "label": "Stopping or switching",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/identify",
+   "label": "What is in it, what it looks like",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/storage",
+   "label": "Storage, expiry and disposal",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/compare",
+   "label": "Comparing options",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/find-help",
+   "label": "Where to get help",
+   "parent": "ask"
+  },
+  {
+   "id": "ask/cost",
+   "label": "Cost and coverage",
+   "parent": "ask"
+  },
+  {
+   "id": "body",
+   "label": "Health area",
+   "parent": null
+  },
+  {
+   "id": "body/heart",
+   "label": "Heart and blood vessels",
+   "parent": "body"
+  },
+  {
+   "id": "body/blood",
+   "label": "Blood",
+   "parent": "body"
+  },
+  {
+   "id": "body/cancer",
+   "label": "Cancer",
+   "parent": "body"
+  },
+  {
+   "id": "body/diabetes-hormones",
+   "label": "Diabetes, thyroid and hormones",
+   "parent": "body"
+  },
+  {
+   "id": "body/brain-nerves",
+   "label": "Brain and nerves",
+   "parent": "body"
+  },
+  {
+   "id": "body/mental-health",
+   "label": "Mental health",
+   "parent": "body"
+  },
+  {
+   "id": "body/substance-use",
+   "label": "Alcohol, drugs and addiction",
+   "parent": "body"
+  },
+  {
+   "id": "body/infections",
+   "label": "Infections",
+   "parent": "body"
+  },
+  {
+   "id": "body/vaccines",
+   "label": "Vaccines",
+   "parent": "body"
+  },
+  {
+   "id": "body/lungs",
+   "label": "Lungs and breathing",
+   "parent": "body"
+  },
+  {
+   "id": "body/digestive",
+   "label": "Stomach, gut and liver",
+   "parent": "body"
+  },
+  {
+   "id": "body/kidneys",
+   "label": "Kidneys and bladder",
+   "parent": "body"
+  },
+  {
+   "id": "body/bones-joints",
+   "label": "Bones, joints and muscles",
+   "parent": "body"
+  },
+  {
+   "id": "body/skin",
+   "label": "Skin, hair and nails",
+   "parent": "body"
+  },
+  {
+   "id": "body/eyes-ears",
+   "label": "Eyes, ears, nose and throat",
+   "parent": "body"
+  },
+  {
+   "id": "body/mouth-teeth",
+   "label": "Mouth and teeth",
+   "parent": "body"
+  },
+  {
+   "id": "body/sexual-reproductive",
+   "label": "Sexual and reproductive health",
+   "parent": "body"
+  },
+  {
+   "id": "body/pregnancy",
+   "label": "Pregnancy and birth",
+   "parent": "body"
+  },
+  {
+   "id": "body/children",
+   "label": "Children and teens",
+   "parent": "body"
+  },
+  {
+   "id": "body/older-adults",
+   "label": "Older adults",
+   "parent": "body"
+  },
+  {
+   "id": "body/genetic-rare",
+   "label": "Genetic and rare conditions",
+   "parent": "body"
+  },
+  {
+   "id": "body/nutrition-weight",
+   "label": "Food, nutrition and weight",
+   "parent": "body"
+  },
+  {
+   "id": "body/pain",
+   "label": "Pain",
+   "parent": "body"
+  },
+  {
+   "id": "body/sleep",
+   "label": "Sleep",
+   "parent": "body"
+  },
+  {
+   "id": "body/allergy-immune",
+   "label": "Allergies and immune system",
+   "parent": "body"
+  },
+  {
+   "id": "medicine",
+   "label": "Kind of medicine",
+   "parent": null
+  },
+  {
+   "id": "medicine/opioids",
+   "label": "Opioid pain medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/pain-otc",
+   "label": "Over-the-counter pain and fever",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/antidepressants",
+   "label": "Antidepressants",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/anxiety-sleep",
+   "label": "Anxiety and sleep medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/psychiatric",
+   "label": "Antipsychotics, mood and ADHD medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/heart-bp",
+   "label": "Heart and blood pressure medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/cholesterol",
+   "label": "Cholesterol medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/blood-thinners",
+   "label": "Blood thinners",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/diabetes",
+   "label": "Diabetes medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/antibiotics",
+   "label": "Antibiotics and antivirals",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/hormones",
+   "label": "Hormones, thyroid and birth control",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/stomach",
+   "label": "Stomach and acid medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/allergy-cold",
+   "label": "Allergy, cold and asthma medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/seizure-nerve",
+   "label": "Seizure and nerve-pain medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/muscle-relaxants",
+   "label": "Muscle relaxants",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/supplements",
+   "label": "Vitamins, supplements and herbs",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/osteoporosis-arthritis",
+   "label": "Bone, arthritis and gout medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/dementia",
+   "label": "Dementia and Parkinson's medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/urinary-ed",
+   "label": "Bladder, prostate and erection medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/cancer-drugs",
+   "label": "Cancer medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "medicine/eye-skin",
+   "label": "Eye drops and skin medicines",
+   "parent": "medicine"
+  },
+  {
+   "id": "services",
+   "label": "Health and human services",
+   "parent": null
+  },
+  {
+   "id": "services/find-care",
+   "label": "Finding a doctor or clinic",
+   "parent": "services"
+  },
+  {
+   "id": "services/pay-for-care",
+   "label": "Paying for care and medicine",
+   "parent": "services"
+  },
+  {
+   "id": "services/insurance",
+   "label": "Health insurance and benefits",
+   "parent": "services"
+  },
+  {
+   "id": "services/mental-health",
+   "label": "Mental health services",
+   "parent": "services"
+  },
+  {
+   "id": "services/addiction",
+   "label": "Addiction treatment and recovery",
+   "parent": "services"
+  },
+  {
+   "id": "services/dental",
+   "label": "Dental care",
+   "parent": "services"
+  },
+  {
+   "id": "services/food",
+   "label": "Food and nutrition help",
+   "parent": "services"
+  },
+  {
+   "id": "services/housing",
+   "label": "Housing and shelter",
+   "parent": "services"
+  },
+  {
+   "id": "services/transport",
+   "label": "Getting to appointments",
+   "parent": "services"
+  },
+  {
+   "id": "services/caregiving",
+   "label": "Caregiving, home care and long-term care",
+   "parent": "services"
+  },
+  {
+   "id": "services/end-of-life",
+   "label": "End-of-life care",
+   "parent": "services"
+  },
+  {
+   "id": "services/disability",
+   "label": "Disability support and equipment",
+   "parent": "services"
+  },
+  {
+   "id": "services/family",
+   "label": "Family, pregnancy and child support",
+   "parent": "services"
+  },
+  {
+   "id": "services/safety",
+   "label": "Safety, abuse and emergencies",
+   "parent": "services"
+  },
+  {
+   "id": "services/legal-work",
+   "label": "Legal help, work and money",
+   "parent": "services"
+  },
+  {
+   "id": "services/public-health",
+   "label": "Public health and records",
+   "parent": "services"
+  }
+ ]
+}

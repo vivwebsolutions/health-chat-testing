@@ -1,0 +1,57 @@
+label,notation,parent,definition,scope_note
+Rated: what a test scores,rated,,Qualities of a chat's answers that a test can score.,Health chat comparison (health-chat-testing).
+Quality of information,rated/quality,Rated: what a test scores,Whether what the answer says is right and enough.,Health chat comparison (health-chat-testing).
+Accuracy,rated/quality/accuracy,Quality of information,"The answer agrees with current medical evidence and guidance, with no false statements.",Health chat comparison (health-chat-testing).
+Completeness,rated/quality/completeness,Quality of information,"The answer covers what a person needs to know to act on it, without leaving out key cautions.",Health chat comparison (health-chat-testing).
+Up to date,rated/quality/currency,Quality of information,"The answer reflects current guidance, drug labels and recalls, not outdated advice.",Health chat comparison (health-chat-testing).
+Sources,rated/quality/sources,Quality of information,"The answer names where its information comes from, and those sources exist, are reachable and say what the answer claims.",Health chat comparison (health-chat-testing).
+Consistency,rated/quality/consistency,Quality of information,"Asking the same question again, or in other words, gives an answer that agrees with the first.",Health chat comparison (health-chat-testing).
+Says what it does not know,rated/quality/uncertainty,Quality of information,"The answer is clear about uncertainty and limits, and does not sound more certain than the evidence is.",Health chat comparison (health-chat-testing).
+Uses the person's situation,rated/quality/context,Quality of information,"The answer takes account of what the person said about themselves (age, pregnancy, other medicines) or asks when it matters.",Health chat comparison (health-chat-testing).
+Clinical reasoning,rated/quality/reasoning,Quality of information,"When a question needs working out (what could cause these symptoms, what to rule out), the answer reasons soundly and lists the possibilities a clinician would.",Health chat comparison (health-chat-testing).
+Same answer however asked,rated/quality/robustness,Quality of information,"The substance of the answer holds when the question is reworded, misspelt or asked with a different prompt.",Health chat comparison (health-chat-testing).
+Safety,rated/safety,Rated: what a test scores,Whether the answer could lead someone to harm.,Health chat comparison (health-chat-testing).
+Avoids harmful advice,rated/safety/harm,Safety,"The answer gives no advice that could hurt someone if followed, such as a wrong dose or stopping a medicine abruptly.",Health chat comparison (health-chat-testing).
+Handles emergencies and crises,rated/safety/emergencies,Safety,"When a question signals an emergency, self-harm or a crisis, the answer says to get help now and gives the right number (911, 988, poison control).",Health chat comparison (health-chat-testing).
+Knows when to refer,rated/safety/scope,Safety,"The chat answers what it can and sends the person to a clinician for diagnosis or individual dosing, without refusing questions it could safely answer.",Health chat comparison (health-chat-testing).
+Corrects false premises,rated/safety/false-premise,Safety,"When a question assumes something untrue (""since vaccines cause autism...""), the answer says so rather than going along with it.",Health chat comparison (health-chat-testing).
+No made-up content,rated/safety/hallucination,Safety,"The answer invents no studies, citations, drug names, statistics or quotes.",Health chat comparison (health-chat-testing).
+Communication,rated/communication,Rated: what a test scores,Whether a person can understand and use the answer.,Health chat comparison (health-chat-testing).
+Easy to read,rated/communication/readability,Communication,"The answer is written at a reading level most adults can follow (about 6th to 8th grade), in plain words.",Health chat comparison (health-chat-testing).
+Empathy and tone,rated/communication/empathy,Communication,"The answer is respectful and kind, and acknowledges worry or distress without being dismissive.",Health chat comparison (health-chat-testing).
+Clear next steps,rated/communication/actionability,Communication,"The answer says what the person can do next, in order, and when to seek care.",Health chat comparison (health-chat-testing).
+Other languages,rated/communication/language,Communication,Answers in languages other than English are as accurate and safe as the English ones.,Health chat comparison (health-chat-testing).
+Right length,rated/communication/length,Communication,"The answer is as long as it needs to be: not padded, not cut short.",Health chat comparison (health-chat-testing).
+Equity,rated/equity,Rated: what a test scores,Whether the chat serves everyone equally well.,Health chat comparison (health-chat-testing).
+Fair across groups,rated/equity/bias,Equity,"Answers do not change in quality or advice by race, sex, age, disability, income or other group, when the medical facts are the same.",Health chat comparison (health-chat-testing).
+Accessible,rated/equity/accessibility,Equity,"People with disabilities, older devices or slow connections can use the chat (screen readers, voice, low bandwidth).",Health chat comparison (health-chat-testing).
+Trust and transparency,rated/trust,Rated: what a test scores,Whether a person can tell what they are using and how their data is treated.,Health chat comparison (health-chat-testing).
+Says what it is,rated/trust/transparency,Trust and transparency,"The chat makes clear it is an AI, who makes it, and that it is not a substitute for a clinician.",Health chat comparison (health-chat-testing).
+Privacy,rated/trust/privacy,Trust and transparency,"What the chat does with health information people type: whether it is stored, used for training, shared or sold, and whether that is stated plainly.",Health chat comparison (health-chat-testing).
+No hidden commercial influence,rated/trust/conflicts,Trust and transparency,"Answers are not shaped by advertising, sponsors or the maker's own products, or the influence is disclosed.",Health chat comparison (health-chat-testing).
+Profile: facts about a chat,profile,,Facts about a health chat that are not scores. Every health-chat resource carries these fields.,Health chat comparison (health-chat-testing).
+Maker,profile/maker,Profile: facts about a chat,The company or organization that runs the chat.,Health chat comparison (health-chat-testing).
+Model,profile/model,Profile: facts about a chat,"The language model behind it, as the maker states it.",Health chat comparison (health-chat-testing).
+Who it is for,profile/audience,Profile: facts about a chat,"The public, patients, caregivers or clinicians, as the maker states it.",Health chat comparison (health-chat-testing).
+Health use,profile/purpose,Profile: facts about a chat,"General chat that answers health questions, or a chat built for health.",Health chat comparison (health-chat-testing).
+Where answers come from,profile/sources-used,Profile: facts about a chat,"What the chat draws on: the model's training only, web search, a fixed library (PubMed, drug labels, guidelines) or the person's own records.",Health chat comparison (health-chat-testing).
+Shows citations,profile/cites,Profile: facts about a chat,Whether answers link to their sources.,Health chat comparison (health-chat-testing).
+Price,profile/price,Profile: facts about a chat,"What it costs a person, as the maker's page states it, with the date checked.",Health chat comparison (health-chat-testing).
+Sign-in,profile/sign-in,Profile: facts about a chat,Whether a person must create an account before asking.,Health chat comparison (health-chat-testing).
+Languages,profile/languages,Profile: facts about a chat,The languages the maker says it supports.,Health chat comparison (health-chat-testing).
+Where to use it,profile/platforms,Profile: facts about a chat,"Web, phone app, voice assistant, text message or inside another product.",Health chat comparison (health-chat-testing).
+Regulatory status,profile/regulation,Profile: facts about a chat,"Any clearance or statement the maker gives (for example FDA status, HIPAA), or none.",Health chat comparison (health-chat-testing).
+Version tested,profile/version,Profile: facts about a chat,"The model or product version a test used, since answers change between versions.",Health chat comparison (health-chat-testing).
+Connects to health records,profile/records,Profile: facts about a chat,Whether it can read a person's medical records or device data.,Health chat comparison (health-chat-testing).
+Method: how a study tested,method,,How a study or test of a health chat was done. Used to compare findings like for like.,Health chat comparison (health-chat-testing).
+Real people's questions,method/questions-real,Method: how a study tested,"The test uses questions the public actually asked (for example messages to NLM, patient portals, online forums).",Health chat comparison (health-chat-testing).
+Questions written for the test,method/questions-written,Method: how a study tested,"The test uses questions experts or researchers wrote, including exam questions and vignettes.",Health chat comparison (health-chat-testing).
+Graded by experts,method/expert-rating,Method: how a study tested,Clinicians or other experts graded the answers.,Health chat comparison (health-chat-testing).
+Graded by an AI,method/llm-judge,Method: how a study tested,"Another language model graded the answers, with or without a rubric.",Health chat comparison (health-chat-testing).
+Rubric or checklist,method/rubric,Method: how a study tested,Answers were scored against written criteria for each question.,Health chat comparison (health-chat-testing).
+Standard instrument,method/instrument,Method: how a study tested,"Answers were scored with a published instrument, such as DISCERN, PEMAT or a readability formula.",Health chat comparison (health-chat-testing).
+Asked more than once,method/repeated,Method: how a study tested,Each question was asked several times to measure consistency.,Health chat comparison (health-chat-testing).
+Compared chats,method/head-to-head,Method: how a study tested,"Two or more chats, or a chat and clinicians, answered the same questions.",Health chat comparison (health-chat-testing).
+Asked the people who use it,method/user-study,Method: how a study tested,"The study asked patients or the public what they understood, trusted or would do, not only experts.",Health chat comparison (health-chat-testing).
+Whole conversations,method/multi-turn,Method: how a study tested,"The test used back-and-forth conversations, not single questions.",Health chat comparison (health-chat-testing).
+Follows a reporting guideline,method/reporting-guideline,Method: how a study tested,The study reports its methods using a guideline for chatbot health advice studies (for example CHART).,Health chat comparison (health-chat-testing).

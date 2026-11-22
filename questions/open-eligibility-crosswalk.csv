@@ -1,0 +1,22 @@
+path,label,open_eligibility_id,match
+body/mouth-teeth,Mouth and teeth,1184,related
+body/nutrition-weight,"Food, nutrition and weight",1134,related
+services/find-care,Finding a doctor or clinic,1206,broad
+services/pay-for-care,Paying for care and medicine,1199,broad
+services/insurance,Health insurance and benefits,1267,broad
+services/insurance,Health insurance and benefits,1256,broad
+services/mental-health,Mental health services,1126,broad
+services/addiction,Addiction treatment and recovery,1178,broad
+services/dental,Dental care,1184,broad
+services/food,Food and nutrition help,1102,broad
+services/housing,Housing and shelter,1103,broad
+services/transport,Getting to appointments,1105,broad
+services/caregiving,"Caregiving, home care and long-term care",1108,broad
+services/end-of-life,End-of-life care,1185,broad
+services/disability,Disability support and equipment,1104,broad
+services/family,"Family, pregnancy and child support",1108,broad
+services/safety,"Safety, abuse and emergencies",1101,broad
+services/legal-work,"Legal help, work and money",1111,broad
+services/legal-work,"Legal help, work and money",1110,broad
+services/legal-work,"Legal help, work and money",1107,broad
+services/public-health,Public health and records,1190,broad

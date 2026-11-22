@@ -1,0 +1,11 @@
+id,name,maker,url,audience,purpose,model,sources_used,cites,price,price_checked,sign_in,languages,platforms,regulation,records,conflict_note
+chatgpt,ChatGPT,OpenAI,https://chatgpt.com,public,general,,,,,,,,,,,
+claude,Claude,Anthropic,https://claude.ai,public,general,,,,,,,,,,,"Claude (Anthropic) drafted these tests, so a result for Claude needs a second, independent grader."
+gemini,Gemini,Google,https://gemini.google.com,public,general,,,,,,,,,,,
+copilot,Microsoft Copilot,Microsoft,https://copilot.microsoft.com,public,general,,,,,,,,,,,
+meta-ai,Meta AI,Meta,https://www.meta.ai,public,general,,,,,,,,,,,
+perplexity,Perplexity,Perplexity AI,https://www.perplexity.ai,public,general,,web search,,,,,,,,,
+grok,Grok,xAI,https://grok.com,public,general,,,,,,,,,,,
+deepseek,DeepSeek,DeepSeek,https://chat.deepseek.com,public,general,,,,,,,,,,,
+openevidence,OpenEvidence,OpenEvidence,https://www.openevidence.com,clinicians,health,,medical literature,,,,,,,,,
+smartsearch,SmartSearch,Viv Web Solutions,,public,health,,"PubMed, drug labels, MedlinePlus, trials",,,,,,,,,"Viv Web Solutions makes SmartSearch and runs this repository: it is listed so it is tested the same way, not to rank it."

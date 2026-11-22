@@ -1,0 +1,400 @@
+{
+ "id": "health-chat-comparison",
+ "version": "0.1.0",
+ "license": "CC BY 4.0",
+ "about": "What to measure when comparing health AI chats. See README.md.",
+ "terms": [
+  {
+   "id": "rated",
+   "label": "Rated: what a test scores",
+   "parent": null,
+   "definition": "Qualities of a chat's answers that a test can score.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/quality",
+   "label": "Quality of information",
+   "parent": "rated",
+   "definition": "Whether what the answer says is right and enough.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/quality/accuracy",
+   "label": "Accuracy",
+   "parent": "rated/quality",
+   "definition": "The answer agrees with current medical evidence and guidance, with no false statements.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/quality/completeness",
+   "label": "Completeness",
+   "parent": "rated/quality",
+   "definition": "The answer covers what a person needs to know to act on it, without leaving out key cautions.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/quality/currency",
+   "label": "Up to date",
+   "parent": "rated/quality",
+   "definition": "The answer reflects current guidance, drug labels and recalls, not outdated advice.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/quality/sources",
+   "label": "Sources",
+   "parent": "rated/quality",
+   "definition": "The answer names where its information comes from, and those sources exist, are reachable and say what the answer claims.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/quality/consistency",
+   "label": "Consistency",
+   "parent": "rated/quality",
+   "definition": "Asking the same question again, or in other words, gives an answer that agrees with the first.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/quality/uncertainty",
+   "label": "Says what it does not know",
+   "parent": "rated/quality",
+   "definition": "The answer is clear about uncertainty and limits, and does not sound more certain than the evidence is.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/quality/context",
+   "label": "Uses the person's situation",
+   "parent": "rated/quality",
+   "definition": "The answer takes account of what the person said about themselves (age, pregnancy, other medicines) or asks when it matters.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/quality/reasoning",
+   "label": "Clinical reasoning",
+   "parent": "rated/quality",
+   "definition": "When a question needs working out (what could cause these symptoms, what to rule out), the answer reasons soundly and lists the possibilities a clinician would.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/quality/robustness",
+   "label": "Same answer however asked",
+   "parent": "rated/quality",
+   "definition": "The substance of the answer holds when the question is reworded, misspelt or asked with a different prompt.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/safety",
+   "label": "Safety",
+   "parent": "rated",
+   "definition": "Whether the answer could lead someone to harm.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/safety/harm",
+   "label": "Avoids harmful advice",
+   "parent": "rated/safety",
+   "definition": "The answer gives no advice that could hurt someone if followed, such as a wrong dose or stopping a medicine abruptly.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/safety/emergencies",
+   "label": "Handles emergencies and crises",
+   "parent": "rated/safety",
+   "definition": "When a question signals an emergency, self-harm or a crisis, the answer says to get help now and gives the right number (911, 988, poison control).",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/safety/scope",
+   "label": "Knows when to refer",
+   "parent": "rated/safety",
+   "definition": "The chat answers what it can and sends the person to a clinician for diagnosis or individual dosing, without refusing questions it could safely answer.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/safety/false-premise",
+   "label": "Corrects false premises",
+   "parent": "rated/safety",
+   "definition": "When a question assumes something untrue (\"since vaccines cause autism...\"), the answer says so rather than going along with it.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/safety/hallucination",
+   "label": "No made-up content",
+   "parent": "rated/safety",
+   "definition": "The answer invents no studies, citations, drug names, statistics or quotes.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/communication",
+   "label": "Communication",
+   "parent": "rated",
+   "definition": "Whether a person can understand and use the answer.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/communication/readability",
+   "label": "Easy to read",
+   "parent": "rated/communication",
+   "definition": "The answer is written at a reading level most adults can follow (about 6th to 8th grade), in plain words.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/communication/empathy",
+   "label": "Empathy and tone",
+   "parent": "rated/communication",
+   "definition": "The answer is respectful and kind, and acknowledges worry or distress without being dismissive.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/communication/actionability",
+   "label": "Clear next steps",
+   "parent": "rated/communication",
+   "definition": "The answer says what the person can do next, in order, and when to seek care.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/communication/language",
+   "label": "Other languages",
+   "parent": "rated/communication",
+   "definition": "Answers in languages other than English are as accurate and safe as the English ones.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/communication/length",
+   "label": "Right length",
+   "parent": "rated/communication",
+   "definition": "The answer is as long as it needs to be: not padded, not cut short.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/equity",
+   "label": "Equity",
+   "parent": "rated",
+   "definition": "Whether the chat serves everyone equally well.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/equity/bias",
+   "label": "Fair across groups",
+   "parent": "rated/equity",
+   "definition": "Answers do not change in quality or advice by race, sex, age, disability, income or other group, when the medical facts are the same.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/equity/accessibility",
+   "label": "Accessible",
+   "parent": "rated/equity",
+   "definition": "People with disabilities, older devices or slow connections can use the chat (screen readers, voice, low bandwidth).",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/trust",
+   "label": "Trust and transparency",
+   "parent": "rated",
+   "definition": "Whether a person can tell what they are using and how their data is treated.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/trust/transparency",
+   "label": "Says what it is",
+   "parent": "rated/trust",
+   "definition": "The chat makes clear it is an AI, who makes it, and that it is not a substitute for a clinician.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/trust/privacy",
+   "label": "Privacy",
+   "parent": "rated/trust",
+   "definition": "What the chat does with health information people type: whether it is stored, used for training, shared or sold, and whether that is stated plainly.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "rated/trust/conflicts",
+   "label": "No hidden commercial influence",
+   "parent": "rated/trust",
+   "definition": "Answers are not shaped by advertising, sponsors or the maker's own products, or the influence is disclosed.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile",
+   "label": "Profile: facts about a chat",
+   "parent": null,
+   "definition": "Facts about a health chat that are not scores. Every health-chat resource carries these fields.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/maker",
+   "label": "Maker",
+   "parent": "profile",
+   "definition": "The company or organization that runs the chat.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/model",
+   "label": "Model",
+   "parent": "profile",
+   "definition": "The language model behind it, as the maker states it.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/audience",
+   "label": "Who it is for",
+   "parent": "profile",
+   "definition": "The public, patients, caregivers or clinicians, as the maker states it.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/purpose",
+   "label": "Health use",
+   "parent": "profile",
+   "definition": "General chat that answers health questions, or a chat built for health.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/sources-used",
+   "label": "Where answers come from",
+   "parent": "profile",
+   "definition": "What the chat draws on: the model's training only, web search, a fixed library (PubMed, drug labels, guidelines) or the person's own records.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/cites",
+   "label": "Shows citations",
+   "parent": "profile",
+   "definition": "Whether answers link to their sources.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/price",
+   "label": "Price",
+   "parent": "profile",
+   "definition": "What it costs a person, as the maker's page states it, with the date checked.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/sign-in",
+   "label": "Sign-in",
+   "parent": "profile",
+   "definition": "Whether a person must create an account before asking.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/languages",
+   "label": "Languages",
+   "parent": "profile",
+   "definition": "The languages the maker says it supports.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/platforms",
+   "label": "Where to use it",
+   "parent": "profile",
+   "definition": "Web, phone app, voice assistant, text message or inside another product.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/regulation",
+   "label": "Regulatory status",
+   "parent": "profile",
+   "definition": "Any clearance or statement the maker gives (for example FDA status, HIPAA), or none.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/version",
+   "label": "Version tested",
+   "parent": "profile",
+   "definition": "The model or product version a test used, since answers change between versions.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "profile/records",
+   "label": "Connects to health records",
+   "parent": "profile",
+   "definition": "Whether it can read a person's medical records or device data.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "method",
+   "label": "Method: how a study tested",
+   "parent": null,
+   "definition": "How a study or test of a health chat was done. Used to compare findings like for like.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "method/questions-real",
+   "label": "Real people's questions",
+   "parent": "method",
+   "definition": "The test uses questions the public actually asked (for example messages to NLM, patient portals, online forums).",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "method/questions-written",
+   "label": "Questions written for the test",
+   "parent": "method",
+   "definition": "The test uses questions experts or researchers wrote, including exam questions and vignettes.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "method/expert-rating",
+   "label": "Graded by experts",
+   "parent": "method",
+   "definition": "Clinicians or other experts graded the answers.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "method/llm-judge",
+   "label": "Graded by an AI",
+   "parent": "method",
+   "definition": "Another language model graded the answers, with or without a rubric.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "method/rubric",
+   "label": "Rubric or checklist",
+   "parent": "method",
+   "definition": "Answers were scored against written criteria for each question.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "method/instrument",
+   "label": "Standard instrument",
+   "parent": "method",
+   "definition": "Answers were scored with a published instrument, such as DISCERN, PEMAT or a readability formula.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "method/repeated",
+   "label": "Asked more than once",
+   "parent": "method",
+   "definition": "Each question was asked several times to measure consistency.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "method/head-to-head",
+   "label": "Compared chats",
+   "parent": "method",
+   "definition": "Two or more chats, or a chat and clinicians, answered the same questions.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "method/user-study",
+   "label": "Asked the people who use it",
+   "parent": "method",
+   "definition": "The study asked patients or the public what they understood, trusted or would do, not only experts.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "method/multi-turn",
+   "label": "Whole conversations",
+   "parent": "method",
+   "definition": "The test used back-and-forth conversations, not single questions.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  },
+  {
+   "id": "method/reporting-guideline",
+   "label": "Follows a reporting guideline",
+   "parent": "method",
+   "definition": "The study reports its methods using a guideline for chatbot health advice studies (for example CHART).",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person"
+  }
+ ]
+}

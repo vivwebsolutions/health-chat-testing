@@ -1,0 +1,82 @@
+{
+ "date": "2026-11-21",
+ "database": "PubMed",
+ "queries": {
+  "core": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (accuracy OR quality OR evaluat* OR reliab* OR readab*) AND (patient* OR health OR medical)",
+   "count": 16703
+  },
+  "llm_any": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab])",
+   "count": 32176
+  },
+  "readability": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (readability[tiab] OR \"Flesch\"[tiab] OR \"reading level\"[tiab] OR \"grade level\"[tiab]) AND (patient* OR health OR medical)",
+   "count": 1780
+  },
+  "safety_harm": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (safety[tiab] OR harm*[tiab] OR \"patient safety\"[tiab]) AND (patient* OR health OR medical)",
+   "count": 3064
+  },
+  "mental_health_crisis": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (\"mental health\"[tiab] OR suicid*[tiab] OR crisis[tiab]) AND (safety OR response* OR evaluat* OR accuracy)",
+   "count": 1080
+  },
+  "misinformation_hallucination": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (misinformation[tiab] OR hallucinat*[tiab] OR fabricat*[tiab]) AND (patient* OR health OR medical)",
+   "count": 1832
+  },
+  "bias_equity": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (bias*[tiab] OR equity[tiab] OR disparit*[tiab] OR fairness[tiab]) AND (patient* OR health OR medical)",
+   "count": 2926
+  },
+  "non_english": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (multilingual[tiab] OR \"non-English\"[tiab] OR Spanish[tiab] OR Chinese[tiab] OR Arabic[tiab] OR \"low-resource\"[tiab]) AND (patient* OR health OR medical)",
+   "count": 1304
+  },
+  "systematic_reviews": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (systematic[sb] OR \"systematic review\"[pt] OR \"meta-analysis\"[pt] OR \"scoping review\"[tiab]) AND (patient* OR health OR medical)",
+   "count": 1236
+  },
+  "reporting_guidelines": {
+   "query": "(CHART[tiab] OR \"TRIPOD-LLM\"[tiab] OR QUEST[tiab] OR METRICS[tiab]) AND (\"large language model*\"[tiab] OR chatbot*[tiab] OR ChatGPT[tiab]) AND (reporting OR checklist OR framework OR guideline*)",
+   "count": 1352
+  },
+  "citations_references": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (citation*[tiab] OR reference*[tiab] OR \"source attribution\"[tiab]) AND (fabricat* OR accuracy OR valid* OR verif*) AND (patient* OR health OR medical)",
+   "count": 1455
+  },
+  "consistency_repeatability": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (reproducib*[tiab] OR repeatab*[tiab] OR consisten*[tiab]) AND (response* OR output*) AND (patient* OR health OR medical)",
+   "count": 1984
+  },
+  "emergency_triage": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (triage[tiab] OR emergency[tiab] OR \"emergency department\"[tiab]) AND (patient* OR health OR medical)",
+   "count": 1131
+  },
+  "empathy": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (empath*[tiab] OR compassion*[tiab]) AND (patient* OR physician*)",
+   "count": 484
+  },
+  "patient_questions": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (\"patient question*\"[tiab] OR \"patient portal\"[tiab] OR Reddit[tiab] OR \"frequently asked question*\"[tiab]) AND (patient* OR health OR medical)",
+   "count": 1043
+  },
+  "openevidence": {
+   "query": "OpenEvidence[tiab]",
+   "count": 125
+  },
+  "llm_as_judge": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (\"LLM-as-a-judge\"[tiab] OR \"LLM as a judge\"[tiab] OR \"automated evaluation\"[tiab] OR \"model-graded\"[tiab])",
+   "count": 107
+  },
+  "benchmark": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (benchmark*[tiab] OR HealthBench[tiab]) AND (patient* OR health OR medical)",
+   "count": 1776
+  },
+  "DISCERN_PEMAT": {
+   "query": "(\"large language model*\"[tiab] OR ChatGPT[tiab] OR chatbot*[tiab] OR \"generative AI\"[tiab]) AND (DISCERN[tiab] OR PEMAT[tiab] OR \"Global Quality Score\"[tiab] OR \"JAMA benchmark\"[tiab])",
+   "count": 755
+  }
+ }
+}

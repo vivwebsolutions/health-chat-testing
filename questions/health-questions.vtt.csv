@@ -1,0 +1,84 @@
+label,notation,parent,alt_labels,scope_note
+What kind of answer,ask,,,What people ask about health and health/human services (HealthRAG#158).
+What is it?,ask/what-is,What kind of answer,what does it mean|what does mean|meaning of|definition of|explain|information on,What people ask about health and health/human services (HealthRAG#158).
+Causes and risk,ask/cause,What kind of answer,cause|caused|causes|causing|why do i|why does,What people ask about health and health/human services (HealthRAG#158).
+Symptoms and signs,ask/symptoms,What kind of answer,symptom|sign of|signs of|feel like|feeling|pain in,What people ask about health and health/human services (HealthRAG#158).
+Tests and diagnosis,ask/diagnosis,What kind of answer,test for|tested|testing|diagnose|diagnosed|diagnosis,What people ask about health and health/human services (HealthRAG#158).
+Treatment and cure,ask/treatment,What kind of answer,treatment|treat|treated|treating|cure|cured,What people ask about health and health/human services (HealthRAG#158).
+Outlook and life expectancy,ask/outlook,What kind of answer,prognosis|life expectancy|survival rate|how long will i live|how long does it last|how long do withdrawals last,What people ask about health and health/human services (HealthRAG#158).
+Prevention,ask/prevention,What kind of answer,prevent|avoid getting|protect against|reduce the risk|lower my risk|stop it from,What people ask about health and health/human services (HealthRAG#158).
+Dose and strength,ask/dose,What kind of answer,dose|dosage|doses|how much should i take|how much can i take|how much to take,What people ask about health and health/human services (HealthRAG#158).
+How and when to take it,ask/how-to-take,What kind of answer,how to take|how do i take|how to use|how to inject|how is administered|administered,What people ask about health and health/human services (HealthRAG#158).
+Side effects,ask/side-effects,What kind of answer,side effect|adverse|reaction to|allergic to|long term effects|long-term effects,What people ask about health and health/human services (HealthRAG#158).
+Interactions and safety,ask/interactions,What kind of answer,interact|interaction|interactions|mix|mixing|together with,What people ask about health and health/human services (HealthRAG#158).
+Stopping or switching,ask/stopping,What kind of answer,stop taking|stopping|quit taking|come off|coming off|taper,What people ask about health and health/human services (HealthRAG#158).
+"What is in it, what it looks like",ask/identify,What kind of answer,ingredient|ingredients|contain|contains|made of|generic for,What people ask about health and health/human services (HealthRAG#158).
+"Storage, expiry and disposal",ask/storage,What kind of answer,store|storage|refrigerate|refrigerated|refrigerator|fridge,What people ask about health and health/human services (HealthRAG#158).
+Comparing options,ask/compare,What kind of answer,difference between|compared to| vs |versus|better than|which is better,What people ask about health and health/human services (HealthRAG#158).
+Where to get help,ask/find-help,What kind of answer,where can i get|where can i go|where do i go|find a doctor|find a specialist|looking for a doctor,What people ask about health and health/human services (HealthRAG#158).
+Cost and coverage,ask/cost,What kind of answer,cost|price|afford|pay for|insurance|covered by,What people ask about health and health/human services (HealthRAG#158).
+Health area,body,,,What people ask about health and health/human services (HealthRAG#158).
+Heart and blood vessels,body/heart,Health area,heart|cardiac|blood pressure|hypertension|cholesterol|stroke,What people ask about health and health/human services (HealthRAG#158).
+Blood,body/blood,Health area,anemia|anaemia|hemoglobin|platelet|sickle cell|hemophilia,What people ask about health and health/human services (HealthRAG#158).
+Cancer,body/cancer,Health area,tumor|tumour|chemotherapy|chemo|radiation therapy|oncologist,What people ask about health and health/human services (HealthRAG#158).
+"Diabetes, thyroid and hormones",body/diabetes-hormones,Health area,diabetes|diabetic|blood sugar|glucose|a1c|insulin,What people ask about health and health/human services (HealthRAG#158).
+Brain and nerves,body/brain-nerves,Health area,brain|nerve|nerves|neuropathy|seizure|epilepsy,What people ask about health and health/human services (HealthRAG#158).
+Mental health,body/mental-health,Health area,depression|depressed|anxiety|anxious|panic|bipolar,What people ask about health and health/human services (HealthRAG#158).
+"Alcohol, drugs and addiction",body/substance-use,Health area,addiction|addicted|alcohol|alcoholism|drinking|opioid,What people ask about health and health/human services (HealthRAG#158).
+Infections,body/infections,Health area,infection|infected|virus|viral|bacteria|bacterial,What people ask about health and health/human services (HealthRAG#158).
+Vaccines,body/vaccines,Health area,vaccine|vaccination|vaccinated|immunization|immunisation|booster,What people ask about health and health/human services (HealthRAG#158).
+Lungs and breathing,body/lungs,Health area,lung|breathing|breath|asthma|copd|emphysema,What people ask about health and health/human services (HealthRAG#158).
+"Stomach, gut and liver",body/digestive,Health area,stomach|digestive|gut|bowel|ibs|crohn,What people ask about health and health/human services (HealthRAG#158).
+Kidneys and bladder,body/kidneys,Health area,kidney|renal|dialysis|bladder|urinary|urine,What people ask about health and health/human services (HealthRAG#158).
+"Bones, joints and muscles",body/bones-joints,Health area,bone|joint|arthritis|osteoarthritis|rheumatoid|osteoporosis,What people ask about health and health/human services (HealthRAG#158).
+"Skin, hair and nails",body/skin,Health area,skin|acne|eczema|psoriasis|rash|hives,What people ask about health and health/human services (HealthRAG#158).
+"Eyes, ears, nose and throat",body/eyes-ears,Health area,eye|vision|glaucoma|cataract|macular|blind,What people ask about health and health/human services (HealthRAG#158).
+Mouth and teeth,body/mouth-teeth,Health area,teeth|tooth|dental|dentist|gum|gums,What people ask about health and health/human services (HealthRAG#158).
+Sexual and reproductive health,body/sexual-reproductive,Health area,sexual|sex|std|sti|erectile|erection,What people ask about health and health/human services (HealthRAG#158).
+Pregnancy and birth,body/pregnancy,Health area,pregnant|pregnancy|trying to conceive|breastfeeding|breast feeding|nursing mother,What people ask about health and health/human services (HealthRAG#158).
+Children and teens,body/children,Health area,child|children|kid|kids|baby|babies,What people ask about health and health/human services (HealthRAG#158).
+Older adults,body/older-adults,Health area,elderly|older adult|senior|seniors|aging|ageing,What people ask about health and health/human services (HealthRAG#158).
+Genetic and rare conditions,body/genetic-rare,Health area,syndrome|genetic|gene|genes|chromosome|mutation,What people ask about health and health/human services (HealthRAG#158).
+"Food, nutrition and weight",body/nutrition-weight,Health area,diet|nutrition|vitamin|vitamins|mineral|supplement,What people ask about health and health/human services (HealthRAG#158).
+Pain,body/pain,Health area,painful|ache|aches|chronic pain|pain relief|painkiller,What people ask about health and health/human services (HealthRAG#158).
+Sleep,body/sleep,Health area,sleeping|insomnia|can't sleep|sleep apnea|drowsy|drowsiness,What people ask about health and health/human services (HealthRAG#158).
+Allergies and immune system,body/allergy-immune,Health area,allergy|allergies|allergic|anaphylaxis|epipen|hay fever,What people ask about health and health/human services (HealthRAG#158).
+Kind of medicine,medicine,,,What people ask about health and health/human services (HealthRAG#158).
+Opioid pain medicines,medicine/opioids,Kind of medicine,opioid|opiate|oxycodone|oxycontin|percocet|hydrocodone,What people ask about health and health/human services (HealthRAG#158).
+Over-the-counter pain and fever,medicine/pain-otc,Kind of medicine,ibuprofen|advil|motrin|acetaminophen|tylenol|paracetamol,What people ask about health and health/human services (HealthRAG#158).
+Antidepressants,medicine/antidepressants,Kind of medicine,antidepressant|ssri|snri|sertraline|zoloft|fluoxetine,What people ask about health and health/human services (HealthRAG#158).
+Anxiety and sleep medicines,medicine/anxiety-sleep,Kind of medicine,benzodiazepine|benzo|xanax|alprazolam|valium|diazepam,What people ask about health and health/human services (HealthRAG#158).
+"Antipsychotics, mood and ADHD medicines",medicine/psychiatric,Kind of medicine,antipsychotic|seroquel|quetiapine|abilify|aripiprazole|risperdal,What people ask about health and health/human services (HealthRAG#158).
+Heart and blood pressure medicines,medicine/heart-bp,Kind of medicine,lisinopril|amlodipine|norvasc|losartan|metoprolol|atenolol,What people ask about health and health/human services (HealthRAG#158).
+Cholesterol medicines,medicine/cholesterol,Kind of medicine,statin|atorvastatin|lipitor|simvastatin|zocor|rosuvastatin,What people ask about health and health/human services (HealthRAG#158).
+Blood thinners,medicine/blood-thinners,Kind of medicine,blood thinner|warfarin|coumadin|eliquis|apixaban|xarelto,What people ask about health and health/human services (HealthRAG#158).
+Diabetes medicines,medicine/diabetes,Kind of medicine,metformin|glucophage|insulin|lantus|humalog|novolog,What people ask about health and health/human services (HealthRAG#158).
+Antibiotics and antivirals,medicine/antibiotics,Kind of medicine,antibiotic|amoxicillin|augmentin|penicillin|azithromycin|zithromax,What people ask about health and health/human services (HealthRAG#158).
+"Hormones, thyroid and birth control",medicine/hormones,Kind of medicine,levothyroxine|synthroid|armour thyroid|estradiol|premarin|progesterone,What people ask about health and health/human services (HealthRAG#158).
+Stomach and acid medicines,medicine/stomach,Kind of medicine,omeprazole|prilosec|pantoprazole|protonix|esomeprazole|nexium,What people ask about health and health/human services (HealthRAG#158).
+"Allergy, cold and asthma medicines",medicine/allergy-cold,Kind of medicine,antihistamine|benadryl|diphenhydramine|claritin|loratadine|zyrtec,What people ask about health and health/human services (HealthRAG#158).
+Seizure and nerve-pain medicines,medicine/seizure-nerve,Kind of medicine,gabapentin|neurontin|pregabalin|lyrica|topiramate|topamax,What people ask about health and health/human services (HealthRAG#158).
+Muscle relaxants,medicine/muscle-relaxants,Kind of medicine,muscle relaxant|muscle relaxer|muscle relaxers|muscle relaxes|cyclobenzaprine|flexeril,What people ask about health and health/human services (HealthRAG#158).
+"Vitamins, supplements and herbs",medicine/supplements,Kind of medicine,vitamin|supplement|herbal|herb|probiotic|fish oil,What people ask about health and health/human services (HealthRAG#158).
+"Bone, arthritis and gout medicines",medicine/osteoporosis-arthritis,Kind of medicine,fosamax|alendronate|boniva|prolia|methotrexate|humira,What people ask about health and health/human services (HealthRAG#158).
+Dementia and Parkinson's medicines,medicine/dementia,Kind of medicine,donepezil|aricept|memantine|namenda|rivastigmine|rivatigmine,What people ask about health and health/human services (HealthRAG#158).
+"Bladder, prostate and erection medicines",medicine/urinary-ed,Kind of medicine,tamsulosin|flomax|finasteride|proscar|oxybutynin|detrol,What people ask about health and health/human services (HealthRAG#158).
+Cancer medicines,medicine/cancer-drugs,Kind of medicine,chemotherapy|chemo|tamoxifen|letrozole|anastrozole|arimidex,What people ask about health and health/human services (HealthRAG#158).
+Eye drops and skin medicines,medicine/eye-skin,Kind of medicine,eye drops|eyedrops|latanoprost|cream|ointment|lotion,What people ask about health and health/human services (HealthRAG#158).
+Health and human services,services,,,What people ask about health and health/human services (HealthRAG#158).
+Finding a doctor or clinic,services/find-care,Health and human services,find a doctor|find a specialist|primary care|family doctor|community health center|health center,What people ask about health and health/human services (HealthRAG#158).
+Paying for care and medicine,services/pay-for-care,Health and human services,afford|can't afford|pay for my|medical bills|hospital bill|financial assistance,What people ask about health and health/human services (HealthRAG#158).
+Health insurance and benefits,services/insurance,Health and human services,health insurance|medicaid|medicare|marketplace|obamacare|affordable care act,What people ask about health and health/human services (HealthRAG#158).
+Mental health services,services/mental-health,Health and human services,counseling services|therapist near|crisis line|crisis hotline|988|suicide hotline,What people ask about health and health/human services (HealthRAG#158).
+Addiction treatment and recovery,services/addiction,Health and human services,rehab|detox|treatment center|treatment program|recovery program|sober living,What people ask about health and health/human services (HealthRAG#158).
+Dental care,services/dental,Health and human services,find a dentist|dental clinic|dental insurance|dentures|free dental|low cost dental,What people ask about health and health/human services (HealthRAG#158).
+Food and nutrition help,services/food,Health and human services,food bank|food pantry|snap|food stamps|ebt|wic,What people ask about health and health/human services (HealthRAG#158).
+Housing and shelter,services/housing,Health and human services,housing|homeless|homelessness|shelter|eviction|evicted,What people ask about health and health/human services (HealthRAG#158).
+Getting to appointments,services/transport,Health and human services,transportation|ride to|rides to|medical transport|non-emergency transport|bus pass,What people ask about health and health/human services (HealthRAG#158).
+"Caregiving, home care and long-term care",services/caregiving,Health and human services,caregiver|caregiving|home care|home health|respite|adult day,What people ask about health and health/human services (HealthRAG#158).
+End-of-life care,services/end-of-life,Health and human services,hospice|palliative|end of life|end-of-life|advance directive|living will,What people ask about health and health/human services (HealthRAG#158).
+Disability support and equipment,services/disability,Health and human services,disability|disabled|wheelchair|walker|hearing aid|hearing aids,What people ask about health and health/human services (HealthRAG#158).
+"Family, pregnancy and child support",services/family,Health and human services,childcare|child care|daycare|early intervention|parenting|baby supplies,What people ask about health and health/human services (HealthRAG#158).
+"Safety, abuse and emergencies",services/safety,Health and human services,domestic violence|abuse|abused|sexual assault|rape|unsafe at home,What people ask about health and health/human services (HealthRAG#158).
+"Legal help, work and money",services/legal-work,Health and human services,lawyer|legal aid|legal help|medical leave|fmla|sick leave,What people ask about health and health/human services (HealthRAG#158).
+Public health and records,services/public-health,Health and human services,health department|public health|birth certificate|death certificate|vital records|immunization record,What people ask about health and health/human services (HealthRAG#158).

@@ -1,0 +1,3740 @@
+{
+ "scheme": "health-questions",
+ "version": "0.1.0",
+ "terms": {
+  "ask": {
+   "label": "What kind of answer",
+   "definition": "What kind of answer the asker wants, whatever the topic.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L44",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": null,
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "ask/what-is": {
+   "label": "What is it?",
+   "definition": "Asks what something is or means: a condition, a medicine, a term.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L45",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "information"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/what-is",
+    "phrases": 17
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 138,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-aab187d3",
+     "text": "I am looking for information on how to prevent a shingles outbreak.",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ79"
+    },
+    {
+     "id": "qb-0657b2d6",
+     "text": "does enalaprilat is used for treat stroke?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row354"
+    }
+   ]
+  },
+  "ask/cause": {
+   "label": "Causes and risk",
+   "definition": "Asks why something happens, what raises the risk, or whether it is inherited or catching.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L46",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "cause",
+     "susceptibility",
+     "inheritance"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/cause",
+    "phrases": 20
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 163,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-ab0e9484",
+     "text": "can a streptococcus infection cause an invasive disease like wegeners or the symptoms of wegeners?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ9"
+    },
+    {
+     "id": "qb-5f5548e9",
+     "text": "does corticosteroids cause i insomnia?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row59"
+    }
+   ]
+  },
+  "ask/symptoms": {
+   "label": "Symptoms and signs",
+   "definition": "Asks what a condition feels like or what a sign or symptom means.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L47",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "symptom",
+     "effect",
+     "complication"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/symptoms",
+    "phrases": 24
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 72,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-2be31c68",
+     "text": "heroin mixed with fentanyl what are the symptoms of an overdose",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row559"
+    },
+    {
+     "id": "qb-b190e62e",
+     "text": "how long itching lasts after stopping doxycycline",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row482"
+    }
+   ]
+  },
+  "ask/diagnosis": {
+   "label": "Tests and diagnosis",
+   "definition": "Asks how a condition is tested for or found, or what a test result means.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L48",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "diagnosis"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/diagnosis",
+    "phrases": 22
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 50,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-2dbebd8d",
+     "text": "can diverticulosis or diverticulitis be detected by a cat scan if there is no infection at that time?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ69"
+    },
+    {
+     "id": "qb-6ec6bcad",
+     "text": "What doctor specializes in testing for and treatment of autoimmune illness?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ99"
+    }
+   ]
+  },
+  "ask/treatment": {
+   "label": "Treatment and cure",
+   "definition": "Asks how to treat, manage or cure a condition.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L49",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "treatment",
+     "alternative",
+     "lifestyle_diet"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/treatment",
+    "phrases": 25
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 368,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-1837872b",
+     "text": "how do botulinum toxin injections treat muscle conditions?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row558"
+    },
+    {
+     "id": "qb-0251d0a1",
+     "text": "how much penicillin to treat strep throat for adult",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row502"
+    }
+   ]
+  },
+  "ask/outlook": {
+   "label": "Outlook and life expectancy",
+   "definition": "Asks what happens next: recovery, how long it lasts, life expectancy.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L50",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "prognosis"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/outlook",
+    "phrases": 16
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 37,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-25d77a5d",
+     "text": "What is your position on Homozygout MTHFR A1298C Health Issues and long term prognosis?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ77"
+    },
+    {
+     "id": "qb-322f3396",
+     "text": "what is the survival rate of opdivo \"&\" yervoy combo treatments",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row140"
+    }
+   ]
+  },
+  "ask/prevention": {
+   "label": "Prevention",
+   "definition": "Asks how to avoid getting a condition or lower the risk.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L51",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "prevention"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/prevention",
+    "phrases": 9
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 11,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-aab187d3",
+     "text": "I am looking for information on how to prevent a shingles outbreak.",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ79"
+    },
+    {
+     "id": "qb-8e62c31b",
+     "text": "what does vitamin a prevent",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row391"
+    }
+   ]
+  },
+  "ask/dose": {
+   "label": "Dose and strength",
+   "definition": "Asks how much of a medicine to take, how often, or what strengths exist.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L52",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "dosage",
+     "dose",
+     "overdose"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/dose",
+    "phrases": 30
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 76,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-86a24819",
+     "text": "is 600mg of gabapentin considered a strong dose ? how high in my can it go?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row392"
+    },
+    {
+     "id": "qb-9f9e1254",
+     "text": "what is the dosage of levofloxacin tablets for bronchitis please",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row654"
+    }
+   ]
+  },
+  "ask/how-to-take": {
+   "label": "How and when to take it",
+   "definition": "Asks how or when to take or use a medicine: with food, missed doses, how long it takes to work.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L53",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "usage",
+     "usage/time",
+     "usage/duration",
+     "action/time"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/how-to-take",
+    "phrases": 23
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 29,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-ffdf246a",
+     "text": "how long does it take to get carbidopa levodopa out of your system",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row293"
+    },
+    {
+     "id": "qb-f85f6b70",
+     "text": "blood thinner pills how to use them safely",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row320"
+    }
+   ]
+  },
+  "ask/side-effects": {
+   "label": "Side effects",
+   "definition": "Asks what unwanted effects a medicine or treatment can have.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L54",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "side_effect",
+     "side effects"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/side-effects",
+    "phrases": 15
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 52,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-f40430ef",
+     "text": "how long are you protected after taking the hep b vaccine",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row513"
+    },
+    {
+     "id": "qb-ebdb36a7",
+     "text": "if \"i'm\" allergic to penicillin can i take amoxicillin?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row488"
+    }
+   ]
+  },
+  "ask/interactions": {
+   "label": "Interactions and safety",
+   "definition": "Asks whether something is safe to combine with another medicine, alcohol, food or a condition.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L55",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "interaction",
+     "contraindication",
+     "combination"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/interactions",
+    "phrases": 20
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 34,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-f5b40cb1",
+     "text": "what do i mix albuterol sulfate inhalation solution with in my nebulizer?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row436"
+    },
+    {
+     "id": "qb-9af575e2",
+     "text": "is it safe to add peppermint essential oil in \"mouth wash?\"",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row100"
+    }
+   ]
+  },
+  "ask/stopping": {
+   "label": "Stopping or switching",
+   "definition": "Asks how to stop, taper or switch a medicine, and what withdrawal is like.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L56",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "tapering",
+     "stopping/tapering"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/stopping",
+    "phrases": 15
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 36,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-ef36e3ea",
+     "text": "i take lorazepam, my eyes are blurry, if i stop taking it, will my eyes clear up ?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row63"
+    },
+    {
+     "id": "qb-65fc2488",
+     "text": "is it safe for a 72 year old to stop taking premarin?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row685"
+    }
+   ]
+  },
+  "ask/identify": {
+   "label": "What is in it, what it looks like",
+   "definition": "Asks what is in a medicine, what it looks like, or what its other names are.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L57",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "ingredient",
+     "appearance",
+     "brand names",
+     "pronounce name",
+     "manufacturer"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/identify",
+    "phrases": 24
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 71,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-c2215273",
+     "text": "what color are the pills for levodopa carbidopa for \"50/200\" mg extended relief",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row117"
+    },
+    {
+     "id": "qb-9c1ac5ec",
+     "text": "what are the inactive ingredients to the pneumonia vaccine",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row39"
+    }
+   ]
+  },
+  "ask/storage": {
+   "label": "Storage, expiry and disposal",
+   "definition": "Asks how to store a medicine, when it expires, or how to get rid of it.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L58",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "storage_disposal",
+     "storage and disposal"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/storage",
+    "phrases": 28
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 15,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-12a79738",
+     "text": "in how much temp bcg vaccine should store",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row298"
+    },
+    {
+     "id": "qb-eaf5d88d",
+     "text": "freezing clotrimazole?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row143"
+    }
+   ]
+  },
+  "ask/compare": {
+   "label": "Comparing options",
+   "definition": "Asks how two options differ or which is better.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L59",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "comparison"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/compare",
+    "phrases": 9
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 7,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-56491da0",
+     "text": "what is the difference between atorvastatin and lipitor",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row642"
+    },
+    {
+     "id": "qb-213c6c6b",
+     "text": "Diabetis: Can I use Novolin instead of Novolog? Is there any difference?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#1-131188365.xml.txt"
+    }
+   ]
+  },
+  "ask/find-help": {
+   "label": "Where to get help",
+   "definition": "Asks where to get care, a specialist, a support group, a trial or more information.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L60",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "person_organization"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/find-help",
+    "phrases": 28
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 43,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-0952210b",
+     "text": "cant use site.: I want to find a doctor who specializes in burning mouth syndrome and that could be in many specialities, I cannot understand how to do this on your website.",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ16"
+    },
+    {
+     "id": "qb-da7330b2",
+     "text": "very worry and need advise .: dear sir i had car accident 2 months a go . other person blood splash one me and i saw a lot of blood on my hand and some on face . not sure about eye . i didn't wash it immediatly and until 15 minute later then i washed it . am i risk hiv ? thank you .",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ34"
+    }
+   ]
+  },
+  "ask/cost": {
+   "label": "Cost and coverage",
+   "definition": "Asks what something costs or whether insurance covers it.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L61",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Gathers the question-type annotations NLM put on the source questions (LiveQA TREC 2017: 26 types; MedicationQA: 30 types).",
+    "sourceQuestionTypes": [
+     "availability"
+    ],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:ask/cost",
+    "phrases": 23
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 12,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-5ec4fb10",
+     "text": "Hi. I am interested to have In vitro Fertilization (Test Tube Baby). May I know the risk and the cost. Thanks",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#14337.txt"
+    },
+    {
+     "id": "qb-93c38528",
+     "text": "hello I have cystic fibrosis, and I want to buy a kalydeco, for buy it my government gave me money, my doctor agree that I am ready to take kalydeco, if you can tell me prices for 3 month kalydeco. best regards [NAME] [LOCATION]",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#1-132131177.xml.txt"
+    }
+   ]
+  },
+  "body": {
+   "label": "Health area",
+   "definition": "The part of the body, kind of condition or stage of life a question is about.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L64",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": null,
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "body/heart": {
+   "label": "Heart and blood vessels",
+   "definition": "Heart and blood vessels: blood pressure, cholesterol, stroke, rhythm, clots.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L65",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Cardiovascular Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D002318"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/heart",
+    "phrases": 26
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 67,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-8a219e93",
+     "text": "how soon does losartan afffect blood pressure",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row272"
+    },
+    {
+     "id": "qb-6d9f738c",
+     "text": "will citalopram exacerbate heart arrhythmias?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row444"
+    }
+   ]
+  },
+  "body/blood": {
+   "label": "Blood",
+   "definition": "Blood and blood-forming conditions: anaemia, platelets, sickle cell, blood cancers.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L66",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Hematologic Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D006402"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/blood",
+    "phrases": 12
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 12,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-a2e3f720",
+     "text": "please can chronic myeloid leukemia (CML) be cure completely. waiting for your response. thanks",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#1-132498404.xml.txt"
+    },
+    {
+     "id": "qb-ff3bf799",
+     "text": "Definitions: Hi, An explaination of what is the difference between myelogenous and lymphocytic leukemia types would be helpful. Great work! Thanks",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#13426.txt"
+    }
+   ]
+  },
+  "body/cancer": {
+   "label": "Cancer",
+   "definition": "Any cancer or tumour, and its treatment.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L67",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Neoplasms",
+      "uri": "https://id.nlm.nih.gov/mesh/D009369"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/cancer",
+    "phrases": 26
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 46,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-5d0c5f1e",
+     "text": "CAN LIPNODES AND OR LIVER CANCER BE DETECTED IN A UPPER GI",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ95"
+    },
+    {
+     "id": "qb-9c99b51d",
+     "text": "Hematoma following basal cell carcinoma: Is this common after surgery. What is the cause?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#13943.txt"
+    }
+   ]
+  },
+  "body/diabetes-hormones": {
+   "label": "Diabetes, thyroid and hormones",
+   "definition": "Diabetes, blood sugar, thyroid and other hormone conditions, menopause.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L68",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Endocrine System Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D004700"
+     },
+     {
+      "label": "Diabetes Mellitus",
+      "uri": "https://id.nlm.nih.gov/mesh/D003920"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/diabetes-hormones",
+    "phrases": 24
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 58,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-0929ed76",
+     "text": "is estradiol transdermal patch bio-identical estrogen?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row504"
+    },
+    {
+     "id": "qb-31cf0dc5",
+     "text": "what size syringe to use for testosterone inject",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row663"
+    }
+   ]
+  },
+  "body/brain-nerves": {
+   "label": "Brain and nerves",
+   "definition": "Brain, spinal cord and nerves: seizures, migraine, dementia, Parkinson's, neuropathy.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L69",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Nervous System Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D009422"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/brain-nerves",
+    "phrases": 32
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 59,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-0f485a60",
+     "text": "how does valium affect the brain",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row3"
+    },
+    {
+     "id": "qb-d563e71f",
+     "text": "what do steroids do to the brain",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row337"
+    }
+   ]
+  },
+  "body/mental-health": {
+   "label": "Mental health",
+   "definition": "Mental health conditions and emotional wellbeing: depression, anxiety, PTSD, ADHD, eating disorders.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L70",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Mental Disorders",
+      "uri": "https://id.nlm.nih.gov/mesh/D001523"
+     },
+     {
+      "label": "Mental Health",
+      "uri": "https://id.nlm.nih.gov/mesh/D008603"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/mental-health",
+    "phrases": 27
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 17,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-733a459b",
+     "text": "ClinicalTrials.gov - Question - specific study: Can Low dose naltrexone be used for treatment of severe depression?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ54"
+    },
+    {
+     "id": "qb-48f36728",
+     "text": "norvasc and depression?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row216"
+    }
+   ]
+  },
+  "body/substance-use": {
+   "label": "Alcohol, drugs and addiction",
+   "definition": "Alcohol, tobacco, cannabis, opioids and other drugs, addiction and recovery.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L71",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Substance-Related Disorders",
+      "uri": "https://id.nlm.nih.gov/mesh/D019966"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/substance-use",
+    "phrases": 39
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 63,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-2be31c68",
+     "text": "heroin mixed with fentanyl what are the symptoms of an overdose",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row559"
+    },
+    {
+     "id": "qb-262a2fec",
+     "text": "does marijuana use lead to negative health outcomes?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row407"
+    }
+   ]
+  },
+  "body/infections": {
+   "label": "Infections",
+   "definition": "Infections by viruses, bacteria or fungi, including sexually transmitted ones.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L72",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Infections",
+      "uri": "https://id.nlm.nih.gov/mesh/D007239"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/infections",
+    "phrases": 33
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 89,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-aab187d3",
+     "text": "I am looking for information on how to prevent a shingles outbreak.",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ79"
+    },
+    {
+     "id": "qb-8748cd18",
+     "text": "how long should i take cipro for a urinary tract infection \"?\"",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row500"
+    }
+   ]
+  },
+  "body/vaccines": {
+   "label": "Vaccines",
+   "definition": "Vaccines and immunisation.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L73",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Vaccines",
+      "uri": "https://id.nlm.nih.gov/mesh/D014612"
+     },
+     {
+      "label": "Vaccination",
+      "uri": "https://id.nlm.nih.gov/mesh/D014611"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/vaccines",
+    "phrases": 20
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 43,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-439bdd09",
+     "text": "what is zostavax for?- consider waiting for a new vaccine coming spring of 2018",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row71"
+    },
+    {
+     "id": "qb-9c1ac5ec",
+     "text": "what are the inactive ingredients to the pneumonia vaccine",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row39"
+    }
+   ]
+  },
+  "body/lungs": {
+   "label": "Lungs and breathing",
+   "definition": "Lungs and breathing: asthma, COPD, cough, sleep apnoea.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L74",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Respiratory Tract Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D012140"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/lungs",
+    "phrases": 18
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 38,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-9f9e1254",
+     "text": "what is the dosage of levofloxacin tablets for bronchitis please",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row654"
+    },
+    {
+     "id": "qb-a4cac307",
+     "text": "how often should you use a dulera inhaler",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row247"
+    }
+   ]
+  },
+  "body/digestive": {
+   "label": "Stomach, gut and liver",
+   "definition": "Stomach, bowel, liver, pancreas and gallbladder.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L75",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Digestive System Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D004066"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/digestive",
+    "phrases": 32
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 39,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-4b6457d8",
+     "text": "what medications contribute to non-alcoholic fatty liver",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row286"
+    },
+    {
+     "id": "qb-eb1cf224",
+     "text": "why are anticholinergic drugs useful for treating gastrointestinal spasms associated with ibs",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row539"
+    }
+   ]
+  },
+  "body/kidneys": {
+   "label": "Kidneys and bladder",
+   "definition": "Kidneys, bladder, urinary tract and prostate.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L76",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Urologic Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D014570"
+     },
+     {
+      "label": "Kidney Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D007674"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/kidneys",
+    "phrases": 17
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 38,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-37f26504",
+     "text": "enoxaparin shot admin they injected into my kidney what will i do",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row461"
+    },
+    {
+     "id": "qb-8748cd18",
+     "text": "how long should i take cipro for a urinary tract infection \"?\"",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row500"
+    }
+   ]
+  },
+  "body/bones-joints": {
+   "label": "Bones, joints and muscles",
+   "definition": "Bones, joints, muscles and spine: arthritis, osteoporosis, back pain, injuries.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L77",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Musculoskeletal Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D009140"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/bones-joints",
+    "phrases": 28
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 65,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-1837872b",
+     "text": "how do botulinum toxin injections treat muscle conditions?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row558"
+    },
+    {
+     "id": "qb-bec641b2",
+     "text": "methotrexate how many milligrams for psoriatic arthritis",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row472"
+    }
+   ]
+  },
+  "body/skin": {
+   "label": "Skin, hair and nails",
+   "definition": "Skin, hair and nails.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L78",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Skin Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D012871"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/skin",
+    "phrases": 23
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 47,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-e0c5d8e5",
+     "text": "can i took minocycline for acne when i have kidney stone",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row525"
+    },
+    {
+     "id": "qb-cd4d05ba",
+     "text": "when does skin redness start on fluorouracil",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row67"
+    }
+   ]
+  },
+  "body/eyes-ears": {
+   "label": "Eyes, ears, nose and throat",
+   "definition": "Eyes and vision; ears, nose, throat and hearing.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L79",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Eye Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D005128"
+     },
+     {
+      "label": "Otorhinolaryngologic Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D010038"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/eyes-ears",
+    "phrases": 23
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 46,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-1a301ed8",
+     "text": "what is a daily amount of prednisolone eye drops to take",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row223"
+    },
+    {
+     "id": "qb-0251d0a1",
+     "text": "how much penicillin to treat strep throat for adult",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row502"
+    }
+   ]
+  },
+  "body/mouth-teeth": {
+   "label": "Mouth and teeth",
+   "definition": "Mouth, teeth, gums and jaw.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L80",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Mouth Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D009059"
+     },
+     {
+      "label": "Tooth Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D014076"
+     }
+    ],
+    "openEligibilityIds": [
+     1184
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/mouth-teeth",
+    "phrases": 16
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 24,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-9af575e2",
+     "text": "is it safe to add peppermint essential oil in \"mouth wash?\"",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row100"
+    },
+    {
+     "id": "qb-144b5e25",
+     "text": "is peppermint oil safe in \"mouth wash?\"",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row398"
+    }
+   ]
+  },
+  "body/sexual-reproductive": {
+   "label": "Sexual and reproductive health",
+   "definition": "Sexual health, contraception, fertility and the reproductive organs.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L81",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Reproductive Health",
+      "uri": "https://id.nlm.nih.gov/mesh/D060728"
+     },
+     {
+      "label": "Sexual Health",
+      "uri": "https://id.nlm.nih.gov/mesh/D000074384"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/sexual-reproductive",
+    "phrases": 34
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 40,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-bd0cedc2",
+     "text": "how many years will the viagra pill be potent",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row350"
+    },
+    {
+     "id": "qb-8e9617cb",
+     "text": "Painful menstrual periods: My wife has suffered this . How can treat this.",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#1-136399865.xml.txt"
+    }
+   ]
+  },
+  "body/pregnancy": {
+   "label": "Pregnancy and birth",
+   "definition": "Pregnancy, birth, breastfeeding and the newborn period.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L82",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Pregnancy",
+      "uri": "https://id.nlm.nih.gov/mesh/D011247"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/pregnancy",
+    "phrases": 18
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 21,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-fa76fded",
+     "text": "is it safe to take toradol when breast feeding",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row474"
+    },
+    {
+     "id": "qb-a858ae65",
+     "text": "vaccine when pregnant",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row626"
+    }
+   ]
+  },
+  "body/children": {
+   "label": "Children and teens",
+   "definition": "Questions about babies, children or teenagers.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L83",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Child",
+      "uri": "https://id.nlm.nih.gov/mesh/D002648"
+     },
+     {
+      "label": "Adolescent",
+      "uri": "https://id.nlm.nih.gov/mesh/D000293"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/children",
+    "phrases": 24
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 40,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-7f589a76",
+     "text": "what happens if your child ate a tylenol tablet",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row283"
+    },
+    {
+     "id": "qb-836c234f",
+     "text": "My son is 33years of age and did not have the measles vaccination.Could SSPE occur at this age or in the future?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ72"
+    }
+   ]
+  },
+  "body/older-adults": {
+   "label": "Older adults",
+   "definition": "Questions about older people and ageing.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L84",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Aged",
+      "uri": "https://id.nlm.nih.gov/mesh/D000368"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/older-adults",
+    "phrases": 13
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 11,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-fc42d6c6",
+     "text": "what is the max dose of oral iron supplement for senior citizen",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row593"
+    },
+    {
+     "id": "qb-0c454e10",
+     "text": "seniors and premarin?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row227"
+    }
+   ]
+  },
+  "body/genetic-rare": {
+   "label": "Genetic and rare conditions",
+   "definition": "Inherited, chromosomal and rare conditions.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L85",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Genetic Diseases, Inborn",
+      "uri": "https://id.nlm.nih.gov/mesh/D030342"
+     },
+     {
+      "label": "Rare Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D035583"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/genetic-rare",
+    "phrases": 21
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 112,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-9d6eb939",
+     "text": "Beckwith-Wieddeman Syndrome. I would like to request further knowledge on this specific disorder.",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ21"
+    },
+    {
+     "id": "qb-0d025d2b",
+     "text": "Mother has inherited ricketts. Passing A child but not B child. How likely would B child pass it on their child?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ75"
+    }
+   ]
+  },
+  "body/nutrition-weight": {
+   "label": "Food, nutrition and weight",
+   "definition": "Diet, nutrition, vitamins and body weight.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L86",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Diet",
+      "uri": "https://id.nlm.nih.gov/mesh/D004032"
+     },
+     {
+      "label": "Body Weight",
+      "uri": "https://id.nlm.nih.gov/mesh/D001835"
+     }
+    ],
+    "openEligibilityIds": [
+     1134
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/nutrition-weight",
+    "phrases": 25
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 58,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-fc42d6c6",
+     "text": "what is the max dose of oral iron supplement for senior citizen",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row593"
+    },
+    {
+     "id": "qb-626fe308",
+     "text": "amphetamine salts 20 mg: are they gluten free",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ3"
+    }
+   ]
+  },
+  "body/pain": {
+   "label": "Pain",
+   "definition": "Pain of any kind and its relief.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L87",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Pain",
+      "uri": "https://id.nlm.nih.gov/mesh/D010146"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/pain",
+    "phrases": 11
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 58,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-66cc5b43",
+     "text": "pain medication how to use",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row142"
+    },
+    {
+     "id": "qb-599fbd33",
+     "text": "how opioids reduce pain",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row229"
+    }
+   ]
+  },
+  "body/sleep": {
+   "label": "Sleep",
+   "definition": "Sleep and sleep problems.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L88",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Sleep Wake Disorders",
+      "uri": "https://id.nlm.nih.gov/mesh/D012893"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/sleep",
+    "phrases": 11
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 13,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-bbee4f91",
+     "text": "Topic not covered: What exactly is sleep paralysis?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ46"
+    },
+    {
+     "id": "qb-67761d1b",
+     "text": "how many mgs of seroquel does one take for sleep",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row555"
+    }
+   ]
+  },
+  "body/allergy-immune": {
+   "label": "Allergies and immune system",
+   "definition": "Allergies and the immune system, including autoimmune conditions.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L89",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health areas modelled loosely on the MedlinePlus health-topic groups (body systems, life stages), in our own wording; mapped to MeSH descriptors.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Immune System Diseases",
+      "uri": "https://id.nlm.nih.gov/mesh/D007154"
+     },
+     {
+      "label": "Hypersensitivity",
+      "uri": "https://id.nlm.nih.gov/mesh/D006967"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:body/allergy-immune",
+    "phrases": 12
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 20,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-c42a6a8f",
+     "text": "what to use with someone in place of morphine or iodine allergies",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row167"
+    },
+    {
+     "id": "qb-ebdb36a7",
+     "text": "if \"i'm\" allergic to penicillin can i take amoxicillin?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row488"
+    }
+   ]
+  },
+  "medicine": {
+   "label": "Kind of medicine",
+   "definition": "The kind of medicine a question is about, recognised by the brand and generic names people type.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L92",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": null,
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "medicine/opioids": {
+   "label": "Opioid pain medicines",
+   "definition": "Opioid pain medicines and opioid treatment medicines (methadone, buprenorphine).",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L93",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Analgesics, Opioid",
+      "uri": "https://id.nlm.nih.gov/mesh/D000701"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/opioids",
+    "phrases": 40
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 58,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-c42a6a8f",
+     "text": "what to use with someone in place of morphine or iodine allergies",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row167"
+    },
+    {
+     "id": "qb-900fef51",
+     "text": "how many milligrams of aceitomohen in a bottle of acetaminophen with codeine",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row490"
+    }
+   ]
+  },
+  "medicine/pain-otc": {
+   "label": "Over-the-counter pain and fever",
+   "definition": "Over-the-counter and anti-inflammatory pain and fever medicines.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L94",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Anti-Inflammatory Agents, Non-Steroidal",
+      "uri": "https://id.nlm.nih.gov/mesh/D000894"
+     },
+     {
+      "label": "Acetaminophen",
+      "uri": "https://id.nlm.nih.gov/mesh/D000082"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/pain-otc",
+    "phrases": 25
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 38,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-900fef51",
+     "text": "how many milligrams of aceitomohen in a bottle of acetaminophen with codeine",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row490"
+    },
+    {
+     "id": "qb-26f1eb5e",
+     "text": "how much acetaminophen in acetaminophen and codeine",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row110"
+    }
+   ]
+  },
+  "medicine/antidepressants": {
+   "label": "Antidepressants",
+   "definition": "Antidepressants (SSRIs, SNRIs and others).",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L95",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Antidepressive Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D000928"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/antidepressants",
+    "phrases": 46
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 24,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-b74ffb66",
+     "text": "can you take these tow medications at the same time of day concerta and lexapro?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row77"
+    },
+    {
+     "id": "qb-fc0ad6a1",
+     "text": "what happens when you mix cymbalta with muscle relaxes",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row574"
+    }
+   ]
+  },
+  "medicine/anxiety-sleep": {
+   "label": "Anxiety and sleep medicines",
+   "definition": "Medicines for anxiety and sleep: benzodiazepines, Z-drugs, sleep aids.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L96",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Hypnotics and Sedatives",
+      "uri": "https://id.nlm.nih.gov/mesh/D006993"
+     },
+     {
+      "label": "Anti-Anxiety Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D014151"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/anxiety-sleep",
+    "phrases": 38
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 20,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-ef36e3ea",
+     "text": "i take lorazepam, my eyes are blurry, if i stop taking it, will my eyes clear up ?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row63"
+    },
+    {
+     "id": "qb-87e7de2b",
+     "text": "1 mg ativan ccis a small does of ativan for adults?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row468"
+    }
+   ]
+  },
+  "medicine/psychiatric": {
+   "label": "Antipsychotics, mood and ADHD medicines",
+   "definition": "Antipsychotics, mood stabilisers and stimulant (ADHD) medicines.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L97",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Antipsychotic Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D014150"
+     },
+     {
+      "label": "Central Nervous System Stimulants",
+      "uri": "https://id.nlm.nih.gov/mesh/D000697"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/psychiatric",
+    "phrases": 44
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 23,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-b74ffb66",
+     "text": "can you take these tow medications at the same time of day concerta and lexapro?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row77"
+    },
+    {
+     "id": "qb-67761d1b",
+     "text": "how many mgs of seroquel does one take for sleep",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row555"
+    }
+   ]
+  },
+  "medicine/heart-bp": {
+   "label": "Heart and blood pressure medicines",
+   "definition": "Medicines for blood pressure, heart failure and heart rhythm.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L98",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Antihypertensive Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D000959"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/heart-bp",
+    "phrases": 47
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 54,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-af4d686b",
+     "text": "how fast does teh medications take to work amlodipine",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row258"
+    },
+    {
+     "id": "qb-17630a67",
+     "text": "should metoprolol and lexapro be taken together?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row274"
+    }
+   ]
+  },
+  "medicine/cholesterol": {
+   "label": "Cholesterol medicines",
+   "definition": "Statins and other cholesterol medicines.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L99",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+      "uri": "https://id.nlm.nih.gov/mesh/D019161"
+     },
+     {
+      "label": "Hypolipidemic Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D000960"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/cholesterol",
+    "phrases": 27
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 20,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-719052fd",
+     "text": "why \"shouldn't\" i take gemfibrozil while taking lovastatin?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row483"
+    },
+    {
+     "id": "qb-1ee4a48a",
+     "text": "what happened if one takes a double does of simvastatin",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row79"
+    }
+   ]
+  },
+  "medicine/blood-thinners": {
+   "label": "Blood thinners",
+   "definition": "Anticoagulants and antiplatelet medicines.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L100",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Anticoagulants",
+      "uri": "https://id.nlm.nih.gov/mesh/D000925"
+     },
+     {
+      "label": "Platelet Aggregation Inhibitors",
+      "uri": "https://id.nlm.nih.gov/mesh/D010975"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/blood-thinners",
+    "phrases": 23
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 25,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-833893e9",
+     "text": "what is the reason for having to use heparin after a antibodies fusion",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row289"
+    },
+    {
+     "id": "qb-37f26504",
+     "text": "enoxaparin shot admin they injected into my kidney what will i do",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row461"
+    }
+   ]
+  },
+  "medicine/diabetes": {
+   "label": "Diabetes medicines",
+   "definition": "Insulin and other diabetes and GLP-1 medicines.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L101",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Hypoglycemic Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D007004"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/diabetes",
+    "phrases": 36
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 29,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-2864e94c",
+     "text": "if i am allergic to sufa can i take glipizide?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row306"
+    },
+    {
+     "id": "qb-fbcfadf3",
+     "text": "problems when stopping metformin, hair loss?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row516"
+    }
+   ]
+  },
+  "medicine/antibiotics": {
+   "label": "Antibiotics and antivirals",
+   "definition": "Antibiotics, antivirals and antifungals.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L102",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Anti-Bacterial Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D000900"
+     },
+     {
+      "label": "Antiviral Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D000998"
+     },
+     {
+      "label": "Antifungal Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D000935"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/antibiotics",
+    "phrases": 65
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 57,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-7b6fd99a",
+     "text": "do antibiotics like keflex continue working after cessation of drug ?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row139"
+    },
+    {
+     "id": "qb-9f9e1254",
+     "text": "what is the dosage of levofloxacin tablets for bronchitis please",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row654"
+    }
+   ]
+  },
+  "medicine/hormones": {
+   "label": "Hormones, thyroid and birth control",
+   "definition": "Thyroid hormone, sex hormones, birth control pills and steroids.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L103",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Hormones",
+      "uri": "https://id.nlm.nih.gov/mesh/D006728"
+     },
+     {
+      "label": "Contraceptive Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D003270"
+     },
+     {
+      "label": "Glucocorticoids",
+      "uri": "https://id.nlm.nih.gov/mesh/D005938"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/hormones",
+    "phrases": 32
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 50,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-9d11dee1",
+     "text": "estradiol 75g patch: Can I stop using the patch only been on it 4.5 months",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ17"
+    },
+    {
+     "id": "qb-45a875ae",
+     "text": "can i have allergie test when taking methylprednisolone?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row374"
+    }
+   ]
+  },
+  "medicine/stomach": {
+   "label": "Stomach and acid medicines",
+   "definition": "Acid reducers, antacids, laxatives, anti-nausea and other gut medicines.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L104",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Gastrointestinal Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D005765"
+     },
+     {
+      "label": "Proton Pump Inhibitors",
+      "uri": "https://id.nlm.nih.gov/mesh/D054328"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/stomach",
+    "phrases": 46
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 20,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-fbdae2ee",
+     "text": "how long before a meal should lansoprazole be taken",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row17"
+    },
+    {
+     "id": "qb-ba3eb122",
+     "text": "what are the active incredience in balsalazide",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row353"
+    }
+   ]
+  },
+  "medicine/allergy-cold": {
+   "label": "Allergy, cold and asthma medicines",
+   "definition": "Antihistamines, decongestants, cough and cold remedies and asthma inhalers.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L105",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Histamine Antagonists",
+      "uri": "https://id.nlm.nih.gov/mesh/D006633"
+     },
+     {
+      "label": "Anti-Asthmatic Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D018927"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/allergy-cold",
+    "phrases": 51
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 24,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-f5b40cb1",
+     "text": "what do i mix albuterol sulfate inhalation solution with in my nebulizer?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row436"
+    },
+    {
+     "id": "qb-a4cac307",
+     "text": "how often should you use a dulera inhaler",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row247"
+    }
+   ]
+  },
+  "medicine/seizure-nerve": {
+   "label": "Seizure and nerve-pain medicines",
+   "definition": "Anticonvulsants, also used for nerve pain.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L106",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Anticonvulsants",
+      "uri": "https://id.nlm.nih.gov/mesh/D000927"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/seizure-nerve",
+    "phrases": 29
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 23,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-86a24819",
+     "text": "is 600mg of gabapentin considered a strong dose ? how high in my can it go?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row392"
+    },
+    {
+     "id": "qb-d557e8b8",
+     "text": "why did my doctor give me levetiracetam what is use for",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row356"
+    }
+   ]
+  },
+  "medicine/muscle-relaxants": {
+   "label": "Muscle relaxants",
+   "definition": "Muscle relaxants.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L107",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Muscle Relaxants, Central",
+      "uri": "https://id.nlm.nih.gov/mesh/D009125"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/muscle-relaxants",
+    "phrases": 21
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 3,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-fc0ad6a1",
+     "text": "what happens when you mix cymbalta with muscle relaxes",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row574"
+    },
+    {
+     "id": "qb-a1d418fa",
+     "text": "how much time before tizanidine takes effect",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row94"
+    }
+   ]
+  },
+  "medicine/supplements": {
+   "label": "Vitamins, supplements and herbs",
+   "definition": "Vitamins, minerals, herbal and other dietary supplements.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L108",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Dietary Supplements",
+      "uri": "https://id.nlm.nih.gov/mesh/D019587"
+     },
+     {
+      "label": "Vitamins",
+      "uri": "https://id.nlm.nih.gov/mesh/D014815"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/supplements",
+    "phrases": 33
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 50,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-fc42d6c6",
+     "text": "what is the max dose of oral iron supplement for senior citizen",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row593"
+    },
+    {
+     "id": "qb-647c9813",
+     "text": "do i take over the counter calciun with alendronate?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row305"
+    }
+   ]
+  },
+  "medicine/osteoporosis-arthritis": {
+   "label": "Bone, arthritis and gout medicines",
+   "definition": "Medicines for osteoporosis, rheumatoid and other arthritis, and gout.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L109",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Bone Density Conservation Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D050071"
+     },
+     {
+      "label": "Antirheumatic Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D018501"
+     },
+     {
+      "label": "Gout Suppressants",
+      "uri": "https://id.nlm.nih.gov/mesh/D006074"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/osteoporosis-arthritis",
+    "phrases": 23
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 13,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-bec641b2",
+     "text": "methotrexate how many milligrams for psoriatic arthritis",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row472"
+    },
+    {
+     "id": "qb-647c9813",
+     "text": "do i take over the counter calciun with alendronate?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row305"
+    }
+   ]
+  },
+  "medicine/dementia": {
+   "label": "Dementia and Parkinson's medicines",
+   "definition": "Medicines for dementia and Parkinson's disease.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L110",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Cholinesterase Inhibitors",
+      "uri": "https://id.nlm.nih.gov/mesh/D002800"
+     },
+     {
+      "label": "Antiparkinson Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D000978"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/dementia",
+    "phrases": 26
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 12,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-ffdf246a",
+     "text": "how long does it take to get carbidopa levodopa out of your system",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row293"
+    },
+    {
+     "id": "qb-c2215273",
+     "text": "what color are the pills for levodopa carbidopa for \"50/200\" mg extended relief",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row117"
+    }
+   ]
+  },
+  "medicine/urinary-ed": {
+   "label": "Bladder, prostate and erection medicines",
+   "definition": "Medicines for the bladder, the prostate and erectile dysfunction.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L111",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Urological Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D064804"
+     },
+     {
+      "label": "Phosphodiesterase 5 Inhibitors",
+      "uri": "https://id.nlm.nih.gov/mesh/D058986"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/urinary-ed",
+    "phrases": 19
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 16,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-38291f39",
+     "text": "what is highest dose of oxybutynin a person can take",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row211"
+    },
+    {
+     "id": "qb-bd0cedc2",
+     "text": "how many years will the viagra pill be potent",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row350"
+    }
+   ]
+  },
+  "medicine/cancer-drugs": {
+   "label": "Cancer medicines",
+   "definition": "Chemotherapy, hormone therapy and immunotherapy for cancer.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L112",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Antineoplastic Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D000970"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/cancer-drugs",
+    "phrases": 21
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 9,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-b2fe1218",
+     "text": "what is usual infusion time for cetuximab injecetion",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row327"
+    },
+    {
+     "id": "qb-68724510",
+     "text": "how to safely stop taking anastrozole",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row463"
+    }
+   ]
+  },
+  "medicine/eye-skin": {
+   "label": "Eye drops and skin medicines",
+   "definition": "Eye drops and medicines put on the skin.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L113",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Drug classes as MeSH pharmacologic actions, recognised by the brand and generic names in the questions.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Ophthalmic Solutions",
+      "uri": "https://id.nlm.nih.gov/mesh/D009883"
+     },
+     {
+      "label": "Dermatologic Agents",
+      "uri": "https://id.nlm.nih.gov/mesh/D003879"
+     }
+    ],
+    "openEligibilityIds": []
+   },
+   "rule": {
+    "key": "health-questions.keywords:medicine/eye-skin",
+    "phrases": 28
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 31,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-21b7e230",
+     "text": "is erythromycin ophthalmic ointment good for inflamed eyelids?",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row670"
+    },
+    {
+     "id": "qb-2e34cb28",
+     "text": "what is clotrimazole and betamethasone dipropionage cream",
+     "by": "A member of the public asking MedlinePlus (U.S. National Library of Medicine)",
+     "source": "abachaa/Medication_QA_MedInfo2019@20363d1:MedInfo2019-QA-Medications.xlsx#row635"
+    }
+   ]
+  },
+  "services": {
+   "label": "Health and human services",
+   "definition": "Health and human services a person is looking for: help with care, costs, food, housing and daily life.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L116",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [],
+    "openEligibilityIds": []
+   },
+   "rule": null,
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "services/find-care": {
+   "label": "Finding a doctor or clinic",
+   "definition": "Finding a doctor, clinic, specialist or other place to get care.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L117",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Health Services Accessibility",
+      "uri": "https://id.nlm.nih.gov/mesh/D006297"
+     }
+    ],
+    "openEligibilityIds": [
+     1206
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/find-care",
+    "phrases": 14
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 3,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-0952210b",
+     "text": "cant use site.: I want to find a doctor who specializes in burning mouth syndrome and that could be in many specialities, I cannot understand how to do this on your website.",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/LiveQA_MedicalTask_TREC2017@725a2d9:TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml#TQ16"
+    },
+    {
+     "id": "qb-c12ef55b",
+     "text": "Treatment for Nodular Goiter: Hi, I'm suffering from nodular goiter. The size of enlarged thyroid gland is visible, but not like a big one. I need treatment for this. Some Doctors have suggested surgery which I don't want to go through. What are the other treatment options. Also let me know the place where I can visit to consult. Thanks, [NAME]",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#15113.txt"
+    }
+   ]
+  },
+  "services/pay-for-care": {
+   "label": "Paying for care and medicine",
+   "definition": "Help paying medical bills or for medicines.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L118",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Financing, Personal",
+      "uri": "https://id.nlm.nih.gov/mesh/D005382"
+     }
+    ],
+    "openEligibilityIds": [
+     1199
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/pay-for-care",
+    "phrases": 16
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "services/insurance": {
+   "label": "Health insurance and benefits",
+   "definition": "Health insurance and public benefits: Medicaid, Medicare, the Marketplace, disability benefits.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L119",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Insurance, Health",
+      "uri": "https://id.nlm.nih.gov/mesh/D007348"
+     }
+    ],
+    "openEligibilityIds": [
+     1267,
+     1256
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/insurance",
+    "phrases": 20
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "services/mental-health": {
+   "label": "Mental health services",
+   "definition": "Places to get mental health care or crisis support.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L120",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Mental Health Services",
+      "uri": "https://id.nlm.nih.gov/mesh/D008605"
+     }
+    ],
+    "openEligibilityIds": [
+     1126
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/mental-health",
+    "phrases": 10
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "services/addiction": {
+   "label": "Addiction treatment and recovery",
+   "definition": "Places and programmes for addiction treatment, harm reduction and recovery support.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L121",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Substance Abuse Treatment Centers",
+      "uri": "https://id.nlm.nih.gov/mesh/D016320"
+     }
+    ],
+    "openEligibilityIds": [
+     1178
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/addiction",
+    "phrases": 20
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "services/dental": {
+   "label": "Dental care",
+   "definition": "Places to get dental care, including low-cost care.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L122",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Dental Care",
+      "uri": "https://id.nlm.nih.gov/mesh/D003729"
+     }
+    ],
+    "openEligibilityIds": [
+     1184
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/dental",
+    "phrases": 7
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 2,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-9f1b66a2",
+     "text": "Referral: Vacationing in and near [LOCATION] Puerto Rico. How to I find a dentist for toothache?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#16988.txt"
+    },
+    {
+     "id": "qb-9887ae89",
+     "text": "ClinicalTrials.gov - Question - specific study: Dental/sjogrens. Because of Sjogrens, my teeth have decayed Severely in the past 2 years.I have a few teeth that have not decayed. It is devastating! What should I do...implants or dentures? What about funds? Help. [NAME]",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#1-132155855.xml.txt"
+    }
+   ]
+  },
+  "services/food": {
+   "label": "Food and nutrition help",
+   "definition": "Food help: pantries, SNAP, WIC, meals.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L123",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Food Assistance",
+      "uri": "https://id.nlm.nih.gov/mesh/D063105"
+     }
+    ],
+    "openEligibilityIds": [
+     1102
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/food",
+    "phrases": 11
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "services/housing": {
+   "label": "Housing and shelter",
+   "definition": "Housing and shelter help, and home conditions that affect health.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L124",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Housing",
+      "uri": "https://id.nlm.nih.gov/mesh/D006798"
+     }
+    ],
+    "openEligibilityIds": [
+     1103
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/housing",
+    "phrases": 16
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "services/transport": {
+   "label": "Getting to appointments",
+   "definition": "Getting to medical appointments.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L125",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Transportation of Patients",
+      "uri": "https://id.nlm.nih.gov/mesh/D014187"
+     }
+    ],
+    "openEligibilityIds": [
+     1105
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/transport",
+    "phrases": 9
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "services/caregiving": {
+   "label": "Caregiving, home care and long-term care",
+   "definition": "Help for caregivers, home care and long-term care.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L126",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Caregivers",
+      "uri": "https://id.nlm.nih.gov/mesh/D017028"
+     },
+     {
+      "label": "Long-Term Care",
+      "uri": "https://id.nlm.nih.gov/mesh/D008134"
+     }
+    ],
+    "openEligibilityIds": [
+     1108
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/caregiving",
+    "phrases": 13
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 3,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-c5b592de",
+     "text": "care giving for parents: My mother has been diagnosed with Alzheimer's, my father is not of the greatest health either and is the main caregiver for my mother. My question is where do we start with attempting to help our parents w/ the care giving and what sort of financial options are there out there for people on fixed incomes.",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#13459.txt"
+    },
+    {
+     "id": "qb-0aa7dbc2",
+     "text": "I am looking for resources on how to deal with my husband who has vascular dementia and unsteady gait. Main prblem is him refusing to get out of bed for meals or activities of daily living. it takes hours on daily basis to get these essential basic life activities done. His doctors are aware but not very helpful. Any ideas or resources, other than SNF, will be apreciated",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#1-132533175.xml.txt"
+    }
+   ]
+  },
+  "services/end-of-life": {
+   "label": "End-of-life care",
+   "definition": "Hospice, palliative care and planning for the end of life.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L127",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Hospice and Palliative Care Nursing",
+      "uri": "https://id.nlm.nih.gov/mesh/D064946"
+     },
+     {
+      "label": "Terminal Care",
+      "uri": "https://id.nlm.nih.gov/mesh/D013727"
+     }
+    ],
+    "openEligibilityIds": [
+     1185
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/end-of-life",
+    "phrases": 10
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 2,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-ba782985",
+     "text": "stage 5 kidney failure: father-in-law 84.now in hospice. is sweating normal?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#1-135403645.xml.txt"
+    },
+    {
+     "id": "qb-37b62cd1",
+     "text": "physician assisted suicide legal in any state? what is someone is dying and they really want to die with dignity before the disease ravages their mind?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#16773.txt"
+    }
+   ]
+  },
+  "services/disability": {
+   "label": "Disability support and equipment",
+   "definition": "Disability support and medical equipment.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L128",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Persons with Disabilities",
+      "uri": "https://id.nlm.nih.gov/mesh/D006233"
+     },
+     {
+      "label": "Self-Help Devices",
+      "uri": "https://id.nlm.nih.gov/mesh/D012656"
+     }
+    ],
+    "openEligibilityIds": [
+     1104
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/disability",
+    "phrases": 15
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 4,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-b7403506",
+     "text": "hello medineplus,: i am a student an i am suffering from muscular dystrophy...i just want to know that, is muscular dystrophy belongs to locomotor disability? thanks, yours sincerely",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#1-132240968.xml.txt"
+    },
+    {
+     "id": "qb-64e91eb3",
+     "text": "Prothesis to assist Facioscapulohumeral muscular dystrophy. My 22 yr old grandson has Facioscapulohumeral muscular dystrophy. Has weak arm & hands curl inward. He has difficulty picking up a plate or opening doors. Some type of shoulder harness with support for arms could help. Something electrical like limbs for amputees. Is anything being considered in this area?",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#49.txt"
+    }
+   ]
+  },
+  "services/family": {
+   "label": "Family, pregnancy and child support",
+   "definition": "Childcare, parenting and family support.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L129",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Child Care",
+      "uri": "https://id.nlm.nih.gov/mesh/D002654"
+     }
+    ],
+    "openEligibilityIds": [
+     1108
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/family",
+    "phrases": 12
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "services/safety": {
+   "label": "Safety, abuse and emergencies",
+   "definition": "Help with abuse, violence, poisoning and other emergencies.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L130",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Domestic Violence",
+      "uri": "https://id.nlm.nih.gov/mesh/D017579"
+     },
+     {
+      "label": "Emergencies",
+      "uri": "https://id.nlm.nih.gov/mesh/D004630"
+     }
+    ],
+    "openEligibilityIds": [
+     1101
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/safety",
+    "phrases": 17
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "services/legal-work": {
+   "label": "Legal help, work and money",
+   "definition": "Legal help, work, leave and money matters linked to health.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L131",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Legal Services",
+      "uri": "https://id.nlm.nih.gov/mesh/D000067408"
+     }
+    ],
+    "openEligibilityIds": [
+     1111,
+     1110,
+     1107
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/legal-work",
+    "phrases": 17
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 0,
+    "of": 1744
+   },
+   "examples": []
+  },
+  "services/public-health": {
+   "label": "Public health and records",
+   "definition": "Health department services: records, inspections, outbreaks, environmental health.",
+   "definitionBy": "ai-drafted (Claude), not yet checked by a person",
+   "origin": {
+    "created": "2026-11-20",
+    "by": "Claude (Claude Code) on Kalman's behalf",
+    "issue": "vivwebsolutions/HealthRAG#158",
+    "definedIn": "vivwebsolutions/HealthRAG@5603417:scripts/question-bank/taxonomy.py#L132",
+    "importedAs": "CSV (health-questions.vtt.csv), notation = path"
+   },
+   "basis": {
+    "facet": "Health and human services needs, using Open Eligibility (Aunt Bertha, CC BY-SA 3.0) as the reference. Our own labels; crosswalk by Open Eligibility id only.",
+    "sourceQuestionTypes": [],
+    "mesh": [
+     {
+      "label": "Public Health",
+      "uri": "https://id.nlm.nih.gov/mesh/D011634"
+     }
+    ],
+    "openEligibilityIds": [
+     1190
+    ]
+   },
+   "rule": {
+    "key": "health-questions.keywords:services/public-health",
+    "phrases": 14
+   },
+   "usage": {
+    "corpus": "health-question-bank",
+    "questions": 1,
+    "of": 1744
+   },
+   "examples": [
+    {
+     "id": "qb-584e2e5f",
+     "text": "Mayonnaise and food poisoning: I have researched many other sites that say that mayonnaise is a safe food and that it is a myth that it causes food poisoning. It seems to get a bad rap because it is used in combination with other items that cause food poisoning. Some sites insist that it can even prevent the onslaught of bacterial growth, thus helping to ward off food poisoning because of its acidic nature. Apparently it often used to be made at home, with eggs, and the eggs would go bad.....mayonnaise has thus carried this stigma ever since. But many sites insist it is safe. I was wondering what you think of these findings? Thank you!",
+     "by": "A member of the public writing to the U.S. National Library of Medicine",
+     "source": "abachaa/MeQSum@51e36cf:MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx#1-131027425.xml.txt"
+    }
+   ]
+  }
+ }
+}

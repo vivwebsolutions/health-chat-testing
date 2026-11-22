@@ -1,0 +1,3703 @@
+[
+ {
+  "pmid": "39423368",
+  "doi": "10.1109/icassp48485.2024.10448234",
+  "title": "Large Language Models for Mental Health Applications: Systematic Review.",
+  "authors": "Guo Z, Lai A, Thygesen JH et al.",
+  "journal": "JMIR mental health",
+  "year": "2024",
+  "study_kind": "systematic-review",
+  "specialty": "mental health",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/emergencies",
+   "safety/hallucination",
+   "communication/language",
+   "equity/accessibility",
+   "trust/privacy",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/guideline",
+   "method/instrument"
+  ],
+  "instruments": [
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (mental health); focus: accuracy, completeness, emergency/crisis handling, hallucination/misinformation using PRISMA; method: expert rating, guideline-based reference, validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Systematic Review",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "40577783",
+  "doi": "10.1145/3328413.3328415",
+  "title": "The Application and Ethical Implication of Generative AI in Mental Health: Systematic Review.",
+  "authors": "Wang X, Zhou Y, Zhou G",
+  "journal": "JMIR mental health",
+  "year": "2025",
+  "study_kind": "systematic-review",
+  "specialty": "mental health",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/harm",
+   "safety/emergencies",
+   "equity/bias",
+   "equity/accessibility",
+   "trust/privacy",
+   "method/guideline",
+   "method/instrument"
+  ],
+  "instruments": [
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (mental health); focus: accuracy, completeness, harm/safety, emergency/crisis handling using PRISMA; method: guideline-based reference, validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Systematic Review",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "41018275",
+  "doi": "10.1093/jamia/ocae025",
+  "title": "Clinical applications and limitations of large language models in nephrology: a systematic review.",
+  "authors": "Unger Z, Soffer S, Efros O et al.",
+  "journal": "Clinical kidney journal",
+  "year": "2025",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/sources",
+   "communication/readability",
+   "communication/actionability",
+   "trust/transparency",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "Global Quality Score",
+   "TRIPOD-LLM"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: accuracy, source/citation quality, readability, actionability/understandability using Global Quality Score, TRIPOD-LLM; method: validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39903463",
+  "doi": "10.48550/arXiv/2401.12874",
+  "title": "Large Language Models for Chatbot Health Advice Studies: A Systematic Review.",
+  "authors": "Huo B, Boyle A, Marfo N et al.",
+  "journal": "JAMA network open",
+  "year": "2025",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "safety/harm",
+   "equity/accessibility",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "CHART"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: accuracy, harm/safety, accessibility/health literacy, transparency/reporting using CHART; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Systematic Review",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "42542374",
+  "doi": "10.3899/jrheum.2026-0444",
+  "title": "ChatGPT and Other Large Language Models in Inflammatory Arthritis: A Systematic Review Across Clinical Tasks.",
+  "authors": "Adiniaev Y, Omar M, Timor TM et al.",
+  "journal": "The Journal of rheumatology",
+  "year": "2026",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/sources",
+   "communication/readability",
+   "communication/actionability",
+   "method/expert-rating",
+   "method/real-questions",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: accuracy, source/citation quality, readability, actionability/understandability; method: expert rating, real-user questions, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "42830931",
+  "doi": "10.2196/59843",
+  "title": "Large Language Model-Generated Patient Education Materials in Pediatric Ophthalmology: A Scoping Review.",
+  "authors": "Mohamed AA, Armstrong TS, Srivastava O et al.",
+  "journal": "Clinical ophthalmology (Auckland, N.Z.)",
+  "year": "2026",
+  "study_kind": "systematic-review",
+  "specialty": "ophthalmology; pediatrics",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/harm",
+   "safety/hallucination",
+   "communication/readability",
+   "communication/actionability",
+   "equity/accessibility",
+   "method/expert-rating",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "PEMAT",
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (ophthalmology; pediatrics); focus: accuracy, completeness, harm/safety, hallucination/misinformation using PEMAT, PRISMA; method: expert rating, validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "39509695",
+  "doi": "10.1109/tnnls.2021.3129592",
+  "title": "Applications and Concerns of ChatGPT and Other Conversational Large Language Models in Health Care: Systematic Review.",
+  "authors": "Wang L, Wan Z, Ni C et al.",
+  "journal": "Journal of medical Internet research",
+  "year": "2024",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/consistency",
+   "safety/emergencies",
+   "equity/bias",
+   "equity/accessibility",
+   "trust/privacy",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: accuracy, consistency across runs, emergency/crisis handling, bias/equity using PRISMA; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Systematic Review",
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ]
+ },
+ {
+  "pmid": "40489764",
+  "doi": "10.2196/56764",
+  "title": "Large Language Models in Medical Diagnostics: Scoping Review With Bibliometric Analysis.",
+  "authors": "Su H, Sun Y, Li R et al.",
+  "journal": "Journal of medical Internet research",
+  "year": "2025",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/hallucination",
+   "equity/bias",
+   "trust/privacy",
+   "trust/transparency",
+   "method/instrument"
+  ],
+  "instruments": [
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: accuracy, completeness, hallucination/misinformation, bias/equity using PRISMA; method: validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Scoping Review"
+  ]
+ },
+ {
+  "pmid": "42618044",
+  "doi": "10.1109/access.2026.3651218",
+  "title": "The Reliability of Human Evaluation of Large Language Models in Health Care Settings: Scoping Review.",
+  "authors": "Yang E, Ko S, Woo H",
+  "journal": "Journal of medical Internet research",
+  "year": "2026",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/consistency",
+   "safety/harm",
+   "safety/scope",
+   "communication/actionability",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "Likert scale",
+   "PRISMA",
+   "Rubric"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: accuracy, completeness, consistency across runs, harm/safety using Likert scale, PRISMA, Rubric; method: validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Scoping Review"
+  ]
+ },
+ {
+  "pmid": "39290765",
+  "doi": "10.22037/aaem.v12i1.2384",
+  "title": "Diagnostic Accuracy of ChatGPT for Patients' Triage; a Systematic Review and Meta-Analysis.",
+  "authors": "Kaboudi N, Firouzbakht S, Shahir Eftekhar M et al.",
+  "journal": "Archives of academic emergency medicine",
+  "year": "2024",
+  "study_kind": "systematic-review",
+  "specialty": "emergency medicine",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/harm",
+   "safety/emergencies",
+   "equity/bias",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "QUADAS",
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (emergency medicine); focus: accuracy, completeness, harm/safety, emergency/crisis handling using QUADAS, PRISMA; method: validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "39534227",
+  "doi": "10.2196/50882",
+  "title": "Large language models in patient education: a scoping review of applications in medicine.",
+  "authors": "Aydin S, Karabacak M, Vlachos V et al.",
+  "journal": "Frontiers in medicine",
+  "year": "2024",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/actionability",
+   "equity/bias",
+   "equity/accessibility",
+   "method/instrument"
+  ],
+  "instruments": [
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: accuracy, readability, actionability/understandability, bias/equity using PRISMA; method: validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Scoping Review"
+  ]
+ },
+ {
+  "pmid": "42322047",
+  "doi": "10.1097/BPB.0000000000001368",
+  "title": "Clinical accuracy and applications of large language models in pediatric orthopedics: a systematic review.",
+  "authors": "Qureshi I, Thomas N, Heffelfinger M et al.",
+  "journal": "Journal of pediatric orthopedics. Part B",
+  "year": "2026",
+  "study_kind": "systematic-review",
+  "specialty": "pediatrics; orthopedics",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/consistency",
+   "safety/emergencies",
+   "communication/readability",
+   "communication/actionability",
+   "method/expert-rating",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "Flesch-Kincaid Grade Level",
+   "Cohen/Fleiss kappa"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (pediatrics; orthopedics); focus: accuracy, consistency across runs, emergency/crisis handling, readability using Flesch-Kincaid Grade Level, Cohen/Fleiss kappa; method: expert rating, validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "42624944",
+  "doi": "10.1016/0895-4356(90)90158-L",
+  "title": "A scoping review on the mental health harms of LLM-based chatbots.",
+  "authors": "Diel A, Torous J, Cuijpers P et al.",
+  "journal": "NPJ digital medicine",
+  "year": "2026",
+  "study_kind": "systematic-review",
+  "specialty": "mental health",
+  "dimensions": [
+   "safety/harm",
+   "safety/emergencies",
+   "safety/false-premise",
+   "safety/hallucination",
+   "equity/bias",
+   "trust/privacy",
+   "method/instrument"
+  ],
+  "instruments": [
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (mental health); focus: harm/safety, emergency/crisis handling, false-premise/sycophancy robustness, hallucination/misinformation using PRISMA; method: validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38728687",
+  "doi": "10.2196/40843",
+  "title": "The Role of Large Language Models in Transforming Emergency Medicine: Scoping Review.",
+  "authors": "Preiksaitis C, Ashenburg N, Bunney G et al.",
+  "journal": "JMIR medical informatics",
+  "year": "2024",
+  "study_kind": "systematic-review",
+  "specialty": "gastroenterology; emergency medicine",
+  "dimensions": [
+   "quality/completeness",
+   "safety/emergencies",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (gastroenterology; emergency medicine); focus: completeness, emergency/crisis handling, transparency/reporting using PRISMA; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Scoping Review"
+  ]
+ },
+ {
+  "pmid": "41284992",
+  "doi": "10.1371/journal.pdig.0000341",
+  "title": "Large Language Models in Critical Care Medicine: Scoping Review.",
+  "authors": "Shi T, Ma J, Yu Z et al.",
+  "journal": "JMIR medical informatics",
+  "year": "2025",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/currency",
+   "safety/hallucination",
+   "equity/bias",
+   "trust/privacy",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/guideline",
+   "method/instrument"
+  ],
+  "instruments": [
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: currency of information, hallucination/misinformation, bias/equity, privacy using PRISMA; method: expert rating, guideline-based reference, validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Scoping Review",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "41325597",
+  "doi": "10.5946/ce.2024.039",
+  "title": "Knowledge-Practice Performance Gap in Clinical Large Language Models: Systematic Review of 39 Benchmarks.",
+  "authors": "Gong EJ, Bang CS, Lee JJ et al.",
+  "journal": "Journal of medical Internet research",
+  "year": "2025",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/harm",
+   "communication/language",
+   "method/expert-rating",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "HealthBench",
+   "MedQA/USMLE"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: accuracy, completeness, harm/safety, non-English/language handling using HealthBench, MedQA/USMLE; method: expert rating, validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "42993960",
+  "doi": "10.2196/98084",
+  "title": "Large Language Models for Generating Patient Education Materials: Scoping Review.",
+  "authors": "Li C, Li J, Liu X et al.",
+  "journal": "Journal of medical Internet research",
+  "year": "2026",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/completeness",
+   "safety/harm",
+   "communication/readability",
+   "communication/actionability",
+   "equity/accessibility",
+   "method/expert-rating",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: completeness, harm/safety, readability, actionability/understandability using PRISMA; method: expert rating, validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Scoping Review"
+  ]
+ },
+ {
+  "pmid": "41160267",
+  "doi": "10.1007/s00345-025-06019-z",
+  "title": "Large language model chatbots for patient education in kidney stones: a scoping review.",
+  "authors": "Goudrar R, Zekraoui O, Moussa I et al.",
+  "journal": "World journal of urology",
+  "year": "2025",
+  "study_kind": "systematic-review",
+  "specialty": "urology",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/empathy",
+   "communication/actionability",
+   "communication/language",
+   "method/expert-rating",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (urology); focus: accuracy, readability, empathy, actionability/understandability; method: expert rating, guideline-based reference",
+  "pubtypes": [
+   "Scoping Review",
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41115171",
+  "doi": "10.1038/s41562-023-01675-w",
+  "title": "AI chatbots versus human healthcare professionals: a systematic review and meta-analysis of empathy in patient care.",
+  "authors": "Howcroft A, Bennett-Weston A, Khan A et al.",
+  "journal": "British medical bulletin",
+  "year": "2025",
+  "study_kind": "systematic-review",
+  "specialty": "mental health",
+  "dimensions": [
+   "safety/harm",
+   "communication/empathy",
+   "method/expert-rating"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (mental health); focus: harm/safety, empathy; method: expert rating",
+  "pubtypes": [
+   "Journal Article",
+   "Systematic Review",
+   "Meta-Analysis"
+  ]
+ },
+ {
+  "pmid": "39579215",
+  "doi": "10.7759/cureus.36715",
+  "title": "Large language models in neurosurgery: a systematic review and meta-analysis.",
+  "authors": "Patil A, Serrato P, Chisvo N et al.",
+  "journal": "Acta neurochirurgica",
+  "year": "2024",
+  "study_kind": "systematic-review",
+  "specialty": "surgery",
+  "dimensions": [
+   "quality/consistency",
+   "safety/hallucination",
+   "trust/transparency",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (surgery); focus: consistency across runs, hallucination/misinformation, transparency/reporting; method: guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Systematic Review",
+   "Meta-Analysis"
+  ]
+ },
+ {
+  "pmid": "41144954",
+  "doi": "10.1056/aioa2400802",
+  "title": "Evaluating Large Language Models in Ophthalmology: Systematic Review.",
+  "authors": "Zhang Z, Zhang H, Pan Z et al.",
+  "journal": "Journal of medical Internet research",
+  "year": "2025",
+  "study_kind": "systematic-review",
+  "specialty": "ophthalmology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/uncertainty",
+   "safety/emergencies",
+   "communication/language",
+   "method/expert-rating",
+   "method/real-questions"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (ophthalmology); focus: accuracy, completeness, uncertainty handling, emergency/crisis handling; method: expert rating, real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "40945554",
+  "doi": "10.1016/j.jacr.2025.09.004",
+  "title": "Leveraging Large Language Models to Enhance Radiology Report Readability: A Systematic Review.",
+  "authors": "Patwardhan V, Balchander D, Fussell D et al.",
+  "journal": "Journal of the American College of Radiology : JACR",
+  "year": "2026",
+  "study_kind": "systematic-review",
+  "specialty": "radiology",
+  "dimensions": [
+   "quality/sources",
+   "communication/readability",
+   "communication/language",
+   "equity/bias",
+   "equity/accessibility",
+   "method/expert-rating",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (radiology); focus: source/citation quality, readability, non-English/language handling, bias/equity; method: expert rating, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "42546264",
+  "doi": "10.1136/bmjdhai-2025-000046",
+  "title": "Evaluation Methods for Inference-Time Retrieval-Augmented and Graph Retrieval-Augmented Large Language Models in Health Care: Scoping Review.",
+  "authors": "Zhao Y, Miao Y, Guo R et al.",
+  "journal": "Journal of medical Internet research",
+  "year": "2026",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/sources",
+   "safety/harm",
+   "equity/bias",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: source/citation quality, harm/safety, bias/equity, transparency/reporting using PRISMA; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Scoping Review"
+  ]
+ },
+ {
+  "pmid": "38462064",
+  "doi": "10.1016/j.jbi.2024.104620",
+  "title": "Evaluation of ChatGPT-generated medical responses: A systematic review and meta-analysis.",
+  "authors": "Wei Q, Yao Z, Cui Y et al.",
+  "journal": "Journal of biomedical informatics",
+  "year": "2024",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/consistency",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: accuracy, consistency across runs, transparency/reporting; method: expert rating, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "37788057",
+  "doi": "10.2196/27850",
+  "title": "Conversational AI and Vaccine Communication: Systematic Review of the Evidence.",
+  "authors": "Passanante A, Pertwee E, Lin L et al.",
+  "journal": "Journal of medical Internet research",
+  "year": "2023",
+  "study_kind": "systematic-review",
+  "specialty": "infectious disease/vaccines",
+  "dimensions": [
+   "quality/completeness",
+   "safety/hallucination",
+   "equity/accessibility",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "PRISMA"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (infectious disease/vaccines); focus: completeness, hallucination/misinformation, accessibility/health literacy using PRISMA; method: validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Systematic Review",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "38504034",
+  "doi": "10.7326/0003-4819-155-8-201110180-00009",
+  "title": "Utilizing large language models in breast cancer management: systematic review.",
+  "authors": "Sorin V, Glicksberg BS, Artsi Y et al.",
+  "journal": "Journal of cancer research and clinical oncology",
+  "year": "2024",
+  "study_kind": "systematic-review",
+  "specialty": "oncology/cancer",
+  "dimensions": [
+   "quality/accuracy",
+   "equity/bias",
+   "method/instrument",
+   "method/real-questions",
+   "method/guideline"
+  ],
+  "instruments": [
+   "QUADAS"
+  ],
+  "why": "Review synthesising evidence on LLM/chatbot health use (oncology/cancer); focus: accuracy, bias/equity using QUADAS; method: validated instruments, real-user questions, guideline-based reference",
+  "pubtypes": [
+   "Systematic Review",
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40285677",
+  "doi": "10.1038/s41591-020-1034-x",
+  "title": "Medical accuracy of artificial intelligence chatbots in oncology: a scoping review.",
+  "authors": "Chen D, Avison K, Alnassar S et al.",
+  "journal": "The oncologist",
+  "year": "2025",
+  "study_kind": "systematic-review",
+  "specialty": "oncology/cancer",
+  "dimensions": [
+   "quality/accuracy",
+   "safety/hallucination",
+   "communication/readability",
+   "equity/accessibility"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (oncology/cancer); focus: accuracy, hallucination/misinformation, readability, accessibility/health literacy",
+  "pubtypes": [
+   "Journal Article",
+   "Scoping Review"
+  ]
+ },
+ {
+  "pmid": "39546795",
+  "doi": "10.1177/21925682211062831",
+  "title": "Examining the Role of Large Language Models in Orthopedics: Systematic Review.",
+  "authors": "Zhang C, Liu S, Zhou X et al.",
+  "journal": "Journal of medical Internet research",
+  "year": "2024",
+  "study_kind": "systematic-review",
+  "specialty": "orthopedics",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (orthopedics); focus: accuracy, completeness",
+  "pubtypes": [
+   "Systematic Review",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "39405325",
+  "doi": "10.7759/cureus.38166",
+  "title": "Testing and Evaluation of Health Care Applications of Large Language Models: A Systematic Review.",
+  "authors": "Bedi S, Liu Y, Orr-Ewing L et al.",
+  "journal": "JAMA",
+  "year": "2025",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/uncertainty",
+   "equity/bias",
+   "method/expert-rating",
+   "method/real-questions"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: accuracy, uncertainty handling, bias/equity; method: expert rating, real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "40171241",
+  "doi": "10.1101/2022.02.27.22271257",
+  "title": "Utilizing large language models for gastroenterology research: a conceptual framework.",
+  "authors": "Berry P, Dhanakshirur RR, Khanna S",
+  "journal": "Therapeutic advances in gastroenterology",
+  "year": "2025",
+  "study_kind": "guideline-framework",
+  "specialty": "gastroenterology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/sources",
+   "quality/uncertainty",
+   "safety/harm",
+   "safety/hallucination",
+   "communication/actionability",
+   "equity/bias",
+   "trust/privacy",
+   "trust/transparency",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Proposes or reports a framework/reporting standard (gastroenterology); focus: accuracy, source/citation quality, uncertainty handling, harm/safety; method: guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "41610482",
+  "doi": "10.3897/folmed.67.e154338",
+  "title": "Generative Artificial Intelligence and Large Language Models in Paediatric Dentistry: A Scoping Review.",
+  "authors": "Akitomo T, Hamada M, Hamaguchi S et al.",
+  "journal": "International dental journal",
+  "year": "2026",
+  "study_kind": "systematic-review",
+  "specialty": "pediatrics; dentistry",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/scope"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (pediatrics; dentistry); focus: accuracy, completeness, scope/refusal behaviour",
+  "pubtypes": [
+   "Journal Article",
+   "Scoping Review"
+  ]
+ },
+ {
+  "pmid": "39294061",
+  "doi": "10.48550/arXiv.2307.8974",
+  "title": "Generative artificial intelligence and ethical considerations in health care: a scoping review and ethics checklist.",
+  "authors": "Ning Y, Teixayavong S, Shang Y et al.",
+  "journal": "The Lancet. Digital health",
+  "year": "2024",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/completeness",
+   "trust/transparency"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: completeness, transparency/reporting",
+  "pubtypes": [
+   "Journal Article",
+   "Scoping Review",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "40747871",
+  "doi": "10.1001/jamanetworkopen.2025.30220",
+  "title": "Reporting Guideline for Chatbot Health Advice Studies: The CHART Statement.",
+  "authors": "CHART Collaborative , Huo B, Collins GS et al.",
+  "journal": "JAMA network open",
+  "year": "2025",
+  "study_kind": "guideline-framework",
+  "specialty": "general",
+  "dimensions": [
+   "quality/completeness",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/guideline",
+   "method/instrument"
+  ],
+  "instruments": [
+   "CHART"
+  ],
+  "why": "Proposes or reports a framework/reporting standard (general); focus: completeness, transparency/reporting using CHART; method: expert rating, guideline-based reference, validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "41501337",
+  "doi": "10.11124/JBIES-22-00125",
+  "title": "Effectiveness of large language models in preoperative and discharge education: a systematic review based on an evaluation framework.",
+  "authors": "Wang M, Ma H, Piao M",
+  "journal": "NPJ digital medicine",
+  "year": "2026",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "trust/transparency"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: transparency/reporting",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39614219",
+  "doi": "10.1186/s12911-024-02709-7",
+  "title": "Analyzing evaluation methods for large language models in the medical field: a scoping review.",
+  "authors": "Lee J, Park S, Shin J et al.",
+  "journal": "BMC medical informatics and decision making",
+  "year": "2024",
+  "study_kind": "systematic-review",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (general); focus: accuracy",
+  "pubtypes": [
+   "Journal Article",
+   "Scoping Review"
+  ]
+ },
+ {
+  "pmid": "39747685",
+  "doi": "10.1038/s41591-024-03328-5",
+  "title": "An evaluation framework for clinical use of large language models in patient interaction tasks.",
+  "authors": "Johri S, Jeong J, Tran BA et al.",
+  "journal": "Nature medicine",
+  "year": "2025",
+  "study_kind": "guideline-framework",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "method/expert-rating"
+  ],
+  "instruments": [],
+  "why": "Proposes or reports a framework/reporting standard (general); focus: accuracy, completeness; method: expert rating",
+  "pubtypes": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "41907358",
+  "doi": "10.3389/fdgth.2024.1453341",
+  "title": "Generative AI and large language model evaluation of kidney donation websites: Benchmarking health literacy, sentiment, and digital engagement to optimize donor recruitment.",
+  "authors": "Bizer B, Garcia Valencia O, Arriola-Montenegro J et al.",
+  "journal": "Digital health",
+  "year": "2026",
+  "study_kind": "benchmark",
+  "specialty": "urology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/consistency",
+   "communication/readability",
+   "communication/empathy",
+   "communication/actionability",
+   "communication/language",
+   "equity/bias",
+   "equity/accessibility",
+   "method/instrument"
+  ],
+  "instruments": [
+   "Flesch-Kincaid Grade Level",
+   "SMOG",
+   "Gunning Fog"
+  ],
+  "why": "Benchmarks models (urology); focus: accuracy, completeness, consistency across runs, readability using Flesch-Kincaid Grade Level, SMOG, Gunning Fog; method: validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40360677",
+  "doi": "10.1038/s41746-024-01081-0",
+  "title": "A framework to assess clinical safety and hallucination rates of LLMs for medical text summarisation.",
+  "authors": "Asgari E, Montaña-Brown N, Dubois M et al.",
+  "journal": "NPJ digital medicine",
+  "year": "2025",
+  "study_kind": "guideline-framework",
+  "specialty": "mental health",
+  "dimensions": [
+   "safety/harm",
+   "safety/hallucination"
+  ],
+  "instruments": [],
+  "why": "Proposes or reports a framework/reporting standard (mental health); focus: harm/safety, hallucination/misinformation",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41914067",
+  "doi": "10.22514/jofph.2026.029",
+  "title": "Benchmark evaluation of large language models for clinical decision support in headache management.",
+  "authors": "Chen S, Liang D, Qiu X et al.",
+  "journal": "Journal of oral & facial pain and headache",
+  "year": "2026",
+  "study_kind": "benchmark",
+  "specialty": "radiology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/consistency",
+   "communication/readability",
+   "equity/accessibility",
+   "method/expert-rating",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Likert scale",
+   "Rubric"
+  ],
+  "why": "Benchmarks models (radiology); focus: accuracy, completeness, consistency across runs, readability using Flesch Reading Ease, Flesch-Kincaid Grade Level, Likert scale; method: expert rating, validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41742713",
+  "doi": "10.4274/dir.2026.263812",
+  "title": "Reporting checklist for foundation and large language models in medical research (REFINE): an international consensus guideline.",
+  "authors": "Mese I, Akinci D'Antonoli T, Bluethgen C et al.",
+  "journal": "Diagnostic and interventional radiology (Ankara, Turkey)",
+  "year": "2026",
+  "study_kind": "guideline-framework",
+  "specialty": "radiology; infectious disease/vaccines",
+  "dimensions": [
+   "quality/completeness",
+   "quality/consistency",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Proposes or reports a framework/reporting standard (radiology; infectious disease/vaccines); focus: completeness, consistency across runs, transparency/reporting; method: expert rating, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38276872",
+  "doi": "10.7759/cureus.50629",
+  "title": "A Preliminary Checklist (METRICS) to Standardize the Design and Reporting of Studies on Generative Artificial Intelligence-Based Models in Health Care Education and Practice: Development Study Involving a Literature Review.",
+  "authors": "Sallam M, Barakat M, Sallam M",
+  "journal": "Interactive journal of medical research",
+  "year": "2024",
+  "study_kind": "guideline-framework",
+  "specialty": "general",
+  "dimensions": [
+   "trust/transparency",
+   "method/expert-rating",
+   "method/guideline",
+   "method/instrument"
+  ],
+  "instruments": [
+   "METRICS"
+  ],
+  "why": "Proposes or reports a framework/reporting standard (general); focus: transparency/reporting using METRICS; method: expert rating, guideline-based reference, validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "34719011",
+  "doi": "10.1055/s-0041-1736664",
+  "title": "Evaluation Metrics for Health Chatbots: A Delphi Study.",
+  "authors": "Denecke K, Abd-Alrazaq A, Househ M et al.",
+  "journal": "Methods of information in medicine",
+  "year": "2021",
+  "study_kind": "guideline-framework",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "safety/harm",
+   "method/expert-rating"
+  ],
+  "instruments": [],
+  "why": "Proposes or reports a framework/reporting standard (general); focus: accuracy, harm/safety; method: expert rating",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "37957381",
+  "doi": "10.1038/s41591-023-02656-2",
+  "title": "Reporting standards for the use of large language model-linked chatbots for health advice.",
+  "authors": "Huo B, Cacciamani GE, Collins GS et al.",
+  "journal": "Nature medicine",
+  "year": "2023",
+  "study_kind": "guideline-framework",
+  "specialty": "general",
+  "dimensions": [
+   "trust/transparency"
+  ],
+  "instruments": [],
+  "why": "Proposes or reports a framework/reporting standard (general); focus: transparency/reporting",
+  "pubtypes": [
+   "Letter"
+  ]
+ },
+ {
+  "pmid": "42978863",
+  "doi": "10.1038/s41746-024-01282-7",
+  "title": "Addressing benchmarking gaps in large language models for health and medicine with dynamic red-teaming.",
+  "authors": "Pan J, Jian B, Hager P et al.",
+  "journal": "Nature health",
+  "year": "2026",
+  "study_kind": "benchmark",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "safety/harm",
+   "safety/false-premise",
+   "safety/hallucination",
+   "equity/bias",
+   "trust/privacy",
+   "method/instrument"
+  ],
+  "instruments": [
+   "HealthBench",
+   "MedQA/USMLE"
+  ],
+  "why": "Benchmarks models (general); focus: accuracy, harm/safety, false-premise/sycophancy robustness, hallucination/misinformation using HealthBench, MedQA/USMLE; method: validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38553625",
+  "doi": "10.14778/3007263.3007314",
+  "title": "Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI.",
+  "authors": "Abbasian M, Khatibi E, Azimi I et al.",
+  "journal": "NPJ digital medicine",
+  "year": "2024",
+  "study_kind": "guideline-framework",
+  "specialty": "mental health; gastroenterology",
+  "dimensions": [
+   "quality/completeness",
+   "communication/empathy"
+  ],
+  "instruments": [],
+  "why": "Proposes or reports a framework/reporting standard (mental health; gastroenterology); focus: completeness, empathy",
+  "pubtypes": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "41343765",
+  "doi": "10.48550/arXiv.2306.05685",
+  "title": "Clinical Large Language Model Evaluation by Expert Review (CLEVER): Framework Development and Validation.",
+  "authors": "Kocaman V, Kaya MA, Feier AM et al.",
+  "journal": "JMIR AI",
+  "year": "2025",
+  "study_kind": "guideline-framework",
+  "specialty": "general",
+  "dimensions": [
+   "method/expert-rating",
+   "method/llm-judge"
+  ],
+  "instruments": [],
+  "why": "Proposes or reports a framework/reporting standard (general); focus: general performance; method: expert rating, LLM-as-judge",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "42527491",
+  "doi": "10.2196/49771",
+  "title": "Human evaluation of large language models in healthcare: gaps, challenges, and the need for standardization.",
+  "authors": "Awasthi R, Bhattad A, Ramachandran SP et al.",
+  "journal": "npj health systems",
+  "year": "2025",
+  "study_kind": "guideline-framework",
+  "specialty": "general",
+  "dimensions": [
+   "quality/completeness",
+   "quality/consistency"
+  ],
+  "instruments": [],
+  "why": "Proposes or reports a framework/reporting standard (general); focus: completeness, consistency across runs",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39048292",
+  "doi": "10.1111/nyas.15007",
+  "title": "Generative artificial intelligence, patient safety and healthcare quality: a review.",
+  "authors": "Howell MD",
+  "journal": "BMJ quality & safety",
+  "year": "2024",
+  "study_kind": "systematic-review",
+  "specialty": "mental health",
+  "dimensions": [
+   "safety/harm"
+  ],
+  "instruments": [],
+  "why": "Review synthesising evidence on LLM/chatbot health use (mental health); focus: harm/safety",
+  "pubtypes": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "42286322",
+  "doi": "10.1093/jamia/ocae285",
+  "title": "General-purpose large language models outperform specialized clinical AI tools on medical benchmarks.",
+  "authors": "Vishwanath K, Alyakin A, Ghosh M et al.",
+  "journal": "Nature medicine",
+  "year": "2026",
+  "study_kind": "benchmark",
+  "specialty": "general",
+  "dimensions": [
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "HealthBench",
+   "MedQA/USMLE"
+  ],
+  "why": "Benchmarks models (general); focus: general performance using HealthBench, MedQA/USMLE; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41143093",
+  "doi": "10.1145/3731120.3744588",
+  "title": "HealthBench: Advancing AI evaluation in healthcare, but not yet clinically ready.",
+  "authors": "Liu J, Liu S",
+  "journal": "Digital health",
+  "year": "2025",
+  "study_kind": "benchmark",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/harm",
+   "method/llm-judge",
+   "method/instrument"
+  ],
+  "instruments": [
+   "HealthBench"
+  ],
+  "why": "Benchmarks models (general); focus: accuracy, completeness, harm/safety using HealthBench; method: LLM-as-judge, validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38875575",
+  "doi": "10.1111/iej.13985",
+  "title": "Assessment of ChatGPT-3.5's Knowledge in Oncology: Comparative Study with ASCO-SEP Benchmarks.",
+  "authors": "Odabashian R, Bastin D, Jones G et al.",
+  "journal": "JMIR AI",
+  "year": "2024",
+  "study_kind": "benchmark",
+  "specialty": "oncology/cancer",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/uncertainty",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Benchmarks models (oncology/cancer); focus: accuracy, completeness, uncertainty handling; method: guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41125099",
+  "doi": "10.1055/s-0045-1812064",
+  "title": "Comparative Benchmark of Seven Large Language Models for Traumatic Dental Injury Knowledge.",
+  "authors": "Termteerapornpimol K, Kulvitit S, Prommanee S et al.",
+  "journal": "European journal of dentistry",
+  "year": "2026",
+  "study_kind": "benchmark",
+  "specialty": "dentistry",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/consistency",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "Cohen/Fleiss kappa"
+  ],
+  "why": "Benchmarks models (dentistry); focus: accuracy, consistency across runs using Cohen/Fleiss kappa; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40267969",
+  "doi": "10.1038/s41591-025-03726-3",
+  "title": "Comparative benchmarking of the DeepSeek large language model on medical tasks and clinical reasoning.",
+  "authors": "Tordjman M, Liu Z, Yuce M et al.",
+  "journal": "Nature medicine",
+  "year": "2025",
+  "study_kind": "benchmark",
+  "specialty": "oncology/cancer; radiology",
+  "dimensions": [
+   "quality/accuracy",
+   "method/instrument"
+  ],
+  "instruments": [
+   "Likert scale",
+   "MedQA/USMLE"
+  ],
+  "why": "Benchmarks models (oncology/cancer; radiology); focus: accuracy using Likert scale, MedQA/USMLE; method: validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "41274285",
+  "doi": "10.1001/jamanetworkopen.2024.22275",
+  "title": "Multi-center benchmarking of large language models for clinical decision support in lung cancer screening.",
+  "authors": "Duan Z, Huang X, Lu R et al.",
+  "journal": "Cell reports. Medicine",
+  "year": "2025",
+  "study_kind": "benchmark",
+  "specialty": "oncology/cancer",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/consistency",
+   "communication/readability"
+  ],
+  "instruments": [],
+  "why": "Benchmarks models (oncology/cancer); focus: accuracy, consistency across runs, readability",
+  "pubtypes": [
+   "Journal Article",
+   "Multicenter Study"
+  ]
+ },
+ {
+  "pmid": "41310206",
+  "doi": "10.2196/50638",
+  "title": "Benchmarking proprietary and open-source language and vision-language models for gastroenterology clinical reasoning.",
+  "authors": "Safavi-Naini SAA, Ali S, Shahab O et al.",
+  "journal": "NPJ digital medicine",
+  "year": "2025",
+  "study_kind": "benchmark",
+  "specialty": "gastroenterology",
+  "dimensions": [
+   "quality/accuracy",
+   "safety/scope"
+  ],
+  "instruments": [],
+  "why": "Benchmarks models (gastroenterology); focus: accuracy, scope/refusal behaviour",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40267970",
+  "doi": "10.1038/s41591-025-03727-2",
+  "title": "Benchmark evaluation of DeepSeek large language models in clinical decision-making.",
+  "authors": "Sandmann S, Hegselmann S, Fujarski M et al.",
+  "journal": "Nature medicine",
+  "year": "2025",
+  "study_kind": "benchmark",
+  "specialty": "general",
+  "dimensions": [
+   "trust/privacy"
+  ],
+  "instruments": [],
+  "why": "Benchmarks models (general); focus: privacy",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40680485",
+  "doi": "10.1016/j.artmed.2025.103216",
+  "title": "Toward fair medical advice: Addressing and mitigating bias in large language model-based healthcare applications.",
+  "authors": "Lu H, Lin Y, Li Z et al.",
+  "journal": "Artificial intelligence in medicine",
+  "year": "2025",
+  "study_kind": "guideline-framework",
+  "specialty": "general",
+  "dimensions": [
+   "equity/bias",
+   "equity/accessibility",
+   "trust/transparency",
+   "method/instrument"
+  ],
+  "instruments": [
+   "MedQA/USMLE"
+  ],
+  "why": "Proposes or reports a framework/reporting standard (general); focus: bias/equity, accessibility/health literacy, transparency/reporting using MedQA/USMLE; method: validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "39779929",
+  "doi": "10.1101/2024.03.26.24304920",
+  "title": "The TRIPOD-LLM reporting guideline for studies using large language models.",
+  "authors": "Gallifant J, Afshar M, Ameen S et al.",
+  "journal": "Nature medicine",
+  "year": "2025",
+  "study_kind": "guideline-framework",
+  "specialty": "general",
+  "dimensions": [
+   "quality/completeness",
+   "quality/consistency",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/guideline",
+   "method/instrument"
+  ],
+  "instruments": [
+   "TRIPOD-LLM"
+  ],
+  "why": "Proposes or reports a framework/reporting standard (general); focus: completeness, consistency across runs, transparency/reporting using TRIPOD-LLM; method: expert rating, guideline-based reference, validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Review",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "42747529",
+  "doi": "10.1093/jamia/ocaa088",
+  "title": "Large language models for tympanostomy patient education: readability and guideline adherence.",
+  "authors": "Bahethi S, Lad H, Shah S et al.",
+  "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/uncertainty",
+   "communication/readability",
+   "communication/actionability",
+   "equity/accessibility",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Rubric"
+  ],
+  "why": "Tests chatbot answers (general); focus: accuracy, uncertainty handling, readability, actionability/understandability using Flesch Reading Ease, Flesch-Kincaid Grade Level, Rubric; method: validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39854615",
+  "doi": "10.1177/08901171251316371",
+  "title": "A Comparison of Prostate Cancer Screening Information Quality on Standard and Advanced Versions of ChatGPT, Google Gemini, and Microsoft Copilot: A Cross-Sectional Study.",
+  "authors": "Owens OL, Leonard M",
+  "journal": "American journal of health promotion : AJHP",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "oncology/cancer; urology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "communication/readability",
+   "equity/accessibility",
+   "trust/transparency",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "Flesch-Kincaid Grade Level"
+  ],
+  "why": "Tests chatbot answers (oncology/cancer; urology); focus: accuracy, completeness, readability, accessibility/health literacy using Flesch-Kincaid Grade Level; method: validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "41731097",
+  "doi": "10.1038/s41591-024-03425-5",
+  "title": "ChatGPT Health performance in a structured test of triage recommendations.",
+  "authors": "Ramaswamy A, Tyagi A, Hugo H et al.",
+  "journal": "Nature medicine",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "diabetes/endocrine; emergency medicine",
+  "dimensions": [
+   "quality/uncertainty",
+   "safety/harm",
+   "safety/emergencies",
+   "equity/bias"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (diabetes/endocrine; emergency medicine); focus: uncertainty handling, harm/safety, emergency/crisis handling, bias/equity",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41865615",
+  "doi": "10.1016/j.knee.2026.104427",
+  "title": "Concordance of ChatGPT, Gemini, Claude, and OpenEvidence with the 2024 AAOS guidelines on acute isolated meniscal pathology.",
+  "authors": "Hsu WK, Chuang HC, Wang YY et al.",
+  "journal": "The Knee",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "orthopedics",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/consistency",
+   "method/expert-rating",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "Cohen/Fleiss kappa"
+  ],
+  "why": "Tests chatbot answers (orthopedics); focus: accuracy, consistency across runs using Cohen/Fleiss kappa; method: expert rating, validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "37927093",
+  "doi": "10.1017/S1049023X23006568",
+  "title": "Large Language Model (LLM)-Powered Chatbots Fail to Generate Guideline-Consistent Content on Resuscitation and May Provide Potentially Harmful Advice.",
+  "authors": "Birkun AA, Gautam A",
+  "journal": "Prehospital and disaster medicine",
+  "year": "2023",
+  "study_kind": "evaluation-study",
+  "specialty": "emergency medicine",
+  "dimensions": [
+   "quality/sources",
+   "safety/harm",
+   "safety/emergencies",
+   "safety/hallucination",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (emergency medicine); focus: source/citation quality, harm/safety, emergency/crisis handling, hallucination/misinformation; method: guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "43040539",
+  "doi": "10.1093/ckj/sfaf243",
+  "title": "Comparative cross-sectional evaluation of large language model performance in answering common patient questions on chronic kidney disease-mineral and bone disorder: Grok-4, DeepSeek-V3.2, ChatGPT-5.4, and Gemini-3-Pro.",
+  "authors": "Chen Y, Gan L, Li L et al.",
+  "journal": "BMC medical informatics and decision making",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "urology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/uncertainty",
+   "safety/harm",
+   "communication/readability",
+   "equity/accessibility",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/instrument",
+   "method/real-questions",
+   "method/guideline"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch-Kincaid Grade Level",
+   "SMOG",
+   "Global Quality Score",
+   "JAMA benchmark",
+   "EQIP",
+   "ICC"
+  ],
+  "why": "Tests chatbot answers (urology); focus: accuracy, completeness, uncertainty handling, harm/safety using DISCERN, Flesch-Kincaid Grade Level, SMOG; method: expert rating, validated instruments, real-user questions, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "41163202",
+  "doi": "10.5144/0256-4947.2023.10",
+  "title": "Evaluation of ChatGPT-5 responses in obstetric and gynecological emergencies: concordance, readability, and clinical reliability.",
+  "authors": "Arslan HÇ, Arslan K, Gün M et al.",
+  "journal": "BMC emergency medicine",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "obstetrics/gynecology; emergency medicine",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/consistency",
+   "safety/harm",
+   "safety/emergencies",
+   "communication/readability",
+   "communication/actionability",
+   "method/expert-rating",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "SMOG",
+   "Coleman-Liau",
+   "Global Quality Score",
+   "DISCERN-like/modified DISCERN"
+  ],
+  "why": "Tests chatbot answers (obstetrics/gynecology; emergency medicine); focus: accuracy, completeness, consistency across runs, harm/safety using DISCERN, Flesch Reading Ease, Flesch-Kincaid Grade Level; method: expert rating, validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41985209",
+  "doi": "10.1016/j.bjps.2026.03.009",
+  "title": "Are large language models consistent with the ASPS and AAPS guidelines? A comparison of AI chatbot recommendations and plastic surgery clinical guidance.",
+  "authors": "Kabir R, Braud SC, Hinson CS et al.",
+  "journal": "Journal of plastic, reconstructive & aesthetic surgery : JPRAS",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "surgery",
+  "dimensions": [
+   "quality/accuracy",
+   "method/expert-rating",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (surgery); focus: accuracy; method: expert rating, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "41272704",
+  "doi": "10.1186/s12903-025-07298-z",
+  "title": "Evaluation of the readability, quality, and accuracy of AI chatbot responses to questions about deleterious oral habits.",
+  "authors": "Özdemir ÖT, Kavan MY, Güven Y",
+  "journal": "BMC oral health",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "pediatrics",
+  "dimensions": [
+   "quality/accuracy",
+   "safety/hallucination",
+   "communication/readability",
+   "equity/bias",
+   "trust/transparency",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Global Quality Score",
+   "DISCERN-like/modified DISCERN"
+  ],
+  "why": "Tests chatbot answers (pediatrics); focus: accuracy, hallucination/misinformation, readability, bias/equity using DISCERN, Flesch Reading Ease, Flesch-Kincaid Grade Level; method: validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "37722842",
+  "doi": "10.1080/09273948.2023.2253471",
+  "title": "Evaluating the Diagnostic Accuracy and Management Recommendations of ChatGPT in Uveitis.",
+  "authors": "Rojas-Carabali W, Cifuentes-González C, Wei X et al.",
+  "journal": "Ocular immunology and inflammation",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "ophthalmology",
+  "dimensions": [
+   "quality/accuracy",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (ophthalmology); focus: accuracy; method: guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "42045764",
+  "doi": "10.1016/j.ssci.2023.106244",
+  "title": "Multidimensional Evaluation of AI-Generated Patient Information on Cone Beam-Computed Tomography.",
+  "authors": "Öçbe M, Akçay HÇ, Sır E et al.",
+  "journal": "Journal of imaging informatics in medicine",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "dentistry",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/actionability",
+   "equity/accessibility",
+   "trust/transparency",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "DISCERN",
+   "PEMAT",
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Gunning Fog",
+   "Global Quality Score"
+  ],
+  "why": "Tests chatbot answers (dentistry); focus: accuracy, readability, actionability/understandability, accessibility/health literacy using DISCERN, PEMAT, Flesch Reading Ease; method: validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41133442",
+  "doi": "10.1080/00015385.2025.2576451",
+  "title": "Evaluating the accuracy and readability of ChatGPT-4 responses about cardiac rehabilitation for heart failure patients.",
+  "authors": "Coskun C, Cetinkaya B",
+  "journal": "Acta cardiologica",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "cardiology",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/actionability",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Gunning Fog",
+   "Coleman-Liau",
+   "Likert scale",
+   "ICC"
+  ],
+  "why": "Tests chatbot answers (cardiology); focus: accuracy, readability, actionability/understandability using Flesch Reading Ease, Flesch-Kincaid Grade Level, Gunning Fog; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39212302",
+  "doi": "10.14309/ctg.0000000000000765",
+  "title": "Digesting Digital Health: A Study of Appropriateness and Readability of ChatGPT-Generated Gastroenterological Information.",
+  "authors": "Toiv A, Saleh Z, Ishak A et al.",
+  "journal": "Clinical and translational gastroenterology",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "gastroenterology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/currency",
+   "safety/emergencies",
+   "communication/readability",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "Flesch Reading Ease",
+   "Likert scale"
+  ],
+  "why": "Tests chatbot answers (gastroenterology); focus: accuracy, completeness, currency of information, emergency/crisis handling using Flesch Reading Ease, Likert scale; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38726360",
+  "doi": "10.7759/cureus.59960",
+  "title": "Assessing the Responses of Large Language Models (ChatGPT-4, Gemini, and Microsoft Copilot) to Frequently Asked Questions in Breast Imaging: A Study on Readability and Accuracy.",
+  "authors": "Tepe M, Emekli E",
+  "journal": "Cureus",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "mental health; radiology",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/actionability",
+   "equity/accessibility",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Likert scale"
+  ],
+  "why": "Tests chatbot answers (mental health; radiology); focus: accuracy, readability, actionability/understandability, accessibility/health literacy using Flesch Reading Ease, Flesch-Kincaid Grade Level, Likert scale; method: validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "42523813",
+  "doi": "10.1038/s41746-025-01786-w",
+  "title": "LLM-as-a-judge for infection prevention and control and antimicrobial resistance impact: comparing three main LLMs vs. human experts' assessment.",
+  "authors": "Di Pumpo M, Villani L, Gualano MR et al.",
+  "journal": "Frontiers in public health",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "infectious disease/vaccines",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/consistency",
+   "equity/bias",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/llm-judge",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "DISCERN",
+   "CHART"
+  ],
+  "why": "Tests chatbot answers (infectious disease/vaccines); focus: accuracy, consistency across runs, bias/equity, transparency/reporting using DISCERN, CHART; method: expert rating, LLM-as-judge, validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "40999038",
+  "doi": "10.3390/ijerph18105060",
+  "title": "Quality safety and disparity of an AI chatbot in managing chronic diseases: simulated patient experiments.",
+  "authors": "Si Y, Meng Y, Chen X et al.",
+  "journal": "NPJ digital medicine",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "pharmacy/drugs; mental health",
+  "dimensions": [
+   "quality/accuracy",
+   "safety/harm",
+   "equity/bias",
+   "equity/accessibility"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (pharmacy/drugs; mental health); focus: accuracy, harm/safety, bias/equity, accessibility/health literacy",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38722219",
+  "doi": "10.1002/alz.13016",
+  "title": "Assessing the Quality of ChatGPT Responses to Dementia Caregivers' Questions: Qualitative Analysis.",
+  "authors": "Aguirre A, Hilsabeck R, Smith T et al.",
+  "journal": "JMIR aging",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "neurology",
+  "dimensions": [
+   "quality/completeness",
+   "method/real-questions"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (neurology); focus: completeness; method: real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ]
+ },
+ {
+  "pmid": "38721744",
+  "doi": "10.1111/pde.15649",
+  "title": "Pediatric dermatologists versus AI bots: Evaluating the medical knowledge and diagnostic capabilities of ChatGPT.",
+  "authors": "Huang CY, Zhang E, Caussade MC et al.",
+  "journal": "Pediatric dermatology",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "dermatology; pediatrics",
+  "dimensions": [
+   "quality/accuracy"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (dermatology; pediatrics); focus: accuracy",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "40775964",
+  "doi": "10.3233/SHTI250946",
+  "title": "Plain Language Adaptations of Biomedical Text Using LLMs: Comparision of Evaluation Metrics.",
+  "authors": "Kocbek P, Kopitar L, Stiglic G",
+  "journal": "Studies in health technology and informatics",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "communication/readability",
+   "equity/accessibility",
+   "method/instrument"
+  ],
+  "instruments": [
+   "Flesch-Kincaid Grade Level",
+   "SMOG",
+   "Likert scale",
+   "SQuAD/BLEU/ROUGE"
+  ],
+  "why": "Tests chatbot answers (general); focus: accuracy, completeness, readability, accessibility/health literacy using Flesch-Kincaid Grade Level, SMOG, Likert scale; method: validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "41420748",
+  "doi": "10.3350/cmh.2023.0089",
+  "title": "Performance of large language models in reporting oral health concerns and side effects in head and neck cancer: a comparative study.",
+  "authors": "Rast J, Wiegand S, Biermann J et al.",
+  "journal": "Journal of cancer research and clinical oncology",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "oncology/cancer",
+  "dimensions": [
+   "quality/sources",
+   "safety/hallucination",
+   "communication/readability",
+   "communication/actionability",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "DISCERN",
+   "PEMAT",
+   "DISCERN-like/modified DISCERN"
+  ],
+  "why": "Tests chatbot answers (oncology/cancer); focus: source/citation quality, hallucination/misinformation, readability, actionability/understandability using DISCERN, PEMAT, DISCERN-like/modified DISCERN; method: validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "38167988",
+  "doi": "10.1016/j.oret.2023.05.022",
+  "title": "Evaluation of the reliability and readability of ChatGPT-4 responses regarding hypothyroidism during pregnancy.",
+  "authors": "Onder CE, Koc G, Gokbulut P et al.",
+  "journal": "Scientific reports",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "diabetes/endocrine; obstetrics/gynecology",
+  "dimensions": [
+   "communication/readability",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "SMOG",
+   "Gunning Fog",
+   "Coleman-Liau",
+   "Global Quality Score",
+   "DISCERN-like/modified DISCERN"
+  ],
+  "why": "Tests chatbot answers (diabetes/endocrine; obstetrics/gynecology); focus: readability using DISCERN, Flesch Reading Ease, Flesch-Kincaid Grade Level; method: validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38378899",
+  "doi": "10.1186/s12874-016-0200-9",
+  "title": "Prompt engineering in consistency and reliability with the evidence-based guideline for LLMs.",
+  "authors": "Wang L, Chen X, Deng X et al.",
+  "journal": "NPJ digital medicine",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "orthopedics",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/consistency",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "Cohen/Fleiss kappa"
+  ],
+  "why": "Tests chatbot answers (orthopedics); focus: accuracy, consistency across runs using Cohen/Fleiss kappa; method: validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39731895",
+  "doi": "10.1016/j.ajem.2024.12.024",
+  "title": "Evaluating LLM-based generative AI tools in emergency triage: A comparative study of ChatGPT Plus, Copilot Pro, and triage nurses.",
+  "authors": "Arslan B, Nuhoglu C, Satici MO et al.",
+  "journal": "The American journal of emergency medicine",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "emergency medicine",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/emergencies",
+   "equity/bias",
+   "method/instrument"
+  ],
+  "instruments": [
+   "Cohen/Fleiss kappa"
+  ],
+  "why": "Tests chatbot answers (emergency medicine); focus: accuracy, completeness, emergency/crisis handling, bias/equity using Cohen/Fleiss kappa; method: validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Observational Study",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "37516804",
+  "doi": "10.1038/s41391-023-00705-y",
+  "title": "Quality of information and appropriateness of ChatGPT outputs for urology patients.",
+  "authors": "Cocci A, Pezzoli M, Lo Re M et al.",
+  "journal": "Prostate cancer and prostatic diseases",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "urology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/emergencies",
+   "communication/readability",
+   "equity/bias",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Likert scale"
+  ],
+  "why": "Tests chatbot answers (urology); focus: accuracy, completeness, emergency/crisis handling, readability using DISCERN, Flesch Reading Ease, Flesch-Kincaid Grade Level; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41410329",
+  "doi": "10.1093/arclin/acae068",
+  "title": "Artificial intelligence-driven clinical guideline recommendations in maternal care: How trustworthy are they?",
+  "authors": "Pérez JJ, Giraldo-Forero AF, Rúa S et al.",
+  "journal": "Biomedica : revista del Instituto Nacional de Salud",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "obstetrics/gynecology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/sources",
+   "trust/transparency",
+   "method/llm-judge",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (obstetrics/gynecology); focus: accuracy, source/citation quality, transparency/reporting; method: LLM-as-judge, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41296641",
+  "doi": "10.1093/asj/sjaf249",
+  "title": "Evaluating the Quality and Reliability of Large Language Models for Plastic Surgery Patient Education: A Comparative Analysis of ChatGPT and OpenEvidence.",
+  "authors": "Perez Rivera LR, Gursky AK, Elmer N et al.",
+  "journal": "Aesthetic surgery journal",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "surgery",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/sources",
+   "communication/readability",
+   "communication/actionability",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "DISCERN",
+   "PEMAT",
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Likert scale"
+  ],
+  "why": "Tests chatbot answers (surgery); focus: accuracy, completeness, source/citation quality, readability using DISCERN, PEMAT, Flesch Reading Ease; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "41076450",
+  "doi": "10.1007/s00431-025-06488-9",
+  "title": "Evaluation of ChatGPT-4 responses on physical activity guidance in children with cystic fibrosis: reliability, quality, and readability.",
+  "authors": "Çelik Z, Sari F",
+  "journal": "European journal of pediatrics",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "pediatrics",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/actionability",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch Reading Ease",
+   "Likert scale",
+   "Global Quality Score",
+   "ICC",
+   "DISCERN-like/modified DISCERN"
+  ],
+  "why": "Tests chatbot answers (pediatrics); focus: accuracy, readability, actionability/understandability using DISCERN, Flesch Reading Ease, Likert scale; method: validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40809620",
+  "doi": "10.7759/cureus.87920",
+  "title": "Evaluating ChatGPT's Accuracy and Readability in Responding to Common Ophthalmology Questions.",
+  "authors": "Riazi Esfahani P, Ward J, Yong A et al.",
+  "journal": "Cureus",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "ophthalmology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/uncertainty",
+   "communication/readability",
+   "communication/empathy",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "QUEST"
+  ],
+  "why": "Tests chatbot answers (ophthalmology); focus: accuracy, completeness, uncertainty handling, readability using DISCERN, Flesch Reading Ease, Flesch-Kincaid Grade Level; method: validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41408269",
+  "doi": "10.1186/s40902-023-00381-x",
+  "title": "Comparative performance of AI chatbots in dental implantology: insights and limitations.",
+  "authors": "Uçar SM, Gaş S, Sasany R",
+  "journal": "BMC oral health",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "dentistry; surgery",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/uncertainty",
+   "communication/readability",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Global Quality Score",
+   "ICC",
+   "Rubric"
+  ],
+  "why": "Tests chatbot answers (dentistry; surgery); focus: accuracy, uncertainty handling, readability, transparency/reporting using DISCERN, Global Quality Score, ICC; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "40625933",
+  "doi": "10.1007/s12144-023-04422-6",
+  "title": "ChatGPT as a Virtual Patient: Written Empathic Expressions During Medical History Taking.",
+  "authors": "Aster A, Ragaller SV, Raupach T et al.",
+  "journal": "Medical science educator",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "cardiology",
+  "dimensions": [
+   "safety/emergencies",
+   "communication/empathy"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (cardiology); focus: emergency/crisis handling, empathy",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "42175005",
+  "doi": "10.3233/SHTI260331",
+  "title": "Evaluating a Consumer LLM for Suicide Risk Response Calibration: A Pilot Study.",
+  "authors": "Keskin Y, Park T, Bozkurt S",
+  "journal": "Studies in health technology and informatics",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "mental health",
+  "dimensions": [
+   "quality/uncertainty",
+   "safety/harm",
+   "safety/emergencies",
+   "safety/scope"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (mental health); focus: uncertainty handling, harm/safety, emergency/crisis handling, scope/refusal behaviour",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40106443",
+  "doi": "10.3389/fphar.2023.1180962",
+  "title": "Protocol for human evaluation of generative artificial intelligence chatbots in clinical consultations.",
+  "authors": "Chiu EK, Chung TW",
+  "journal": "PloS one",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "infectious disease/vaccines; gastroenterology",
+  "dimensions": [
+   "quality/completeness",
+   "quality/consistency",
+   "safety/harm",
+   "safety/scope",
+   "method/expert-rating",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "Likert scale"
+  ],
+  "why": "Tests chatbot answers (infectious disease/vaccines; gastroenterology); focus: completeness, consistency across runs, harm/safety, scope/refusal behaviour using Likert scale; method: expert rating, validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40524837",
+  "doi": "10.5061/dryad.h44j0zpxm",
+  "title": "Reproducible generative artificial intelligence evaluation for health care: a clinician-in-the-loop approach.",
+  "authors": "Livingston L, Featherstone-Uwague A, Barry A et al.",
+  "journal": "JAMIA open",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "pharmacy/drugs",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/consistency",
+   "safety/harm",
+   "method/expert-rating"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (pharmacy/drugs); focus: accuracy, completeness, consistency across runs, harm/safety; method: expert rating",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41311033",
+  "doi": "10.1111/inr.70135",
+  "title": "Evaluation of ChatGPT-4, Gemini, Claude, and Copilot in Generating Nursing Diagnoses Based on NANDA-I Taxonomy II: A Comparative Cross-Sectional Study.",
+  "authors": "Tuncer M, Yalcinkaya T",
+  "journal": "International nursing review",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/harm",
+   "method/expert-rating",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (general); focus: accuracy, completeness, harm/safety; method: expert rating, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "37693201",
+  "doi": "10.1148/ryct.230115",
+  "title": "Evaluating ChatGPT's Accuracy in Lung Cancer Prevention and Screening Recommendations.",
+  "authors": "Haver HL, Lin CT, Sirajuddin A et al.",
+  "journal": "Radiology. Cardiothoracic imaging",
+  "year": "2023",
+  "study_kind": "evaluation-study",
+  "specialty": "oncology/cancer",
+  "dimensions": [
+   "quality/accuracy"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (oncology/cancer); focus: accuracy",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41387473",
+  "doi": "10.1038/s41598-024-84399-9",
+  "title": "Multidimensional assessment of large language model responses to patient questions on gestational diabetes mellitus.",
+  "authors": "Yigit Yalcın B, Mutlu U, Ok AM et al.",
+  "journal": "Scientific reports",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "diabetes/endocrine",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/actionability",
+   "method/instrument"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "SMOG",
+   "Gunning Fog",
+   "Coleman-Liau",
+   "Global Quality Score",
+   "DISCERN-like/modified DISCERN"
+  ],
+  "why": "Tests chatbot answers (diabetes/endocrine); focus: accuracy, readability, actionability/understandability using DISCERN, Flesch Reading Ease, Flesch-Kincaid Grade Level; method: validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39045653",
+  "doi": "10.1016/j.otsr.2014.10.020",
+  "title": "Caution Regarding ChatGPT's Appropriateness and Reliability Regarding Surgery for Wrist Arthritis.",
+  "authors": "Hones K, Krisanda E, Chim H",
+  "journal": "Hand (New York, N.Y.)",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "orthopedics; surgery",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/consistency",
+   "communication/readability",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "ICC"
+  ],
+  "why": "Tests chatbot answers (orthopedics; surgery); focus: accuracy, completeness, consistency across runs, readability using DISCERN, Flesch Reading Ease, Flesch-Kincaid Grade Level; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41246211",
+  "doi": "10.1101/2023.08.07.23293769v1",
+  "title": "Evaluating empathy in GPT-4-generated vs. physician-written emergency department discharge letters.",
+  "authors": "Ben-Haim G, Livne A, Manor U et al.",
+  "journal": "Digital health",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "emergency medicine",
+  "dimensions": [
+   "safety/emergencies",
+   "communication/empathy",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "Likert scale"
+  ],
+  "why": "Tests chatbot answers (emergency medicine); focus: emergency/crisis handling, empathy using Likert scale; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41485076",
+  "doi": "10.1007/s10916-024-02056-0",
+  "title": "From ChatGPT to DeepSeek: assessing the accuracy and readability of AI-generated erectile dysfunction responses.",
+  "authors": "Demirhan K, Erdik A, Cimen HI et al.",
+  "journal": "BMC urology",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "urology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "communication/readability",
+   "method/expert-rating",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Gunning Fog"
+  ],
+  "why": "Tests chatbot answers (urology); focus: accuracy, completeness, readability using Flesch Reading Ease, Flesch-Kincaid Grade Level, Gunning Fog; method: expert rating, validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "42320884",
+  "doi": "10.1055/a-2899-0123",
+  "title": "Evaluation of ChatGPT, Gemini, and OpenEvidence in Obstetric and Gynecologic Clinical Decision Scenarios.",
+  "authors": "Atay AO, Atay F, Ozmen S et al.",
+  "journal": "Applied clinical informatics",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "obstetrics/gynecology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/consistency",
+   "communication/readability",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "DISCERN",
+   "ICC"
+  ],
+  "why": "Tests chatbot answers (obstetrics/gynecology); focus: accuracy, completeness, consistency across runs, readability using DISCERN, ICC; method: expert rating, validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Evaluation Study"
+  ]
+ },
+ {
+  "pmid": "42484768",
+  "doi": "10.1007/s11701-026-03698-7",
+  "title": "Reliability and readability of AI chatbot responses to patient questions about robot-assisted radical cystectomy.",
+  "authors": "Liu Y, Li R, Yu P et al.",
+  "journal": "Journal of robotic surgery",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "surgery",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/actionability",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "SMOG",
+   "Gunning Fog",
+   "Coleman-Liau",
+   "Global Quality Score",
+   "JAMA benchmark",
+   "EQIP"
+  ],
+  "why": "Tests chatbot answers (surgery); focus: accuracy, readability, actionability/understandability, transparency/reporting using DISCERN, Flesch Reading Ease, Flesch-Kincaid Grade Level; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "38499280",
+  "doi": "10.1016/j.jdent.2024.104938",
+  "title": "Accuracy and consistency of chatbots versus clinicians for answering pediatric dentistry questions: A pilot study.",
+  "authors": "Rokhshad R, Zhang P, Mohammad-Rahimi H et al.",
+  "journal": "Journal of dentistry",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "pediatrics; dentistry",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/consistency",
+   "equity/accessibility",
+   "method/expert-rating"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (pediatrics; dentistry); focus: accuracy, consistency across runs, accessibility/health literacy; method: expert rating",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "42296664",
+  "doi": "10.1016/j.jfo.2026.104923",
+  "title": "Intravitreal anti-VEGF therapy: Comparative evaluation of appropriateness and readability of large language model chatbots' responses to frequently asked patient questions.",
+  "authors": "Sezer T, Meydan B, Toprak G",
+  "journal": "Journal francais d'ophtalmologie",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "ophthalmology",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/actionability",
+   "equity/accessibility",
+   "method/expert-rating",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "Flesch Reading Ease",
+   "Likert scale"
+  ],
+  "why": "Tests chatbot answers (ophthalmology); focus: accuracy, readability, actionability/understandability, accessibility/health literacy using Flesch Reading Ease, Likert scale; method: expert rating, validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "43052967",
+  "doi": "10.1016/j.jormas.2025.102644",
+  "title": "Clinical reliability and consistency of large language models in prosthodontics: an expert evaluation of ChatGPT and Gemini.",
+  "authors": "El Hawari W, Qarmiche N, Othmani N et al.",
+  "journal": "BMC oral health",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "dentistry",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/consistency",
+   "safety/hallucination",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "Likert scale",
+   "Cohen/Fleiss kappa"
+  ],
+  "why": "Tests chatbot answers (dentistry); focus: accuracy, completeness, consistency across runs, hallucination/misinformation using Likert scale, Cohen/Fleiss kappa; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40238861",
+  "doi": "10.1007/s11606-019-05439-z",
+  "title": "The Use of an Artificial Intelligence Platform OpenEvidence to Augment Clinical Decision-Making for Primary Care Physicians.",
+  "authors": "Hurt RT, Stephenson CR, Gilman EA et al.",
+  "journal": "Journal of primary care & community health",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "cardiology; mental health",
+  "dimensions": [
+   "quality/accuracy",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (cardiology; mental health); focus: accuracy; method: guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "40811811",
+  "doi": "10.1080/15228053.2023.2233814",
+  "title": "An Examination of Generative AI Response to Suicide Inquires: Content Analysis.",
+  "authors": "Campbell LO, Babb K, Lambie GW et al.",
+  "journal": "JMIR mental health",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "mental health",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/emergencies",
+   "communication/empathy"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (mental health); focus: accuracy, completeness, emergency/crisis handling, empathy",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "37515033",
+  "doi": "10.1093/tbm/ibab128",
+  "title": "Artificial Intelligence and Public Health: Evaluating ChatGPT Responses to Vaccination Myths and Misconceptions.",
+  "authors": "Deiana G, Dettori M, Arghittu A et al.",
+  "journal": "Vaccines",
+  "year": "2023",
+  "study_kind": "evaluation-study",
+  "specialty": "infectious disease/vaccines",
+  "dimensions": [
+   "quality/accuracy",
+   "method/expert-rating"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (infectious disease/vaccines); focus: accuracy; method: expert rating",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "37561097",
+  "doi": "10.48550/arXiv.2303.08774",
+  "title": "Examining Real-World Medication Consultations and Drug-Herb Interactions: ChatGPT Performance Evaluation.",
+  "authors": "Hsu HY, Hsu KC, Hou SY et al.",
+  "journal": "JMIR medical education",
+  "year": "2023",
+  "study_kind": "evaluation-study",
+  "specialty": "pharmacy/drugs",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/language",
+   "method/expert-rating"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (pharmacy/drugs); focus: accuracy, non-English/language handling; method: expert rating",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39283333",
+  "doi": "10.1101/2023.02.21.23285886",
+  "title": "Racial, ethnic, and sex bias in large language model opioid recommendations for pain management.",
+  "authors": "Young CC, Enichen E, Rao A et al.",
+  "journal": "Pain",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "general",
+  "dimensions": [
+   "quality/completeness",
+   "equity/bias",
+   "method/real-questions"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (general); focus: completeness, bias/equity; method: real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39141904",
+  "doi": "10.1002/pon.5158",
+  "title": "Evaluating the Efficacy of ChatGPT as a Patient Education Tool in Prostate Cancer: Multimetric Assessment.",
+  "authors": "Gibson D, Jackson S, Shanmugasundaram R et al.",
+  "journal": "Journal of medical Internet research",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "oncology/cancer; urology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/sources",
+   "safety/harm",
+   "safety/hallucination",
+   "communication/readability",
+   "communication/actionability",
+   "method/expert-rating",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "DISCERN",
+   "PEMAT",
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "SMOG",
+   "Gunning Fog",
+   "Coleman-Liau",
+   "Global Quality Score"
+  ],
+  "why": "Tests chatbot answers (oncology/cancer; urology); focus: accuracy, source/citation quality, harm/safety, hallucination/misinformation using DISCERN, PEMAT, Flesch Reading Ease; method: expert rating, validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39241674",
+  "doi": "10.1016/j.knee.2024.08.014",
+  "title": "Accuracy assessment of ChatGPT responses to frequently asked questions regarding anterior cruciate ligament surgery.",
+  "authors": "Villarreal-Espinosa JB, Berreta RS, Allende F et al.",
+  "journal": "The Knee",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "orthopedics; surgery",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/consistency",
+   "quality/uncertainty",
+   "safety/emergencies",
+   "method/expert-rating",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "Likert scale",
+   "Cohen/Fleiss kappa"
+  ],
+  "why": "Tests chatbot answers (orthopedics; surgery); focus: accuracy, consistency across runs, uncertainty handling, emergency/crisis handling using Likert scale, Cohen/Fleiss kappa; method: expert rating, validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38875696",
+  "doi": "10.1038/s41746-023-00873-0",
+  "title": "Triage Performance Across Large Language Models, ChatGPT, and Untrained Doctors in Emergency Medicine: Comparative Study.",
+  "authors": "Masanneck L, Schmidt L, Seifert A et al.",
+  "journal": "Journal of medical Internet research",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "emergency medicine",
+  "dimensions": [
+   "quality/accuracy",
+   "safety/emergencies",
+   "method/expert-rating"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (emergency medicine); focus: accuracy, emergency/crisis handling; method: expert rating",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "42249802",
+  "doi": "10.1016/j.arthro.2024.08.036",
+  "title": "Quality and Readability of ChatGPT Performance on Parkinson's Disease.",
+  "authors": "Riccio G, Coppola R, Chiariello MR et al.",
+  "journal": "Movement disorders clinical practice",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "urology; neurology",
+  "dimensions": [
+   "communication/readability",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Global Quality Score",
+   "DISCERN-like/modified DISCERN"
+  ],
+  "why": "Tests chatbot answers (urology; neurology); focus: readability using DISCERN, Flesch Reading Ease, Flesch-Kincaid Grade Level; method: validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40107040",
+  "doi": "10.1016/j.ijmedinf.2025.105871",
+  "title": "Evaluating AI-generated patient education materials for spinal surgeries: Comparative analysis of readability and DISCERN quality across ChatGPT and deepseek models.",
+  "authors": "Zhou M, Pan Y, Zhang Y et al.",
+  "journal": "International journal of medical informatics",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "surgery",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/sources",
+   "communication/readability",
+   "communication/actionability",
+   "equity/accessibility",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch-Kincaid Grade Level"
+  ],
+  "why": "Tests chatbot answers (surgery); focus: accuracy, source/citation quality, readability, actionability/understandability using DISCERN, Flesch-Kincaid Grade Level; method: validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "41836613",
+  "doi": "10.1177/20552076261427505",
+  "title": "Safety and user perception of general-purpose large language models in pediatric healthcare: Evaluations of ChatGPT by doctors and parents.",
+  "authors": "Tan J, Wang L, Wang G et al.",
+  "journal": "Digital health",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "pediatrics",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/harm",
+   "method/expert-rating"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (pediatrics); focus: accuracy, completeness, harm/safety; method: expert rating",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "37277096",
+  "doi": "10.1016/j.oret.2023.05.022",
+  "title": "Appropriateness and Readability of ChatGPT-4-Generated Responses for Surgical Treatment of Retinal Diseases.",
+  "authors": "Momenaei B, Wakabayashi T, Shahlaee A et al.",
+  "journal": "Ophthalmology. Retina",
+  "year": "2023",
+  "study_kind": "evaluation-study",
+  "specialty": "ophthalmology; surgery",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level"
+  ],
+  "why": "Tests chatbot answers (ophthalmology; surgery); focus: accuracy, readability, transparency/reporting using Flesch Reading Ease, Flesch-Kincaid Grade Level; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "41063105",
+  "doi": "10.1016/j.jdent.2021.103610",
+  "title": "Evaluating the performance of AI chatbots in responding to dental implant FAQs: A comparative study.",
+  "authors": "Tuzlalı M, Baki N, Aral K et al.",
+  "journal": "BMC oral health",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "dentistry",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/consistency",
+   "equity/accessibility",
+   "method/expert-rating",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "Likert scale"
+  ],
+  "why": "Tests chatbot answers (dentistry); focus: accuracy, completeness, consistency across runs, accessibility/health literacy using Likert scale; method: expert rating, validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "40467886",
+  "doi": "10.1038/s41597-023-01947-0",
+  "title": "Racial bias in AI-mediated psychiatric diagnosis and treatment: a qualitative comparison of four large language models.",
+  "authors": "Bouguettaya A, Stuart EM, Aboujaoude E",
+  "journal": "NPJ digital medicine",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "mental health",
+  "dimensions": [
+   "equity/bias"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (mental health); focus: bias/equity",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38827059",
+  "doi": "10.1371/journal.pdig.0000198",
+  "title": "ChatGPT and Vaccine Hesitancy: A Comparison of English, Spanish, and French Responses Using a Validated Scale.",
+  "authors": "Joshi S, Ha E, Rivera Y et al.",
+  "journal": "AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "infectious disease/vaccines",
+  "dimensions": [
+   "communication/language",
+   "equity/bias"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (infectious disease/vaccines); focus: non-English/language handling, bias/equity",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39567722",
+  "doi": "10.1038/s41597-022-01899-x",
+  "title": "The quality and safety of using generative AI to produce patient-centred discharge instructions.",
+  "authors": "Stanceski K, Zhong S, Zhang X et al.",
+  "journal": "NPJ digital medicine",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "pharmacy/drugs",
+  "dimensions": [
+   "quality/accuracy",
+   "safety/harm",
+   "safety/hallucination"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (pharmacy/drugs); focus: accuracy, harm/safety, hallucination/misinformation",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41228037",
+  "doi": "10.1016/j.artmed.2020.101822",
+  "title": "Balancing Accuracy and Readability: Comparative Evaluation of AI Chatbots for Patient Education on Rotator Cuff Tears.",
+  "authors": "Koluman AC, Çiftçi MU, Çiftçi EA et al.",
+  "journal": "Healthcare (Basel, Switzerland)",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/actionability",
+   "equity/accessibility",
+   "method/expert-rating",
+   "method/instrument",
+   "method/real-questions",
+   "method/guideline"
+  ],
+  "instruments": [
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Likert scale",
+   "ICC"
+  ],
+  "why": "Tests chatbot answers (general); focus: accuracy, readability, actionability/understandability, accessibility/health literacy using Flesch Reading Ease, Flesch-Kincaid Grade Level, Likert scale; method: expert rating, validated instruments, real-user questions, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39057156",
+  "doi": "10.7759/cureus.35179",
+  "title": "Quality of ChatGPT-Generated Therapy Recommendations for Breast Cancer Treatment in Gynecology.",
+  "authors": "Stalp JL, Denecke A, Jentschke M et al.",
+  "journal": "Current oncology (Toronto, Ont.)",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "oncology/cancer; obstetrics/gynecology",
+  "dimensions": [
+   "quality/accuracy",
+   "equity/accessibility",
+   "method/expert-rating"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (oncology/cancer; obstetrics/gynecology); focus: accuracy, accessibility/health literacy; method: expert rating",
+  "pubtypes": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "42727207",
+  "doi": "10.1016/j.knee.2026.104635",
+  "title": "Comparative quality, accuracy, and readability of large language model responses to patient questions about robotic-assisted total knee arthroplasty.",
+  "authors": "Kolac UC, Sili MV, Karademir OM et al.",
+  "journal": "The Knee",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "orthopedics",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/actionability",
+   "method/expert-rating",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "DISCERN",
+   "PEMAT",
+   "Flesch-Kincaid Grade Level"
+  ],
+  "why": "Tests chatbot answers (orthopedics); focus: accuracy, readability, actionability/understandability using DISCERN, PEMAT, Flesch-Kincaid Grade Level; method: expert rating, validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "37914380",
+  "doi": "10.1097/UPJ.0000000000000490",
+  "title": "Comparison of ChatGPT and Traditional Patient Education Materials for Men's Health.",
+  "authors": "Shah YB, Ghosh A, Hochberg AR et al.",
+  "journal": "Urology practice",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "urology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "communication/readability",
+   "communication/actionability",
+   "equity/accessibility",
+   "method/expert-rating"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (urology); focus: accuracy, completeness, readability, actionability/understandability; method: expert rating",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39743925",
+  "doi": "10.1016/j.oret.2023.05.022",
+  "title": "Readability and Appropriateness of Responses Generated by ChatGPT 3.5, ChatGPT 4.0, Gemini, and Microsoft Copilot for FAQs in Refractive Surgery.",
+  "authors": "Aydın FO, Aksoy BK, Ceylan A et al.",
+  "journal": "Turkish journal of ophthalmology",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "surgery",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "method/expert-rating",
+   "method/real-questions"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (surgery); focus: accuracy, readability; method: expert rating, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41493946",
+  "doi": "10.1016/j.ogla.2022.07.007",
+  "title": "Performance of a Small Language Model Versus a Large Language Model in Answering Glaucoma Frequently Asked Patient Questions: Development and Usability Study.",
+  "authors": "Faneli AC, Scherer R, Muralidhar R et al.",
+  "journal": "JMIR AI",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "ophthalmology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/sources",
+   "safety/harm",
+   "communication/readability",
+   "communication/actionability",
+   "trust/privacy",
+   "method/expert-rating",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "Flesch-Kincaid Grade Level",
+   "Gunning Fog",
+   "Coleman-Liau"
+  ],
+  "why": "Tests chatbot answers (ophthalmology); focus: accuracy, source/citation quality, harm/safety, readability using Flesch-Kincaid Grade Level, Gunning Fog, Coleman-Liau; method: expert rating, validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41339722",
+  "doi": "10.1111/iej.14014",
+  "title": "Evaluation of ChatGPT-4o and DeepSeek as tools for orthodontic health literacy in public dental education.",
+  "authors": "Wen Z, Huang J, Yu K et al.",
+  "journal": "Scientific reports",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "dentistry",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/consistency",
+   "communication/readability",
+   "communication/language",
+   "equity/accessibility"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (dentistry); focus: accuracy, consistency across runs, readability, non-English/language handling",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38111813",
+  "doi": "10.7759/cureus.50729",
+  "title": "Safety of Large Language Models in Addressing Depression.",
+  "authors": "Heston TF",
+  "journal": "Cureus",
+  "year": "2023",
+  "study_kind": "evaluation-study",
+  "specialty": "mental health",
+  "dimensions": [
+   "quality/uncertainty",
+   "safety/harm",
+   "safety/emergencies",
+   "equity/accessibility"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (mental health); focus: uncertainty handling, harm/safety, emergency/crisis handling, accessibility/health literacy",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41451035",
+  "doi": "10.7759/cureus.37432",
+  "title": "Performance of Large Language Models in Chinese Language Medical Counseling on Helicobacter pylori.",
+  "authors": "Zhang M, Zhou S, Zhang S et al.",
+  "journal": "Infection and drug resistance",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "infectious disease/vaccines",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "communication/language"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (infectious disease/vaccines); focus: accuracy, completeness, non-English/language handling",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "42286997",
+  "doi": "10.1002/jac5.70237",
+  "title": "Prescribing Caution: A Critique of OpenEvidence to Answer Medication-Related Questions.",
+  "authors": "Bergsbaken JM, Wilson P, Vandagriff S et al.",
+  "journal": "Journal of the American College of Clinical Pharmacy : JACCP",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "pharmacy/drugs",
+  "dimensions": [
+   "quality/accuracy"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (pharmacy/drugs); focus: accuracy",
+  "pubtypes": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "40178771",
+  "doi": "10.1177/001316446002000104",
+  "title": "AI Chatbots as Sources of STD Information: A Study on Reliability and Readability.",
+  "authors": "Yıldız HA, Söğütdelen E",
+  "journal": "Journal of medical systems",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/actionability",
+   "equity/accessibility",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch-Kincaid Grade Level",
+   "Gunning Fog",
+   "Global Quality Score",
+   "EQIP"
+  ],
+  "why": "Tests chatbot answers (general); focus: accuracy, readability, actionability/understandability, accessibility/health literacy using DISCERN, Flesch-Kincaid Grade Level, Gunning Fog; method: validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41491281",
+  "doi": "10.1007/s13187-020-01870-7",
+  "title": "Evaluating ChatGPT-4o and DeepSeek-R1 for Patient Education in Nasopharyngeal Carcinoma Radiotherapy: a Comparative Analysis.",
+  "authors": "Tong Z, Xing J, Zhu N",
+  "journal": "Journal of cancer education : the official journal of the American Association for Cancer Education",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "oncology/cancer",
+  "dimensions": [
+   "quality/completeness",
+   "quality/currency",
+   "communication/readability",
+   "communication/empathy",
+   "communication/actionability",
+   "equity/accessibility",
+   "trust/transparency",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch-Kincaid Grade Level",
+   "Coleman-Liau"
+  ],
+  "why": "Tests chatbot answers (oncology/cancer); focus: completeness, currency of information, readability, empathy using DISCERN, Flesch-Kincaid Grade Level, Coleman-Liau; method: validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38882956",
+  "doi": "10.7759/cureus.60318",
+  "title": "Does the Information Quality of ChatGPT Meet the Requirements of Orthopedics and Trauma Surgery?",
+  "authors": "Kasapovic A, Ali T, Babasiz M et al.",
+  "journal": "Cureus",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "orthopedics; surgery",
+  "dimensions": [
+   "quality/accuracy",
+   "safety/harm",
+   "communication/actionability",
+   "method/instrument"
+  ],
+  "instruments": [
+   "DISCERN",
+   "DISCERN-like/modified DISCERN"
+  ],
+  "why": "Tests chatbot answers (orthopedics; surgery); focus: accuracy, harm/safety, actionability/understandability using DISCERN, DISCERN-like/modified DISCERN; method: validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38558009",
+  "doi": "10.1002/pros.24699",
+  "title": "Performance of large language models on benign prostatic hyperplasia frequently asked questions.",
+  "authors": "Zhang Y, Dong Y, Mei Z et al.",
+  "journal": "The Prostate",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "urology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "quality/currency",
+   "quality/consistency",
+   "communication/readability",
+   "equity/accessibility",
+   "method/real-questions"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (urology); focus: accuracy, completeness, currency of information, consistency across runs; method: real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "38756958",
+  "doi": "10.1097/GOX.0000000000005822",
+  "title": "Quality of ChatGPT Responses to Frequently Asked Questions in Carpal Tunnel Release Surgery.",
+  "authors": "Amen TB, Torabian KA, Subramanian T et al.",
+  "journal": "Plastic and reconstructive surgery. Global open",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "surgery",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "method/real-questions"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (surgery); focus: accuracy, completeness; method: real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41174687",
+  "doi": "10.1038/s41433-023-02906-0",
+  "title": "Chatbots versus retina specialists in answering real-world retina questions.",
+  "authors": "Bulla MC, Scocco CA, Spadoni VS et al.",
+  "journal": "International journal of retina and vitreous",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "ophthalmology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "communication/readability",
+   "communication/language",
+   "equity/accessibility",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Likert scale"
+  ],
+  "why": "Tests chatbot answers (ophthalmology); focus: accuracy, completeness, readability, non-English/language handling using Flesch Reading Ease, Flesch-Kincaid Grade Level, Likert scale; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41464727",
+  "doi": "10.1001/jamadermatol.2021.3129",
+  "title": "AI vs. MD: Benchmarking ChatGPT and Gemini for Complex Wound Management.",
+  "authors": "Corradini L, Marcaccini G, Seth I et al.",
+  "journal": "Journal of clinical medicine",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "safety/emergencies",
+   "method/expert-rating"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (general); focus: accuracy, emergency/crisis handling; method: expert rating",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39843286",
+  "doi": "10.1016/j.oooo.2024.12.028",
+  "title": "Efficacy and empathy of AI chatbots in answering frequently asked questions on oral oncology.",
+  "authors": "Rokhshad R, Khoury ZH, Mohammad-Rahimi H et al.",
+  "journal": "Oral surgery, oral medicine, oral pathology and oral radiology",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "oncology/cancer",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/sources",
+   "communication/readability",
+   "communication/empathy",
+   "method/expert-rating",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level",
+   "Likert scale",
+   "Global Quality Score"
+  ],
+  "why": "Tests chatbot answers (oncology/cancer); focus: accuracy, source/citation quality, readability, empathy using Flesch Reading Ease, Flesch-Kincaid Grade Level, Likert scale; method: expert rating, validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41356624",
+  "doi": "10.1016/j.jhsg.2025.100822",
+  "title": "Artificial Intelligence Can Answer Postoperative Questions About Distal Radius Fractures-But Can Patients Understand the Answers?",
+  "authors": "Tarapore R, Gupta S, Means KR et al.",
+  "journal": "Journal of hand surgery global online",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "orthopedics; surgery",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/sources",
+   "communication/readability",
+   "equity/accessibility",
+   "method/instrument"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch-Kincaid Grade Level"
+  ],
+  "why": "Tests chatbot answers (orthopedics; surgery); focus: accuracy, source/citation quality, readability, accessibility/health literacy using DISCERN, Flesch-Kincaid Grade Level; method: validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "42859098",
+  "doi": "10.1016/j.acra.2026.09.049",
+  "title": "Utility of OpenEvidence and ChatGPT in Selecting Neuroimaging Based on Appropriateness Criteria.",
+  "authors": "Kumarapuram S, Satti M, Xu S et al.",
+  "journal": "Academic radiology",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "urology; radiology",
+  "dimensions": [
+   "quality/accuracy",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (urology; radiology); focus: accuracy; method: guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40569014",
+  "doi": "10.1080/08164622.2025.2517750",
+  "title": "Evaluating the effectiveness of chatbots and traditional resources in patient education on dry eye disease.",
+  "authors": "Gürbostan Soysal G, Mercanlı M, Özcan ZÖ et al.",
+  "journal": "Clinical & experimental optometry",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "ophthalmology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/harm",
+   "communication/readability",
+   "communication/actionability",
+   "equity/accessibility",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "PEMAT",
+   "Flesch-Kincaid Grade Level"
+  ],
+  "why": "Tests chatbot answers (ophthalmology); focus: accuracy, completeness, harm/safety, readability using PEMAT, Flesch-Kincaid Grade Level; method: validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41029047",
+  "doi": "10.4324/9781315647500-5/common-core-tera-tanner-jackson-laura-allen-danielle-mcnamara",
+  "title": "The quality, accuracy, and readability of information about hidradenitis suppurativa provided by artificial intelligence: Comparative analysis of ChatGPT, Copilot, and Perplexity.",
+  "authors": "Zorlu Ö, Günal U, Yazici S",
+  "journal": "Medicine",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "general",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/readability",
+   "communication/actionability",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "DISCERN",
+   "Flesch-Kincaid Grade Level",
+   "Likert scale",
+   "EQIP"
+  ],
+  "why": "Tests chatbot answers (general); focus: accuracy, readability, actionability/understandability using DISCERN, Flesch-Kincaid Grade Level, Likert scale; method: validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Observational Study",
+   "Comparative Study"
+  ]
+ },
+ {
+  "pmid": "39236508",
+  "doi": "10.1016/j.clgc.2024.102206",
+  "title": "Can Patients With Urogenital Cancer Rely on Artificial Intelligence Chatbots for Treatment Decisions?",
+  "authors": "Erkan A, Koc A, Barali D et al.",
+  "journal": "Clinical genitourinary cancer",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "oncology/cancer; urology",
+  "dimensions": [
+   "communication/readability",
+   "communication/actionability",
+   "equity/accessibility",
+   "trust/transparency",
+   "method/instrument",
+   "method/real-questions"
+  ],
+  "instruments": [
+   "DISCERN",
+   "PEMAT",
+   "Coleman-Liau"
+  ],
+  "why": "Tests chatbot answers (oncology/cancer; urology); focus: readability, actionability/understandability, accessibility/health literacy, transparency/reporting using DISCERN, PEMAT, Coleman-Liau; method: validated instruments, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38712426",
+  "doi": "10.47391/JPMA.AKU-9S-25",
+  "title": "Language-adaptive artificial intelligence: assessing CHATGPT'S answer to frequently asked questions on total hip arthroplasty questions.",
+  "authors": "Ibrahim MT, Khaskheli SA, Shahzad H et al.",
+  "journal": "JPMA. The Journal of the Pakistan Medical Association",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "orthopedics",
+  "dimensions": [
+   "communication/language",
+   "method/expert-rating",
+   "method/real-questions"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (orthopedics); focus: non-English/language handling; method: expert rating, real-user questions",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40988146",
+  "doi": "10.1177/14604582251381996",
+  "title": "Reliability of AI-generated responses on frequently-posed questions by patients with chronic kidney disease.",
+  "authors": "Furukawa E, Okuhara T, Okada H et al.",
+  "journal": "Health informatics journal",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "urology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "method/real-questions"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (urology); focus: accuracy, completeness; method: real-user questions",
+  "pubtypes": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "39969263",
+  "doi": "10.3928/01913913-20250110-02",
+  "title": "Accuracy and Readability of ChatGPT Responses to Patient-Centric Strabismus Questions.",
+  "authors": "Gary AA, Lai JM, Locatelli EVT et al.",
+  "journal": "Journal of pediatric ophthalmology and strabismus",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "ophthalmology; pediatrics",
+  "dimensions": [
+   "quality/accuracy",
+   "safety/harm",
+   "communication/readability",
+   "method/instrument"
+  ],
+  "instruments": [
+   "Flesch Reading Ease",
+   "Flesch-Kincaid Grade Level"
+  ],
+  "why": "Tests chatbot answers (ophthalmology; pediatrics); focus: accuracy, harm/safety, readability using Flesch Reading Ease, Flesch-Kincaid Grade Level; method: validated instruments",
+  "pubtypes": [
+   "Journal Article",
+   "Multicenter Study"
+  ]
+ },
+ {
+  "pmid": "41129154",
+  "doi": "10.2471/BLT.19.237636",
+  "title": "Characteristics and Safety of Consumer Chatbots for Emergent Adolescent Health Concerns.",
+  "authors": "Brewster RCL, Zahedivash A, Tse G et al.",
+  "journal": "JAMA network open",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "general",
+  "dimensions": [
+   "safety/harm"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (general); focus: harm/safety",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "41041884",
+  "doi": "10.1111/odi.70110",
+  "title": "Accuracy of ChatGPT-4 Plus in Providing Information on Oral Cancer Management.",
+  "authors": "Yilmaz B, Kahraman EN, Brennan MT et al.",
+  "journal": "Oral diseases",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "oncology/cancer",
+  "dimensions": [
+   "quality/accuracy",
+   "communication/actionability",
+   "method/expert-rating",
+   "method/instrument"
+  ],
+  "instruments": [
+   "ICC"
+  ],
+  "why": "Tests chatbot answers (oncology/cancer); focus: accuracy, actionability/understandability using ICC; method: expert rating, validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40352182",
+  "doi": "10.52225/narra.v5i1.2371",
+  "title": "Chinese generative AI models (DeepSeek and Qwen) rival ChatGPT-4 in ophthalmology queries with excellent performance in Arabic and English.",
+  "authors": "Sallam M, Alasfoor IM, Khalid SW et al.",
+  "journal": "Narra J",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "ophthalmology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/emergencies",
+   "communication/language",
+   "equity/bias",
+   "method/instrument"
+  ],
+  "instruments": [
+   "METRICS",
+   "CLEAR tool"
+  ],
+  "why": "Tests chatbot answers (ophthalmology); focus: accuracy, completeness, emergency/crisis handling, non-English/language handling using METRICS, CLEAR tool; method: validated instruments",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39443664",
+  "doi": "10.1038/s41467-021-24464-3",
+  "title": "Medical large language models are susceptible to targeted misinformation attacks.",
+  "authors": "Han T, Nebelung S, Khader F et al.",
+  "journal": "NPJ digital medicine",
+  "year": "2024",
+  "study_kind": "evaluation-study",
+  "specialty": "general",
+  "dimensions": [
+   "safety/hallucination",
+   "trust/transparency"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (general); focus: hallucination/misinformation, transparency/reporting",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "40192716",
+  "doi": "10.1038/s42256-023-00626-4",
+  "title": "Evaluation of Large Language Models in Tailoring Educational Content for Cancer Survivors and Their Caregivers: Quality Analysis.",
+  "authors": "Liu D, Hu X, Xiao C et al.",
+  "journal": "JMIR cancer",
+  "year": "2025",
+  "study_kind": "evaluation-study",
+  "specialty": "oncology/cancer",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "safety/scope",
+   "communication/readability",
+   "communication/actionability",
+   "communication/language",
+   "equity/bias",
+   "equity/accessibility",
+   "method/expert-rating",
+   "method/guideline"
+  ],
+  "instruments": [],
+  "why": "Tests chatbot answers (oncology/cancer); focus: accuracy, completeness, scope/refusal behaviour, readability; method: expert rating, guideline-based reference",
+  "pubtypes": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "42823970",
+  "doi": "10.2196/36199",
+  "title": "Accuracy, readability, and bias of GPT-4o mini responses to oculoplastic patient questions.",
+  "authors": "Henry T, Staes G, Russell A et al.",
+  "journal": "Frontiers in ophthalmology",
+  "year": "2026",
+  "study_kind": "evaluation-study",
+  "specialty": "ophthalmology",
+  "dimensions": [
+   "quality/accuracy",
+   "quality/completeness",
+   "communication/readability",
+   "equity/bias",
+   "trust/transparency",
+   "method/expert-rating",
+   "method/instrument",
+   "method/guideline"
+  ],
+  "instruments": [
+   "Likert scale"
+  ],
+  "why": "Tests chatbot answers (ophthalmology); focus: accuracy, completeness, readability, bias/equity using Likert scale; method: expert rating, validated instruments, guideline-based reference",
+  "pubtypes": [
+   "Journal Article"
+  ]
+ }
+]
